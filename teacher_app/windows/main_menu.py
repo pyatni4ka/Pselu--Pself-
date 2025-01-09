@@ -1,0 +1,45 @@
+from PyQt6.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QApplication
+from PyQt6.QtCore import Qt
+
+class MainMenu(QWidget):
+    def __init__(self, switch_window):
+        super().__init__()
+        self.switch_window = switch_window
+        self.init_ui()
+
+    def init_ui(self):
+        layout = QVBoxLayout()
+
+        header = QLabel("Главное меню")
+        header.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(header)
+
+        btn_lab_management = QPushButton("Управление лабораторными работами")
+        btn_performance_monitor = QPushButton("Мониторинг успеваемости")
+        btn_import_export = QPushButton("Импорт/Экспорт лабораторных работ")
+        btn_server_control = QPushButton("Управление веб-сервером")
+        btn_exit = QPushButton("Выход из приложения")
+
+        layout.addStretch(1)
+        layout.addWidget(btn_lab_management, alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(btn_performance_monitor, alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(btn_import_export, alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(btn_server_control, alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(btn_exit, alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addStretch(2)
+
+        btn_lab_management.clicked.connect(lambda: self.switch_window("lab_management"))
+        btn_performance_monitor.clicked.connect(lambda: self.switch_window("performance_monitor"))
+        btn_import_export.clicked.connect(lambda: self.switch_window("import_export"))
+        btn_server_control.clicked.connect(lambda: self.switch_window("server_control"))
+        btn_exit.clicked.connect(self.close_application)
+
+        layout.setContentsMargins(5, 5, 5, 5)
+
+        self.setLayout(layout)
+        self.setWindowTitle("Главное меню")
+        
+        self.resize(400, 400)
+
+    def close_application(self):
+        QApplication.quit()
