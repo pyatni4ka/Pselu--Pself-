@@ -1,0 +1,3 @@
+([('main',
+   '/Users/antonpyatnica/Documents/GitHub/Pselu--Pself-/students_app/dist/main',
+   'EXECUTABLE')],)

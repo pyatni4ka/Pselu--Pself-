@@ -230,7 +230,7 @@ class PerformanceMonitor(QWidget):
             where_clauses = []
             params = []
 
-            if selected_year != "Все годы":
+            if selected_year != "Все годы" and selected_year:
                 where_clauses.append("s.year = ?")
                 params.append(int(selected_year))
             if selected_group != "Все группы":
@@ -286,7 +286,7 @@ class PerformanceMonitor(QWidget):
             where_clauses = []
             params = []
 
-            if selected_year != "Все годы":
+            if selected_year != "Все годы" and selected_year:
                 where_clauses.append("s.year = ?")
                 params.append(int(selected_year))
             if selected_group != "Все группы":

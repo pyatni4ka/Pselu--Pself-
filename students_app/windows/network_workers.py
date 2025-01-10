@@ -1,16 +1,36 @@
-from PyQt6.QtCore import QObject, pyqtSignal, QRunnable
+"""
+Модуль для работы с сетевыми запросами.
+
+Обеспечивает асинхронное взаимодействие с сервером через TCP-сокеты.
+Использует QRunnable для выполнения запросов в отдельном потоке.
+"""
+
+from PyQt5.QtCore import QObject, pyqtSignal, QRunnable
 import socket
 import json
 import logging
 import os
+import struct
 
 class WorkerSignals(QObject):
+    """
+    Определяет сигналы для Worker.
+    
+    Signals:
+        finished (dict): Отправляется при успешном завершении запроса
+        error (str): Отправляется при возникновении ошибки
+    """
     finished = pyqtSignal(dict)
     error = pyqtSignal(str)
 
-import struct
-
 class Worker(QRunnable):
+    """
+    Класс для асинхронного выполнения сетевых запросов.
+    
+    Attributes:
+        request (dict): Запрос для отправки на сервер
+        signals (WorkerSignals): Сигналы для коммуникации с основным потоком
+    """
     def __init__(self, request):
         super().__init__()
         self.request = request

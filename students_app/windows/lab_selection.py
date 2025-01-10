@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QWidget,
     QVBoxLayout,
     QPushButton,
@@ -8,7 +8,7 @@ from PyQt6.QtWidgets import (
     QMessageBox,
     QHBoxLayout
 )
-from PyQt6.QtCore import Qt, QThreadPool
+from PyQt5.QtCore import Qt, QThreadPool
 from .network_workers import Worker
 import json
 import logging

@@ -2,8 +2,10 @@ import sqlite3
 import os
 from sqlite3 import Error
 
-DB_FOLDER = "./database"
-DB_FILE = f"{DB_FOLDER}/mgtu_app.db"
+# Get the absolute path to the database
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_FOLDER = os.path.join(BASE_DIR, "database")
+DB_FILE = os.path.join(DB_FOLDER, "mgtu_app.db")
 
 def create_connection(db_file):
     conn = None

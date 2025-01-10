@@ -1,0 +1,9 @@
+2025-01-11 01:07:03,812 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-11 01:10:21,170 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-11 01:11:43,098 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-11 01:11:43,099 - server.server - INFO - Static file server запущен
+2025-01-11 01:11:43,100 - windows.server_control - INFO - Static file server запущен
+2025-01-11 01:11:43,100 - server.server - INFO - TCP-сервер запущен
+2025-01-11 01:11:43,105 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-11 01:11:43,106 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-11 01:11:43,106 - windows.server_control - INFO - Сервер успешно запущен.

@@ -1,6 +1,13 @@
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QMessageBox, QHBoxLayout, QRadioButton, QButtonGroup, QGridLayout, QDialog
-from PyQt6.QtCore import Qt, QTimer, QThreadPool
-from PyQt6.QtGui import QPixmap, QFont
+"""
+Модуль тестирования студентов.
+
+Реализует интерфейс для прохождения тестирования по лабораторным работам.
+Включает в себя таймер, навигацию по вопросам и отправку ответов.
+"""
+
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QMessageBox, QHBoxLayout, QRadioButton, QButtonGroup, QGridLayout, QDialog
+from PyQt5.QtCore import Qt, QTimer, QThreadPool
+from PyQt5.QtGui import QPixmap, QFont
 import os
 from .network_workers import Worker
 import random
@@ -31,6 +38,19 @@ class ImageViewer(QDialog):
         self.setLayout(layout)
 
 class TestingWindow(QWidget):
+    """
+    Окно тестирования.
+    
+    Attributes:
+        switch_window (function): Функция для переключения окон
+        get_student_id (function): Функция получения ID студента
+        questions (list): Список вопросов
+        current_question (int): Индекс текущего вопроса
+        answers (dict): Словарь ответов студента
+        timer (QTimer): Таймер тестирования
+        time_left (int): Оставшееся время
+        thread_pool (QThreadPool): Пул потоков для асинхронных запросов
+    """
     def __init__(self, switch_window, get_student_id):
         super().__init__()
         self.switch_window = switch_window
@@ -191,7 +211,6 @@ class TestingWindow(QWidget):
         else:
             QMessageBox.warning(self, "Ошибка", response.get('message', 'Не удалось загрузить вопросы'))
 
-
     def update_navigation_buttons(self):
         for btn in self.nav_buttons:
             btn.deleteLater()
@@ -205,7 +224,6 @@ class TestingWindow(QWidget):
             self.nav_buttons.append(btn)
             self.nav_layout.addWidget(btn)
         self.update_nav_buttons()
-
 
     def handle_load_questions_error(self, error_message):
         QMessageBox.critical(self, "Ошибка", error_message)

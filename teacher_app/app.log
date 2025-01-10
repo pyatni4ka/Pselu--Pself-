@@ -366,3 +366,18 @@
 2024-12-22 20:50:51,918 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
 2024-12-22 20:51:02,032 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
 2024-12-22 20:53:24,751 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-11 01:16:57,416 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.4.0.
+2025-01-11 01:18:11,897 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-11 01:18:11,897 - server.server - INFO - Static file server запущен
+2025-01-11 01:18:11,898 - server.server - INFO - TCP-сервер запущен
+2025-01-11 01:18:11,900 - windows.server_control - INFO - Static file server запущен
+2025-01-11 01:18:11,900 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-11 01:18:11,900 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-11 01:18:11,900 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-11 01:18:13,902 - windows.server_control - INFO - TCP-сервер остановлен
+2025-01-11 01:18:13,902 - server.server - INFO - TCP-сервер остановлен
+2025-01-11 01:18:14,403 - windows.server_control - INFO - Static file server остановлен
+2025-01-11 01:18:14,403 - server.server - INFO - Static file server остановлен
+2025-01-11 01:18:14,403 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-11 01:18:14,404 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-11 01:18:14,404 - windows.server_control - INFO - Остановка сервера по команде пользователя.

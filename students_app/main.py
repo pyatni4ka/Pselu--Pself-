@@ -1,6 +1,22 @@
+"""
+Pselu - Приложение для тестирования студентов
+
+Главный модуль приложения, управляющий всеми окнами и их взаимодействием.
+Реализует основную логику навигации между окнами и управление состоянием приложения.
+
+Основные компоненты:
+- Вход в систему
+- Регистрация
+- Выбор лабораторной работы
+- Тестирование
+- Просмотр результатов
+
+Версия: 1.0.0
+"""
+
 import sys
-from PyQt6.QtWidgets import QApplication, QStackedWidget, QMessageBox
-from PyQt6.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication, QStackedWidget, QMessageBox
+from PyQt5.QtGui import QIcon
 from windows.login import LoginWindow
 from windows.registration import RegistrationWindow
 from windows.lab_selection import LabSelectionWindow
@@ -11,6 +27,17 @@ import logging
 import os
 
 class App(QStackedWidget):
+    """
+    Главный класс приложения, управляющий всеми окнами.
+    
+    Attributes:
+        current_student_id (int): ID текущего студента
+        login_window (LoginWindow): Окно входа
+        registration_window (RegistrationWindow): Окно регистрации
+        lab_selection_window (LabSelectionWindow): Окно выбора работы
+        testing_window (TestingWindow): Окно тестирования
+        result_window (ResultWindow): Окно результатов
+    """
     def __init__(self):
         super().__init__()
         self.current_student_id = None
@@ -31,7 +58,6 @@ class App(QStackedWidget):
 
         base_path = getattr(sys, '_MEIPASS', os.path.dirname(__file__))
         self.setWindowIcon(QIcon(os.path.join(base_path, "app_icon.ico")))
-
 
         self.setWindowTitle("Pselu")
         self.setGeometry(100, 100, 800, 600)
@@ -86,4 +112,4 @@ if __name__ == "__main__":
     base_path = getattr(sys, '_MEIPASS', os.path.dirname(__file__))
     app.setWindowIcon(QIcon(os.path.join(base_path, "app_icon.ico")))
     ex = App()
-    sys.exit(app.exec())
+    sys.exit(app.exec_())
