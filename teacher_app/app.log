@@ -381,3 +381,67 @@
 2025-01-11 01:18:14,403 - windows.server_control - INFO - Сервер успешно остановлен.
 2025-01-11 01:18:14,404 - windows.server_control - INFO - Сервер успешно остановлен.
 2025-01-11 01:18:14,404 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-14 15:22:48,003 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-14 15:23:26,794 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-14 15:23:26,795 - server.server - INFO - Static file server запущен
+2025-01-14 15:23:26,796 - windows.server_control - INFO - Static file server запущен
+2025-01-14 15:23:26,796 - server.server - INFO - TCP-сервер запущен
+2025-01-14 15:23:26,800 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 15:23:26,800 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:23:26,801 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:23:45,511 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 15:23:45,512 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 15:23:45,514 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 15:23:45,514 - server.server - INFO - Клиент отключился: ('127.0.0.1', 54788)
+2025-01-14 15:23:45,514 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 15:23:45,514 - windows.server_control - INFO - Клиент отключился: ('127.0.0.1', 54788)
+2025-01-14 15:23:56,994 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 15:23:56,995 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 15:23:56,995 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 15:23:56,995 - server.server - INFO - Клиент отключился: ('127.0.0.1', 54802)
+2025-01-14 15:23:56,995 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 15:23:56,995 - windows.server_control - INFO - Клиент отключился: ('127.0.0.1', 54802)
+2025-01-14 15:24:10,527 - windows.server_control - INFO - TCP-сервер остановлен
+2025-01-14 15:24:10,528 - server.server - INFO - TCP-сервер остановлен
+2025-01-14 15:24:10,884 - windows.server_control - INFO - Static file server остановлен
+2025-01-14 15:24:10,884 - server.server - INFO - Static file server остановлен
+2025-01-14 15:24:10,885 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-14 15:24:10,885 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-14 15:24:10,886 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-14 15:25:48,501 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-14 15:25:53,078 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-14 15:25:53,079 - server.server - INFO - Static file server запущен
+2025-01-14 15:25:53,080 - server.server - INFO - TCP-сервер запущен
+2025-01-14 15:25:53,083 - windows.server_control - INFO - Static file server запущен
+2025-01-14 15:25:53,083 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 15:25:53,083 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:25:53,084 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:28:26,833 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-14 15:29:06,413 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-14 15:29:06,414 - server.server - INFO - Static file server запущен
+2025-01-14 15:29:06,415 - server.server - INFO - TCP-сервер запущен
+2025-01-14 15:29:06,418 - windows.server_control - INFO - Static file server запущен
+2025-01-14 15:29:06,418 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 15:29:06,418 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:29:06,418 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:29:21,464 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 15:29:21,464 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 15:29:21,468 - server.server - INFO - asd asd подключился (новая регистрация)
+2025-01-14 15:29:21,468 - windows.server_control - INFO - asd asd подключился (новая регистрация)
+2025-01-14 15:29:21,469 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 15:29:21,469 - server.server - INFO - asd asd отключился
+2025-01-14 15:29:21,475 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 15:29:21,475 - windows.server_control - INFO - asd asd отключился
+2025-01-14 15:29:23,557 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 15:29:23,557 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 15:29:23,558 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 15:29:23,558 - server.server - INFO - Клиент отключился: ('127.0.0.1', 55434)
+2025-01-14 15:29:23,558 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 15:29:23,558 - windows.server_control - INFO - Клиент отключился: ('127.0.0.1', 55434)
+2025-01-14 15:30:43,719 - windows.server_control - INFO - TCP-сервер остановлен
+2025-01-14 15:30:43,720 - server.server - INFO - TCP-сервер остановлен
+2025-01-14 15:30:44,120 - windows.server_control - INFO - Static file server остановлен
+2025-01-14 15:30:44,120 - server.server - INFO - Static file server остановлен
+2025-01-14 15:30:44,120 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-14 15:30:44,121 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-14 15:30:44,122 - windows.server_control - INFO - Остановка сервера по команде пользователя.

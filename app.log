@@ -7,3 +7,29 @@
 2025-01-11 01:11:43,105 - windows.server_control - INFO - TCP-сервер запущен
 2025-01-11 01:11:43,106 - windows.server_control - INFO - Сервер успешно запущен.
 2025-01-11 01:11:43,106 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:29:23,566 - DEBUG - Ответ на get_lab_works: {'status': 'success', 'data': {'lab_works': []}}
+2025-01-14 15:29:23,567 - DEBUG - Получен student_id: 1
+2025-01-14 15:42:37,738 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-14 15:44:30,262 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-14 15:44:30,263 - server.server - INFO - Static file server запущен
+2025-01-14 15:44:30,264 - server.server - INFO - TCP-сервер запущен
+2025-01-14 15:44:30,266 - windows.server_control - INFO - Static file server запущен
+2025-01-14 15:44:30,266 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 15:44:30,266 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:44:30,266 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 15:45:46,014 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 15:45:46,015 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 15:45:46,018 - server.server - INFO - qwe qwe qwe подключился (новая регистрация)
+2025-01-14 15:45:46,019 - windows.server_control - INFO - qwe qwe qwe подключился (новая регистрация)
+2025-01-14 15:45:46,019 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 15:45:46,019 - server.server - INFO - qwe qwe qwe отключился
+2025-01-14 15:45:46,019 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 15:45:46,019 - windows.server_control - INFO - qwe qwe qwe отключился
+2025-01-14 15:45:47,351 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 15:45:47,351 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 15:45:47,352 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 15:45:47,352 - server.server - INFO - Клиент отключился: ('127.0.0.1', 56740)
+2025-01-14 15:45:47,352 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 15:45:47,352 - windows.server_control - INFO - Клиент отключился: ('127.0.0.1', 56740)
+2025-01-14 15:45:47,361 - DEBUG - Ответ на get_lab_works: {'status': 'success', 'data': {'lab_works': []}}
+2025-01-14 15:45:47,361 - DEBUG - Получен student_id: 1

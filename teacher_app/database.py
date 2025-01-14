@@ -58,6 +58,13 @@ def initialize_db():
                 FOREIGN KEY (student_id) REFERENCES students (id),
                 FOREIGN KEY (lab_id) REFERENCES lab_works (id)
             );""")
+        cursor.execute("""CREATE TABLE IF NOT EXISTS users (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                username TEXT UNIQUE NOT NULL,
+                password TEXT NOT NULL,
+                student_id INTEGER,
+                FOREIGN KEY (student_id) REFERENCES students (id)
+            );""")
         conn.commit()
         conn.close()
         print(f"Database initialized at '{DB_FILE}'.")

@@ -8,7 +8,7 @@ import os
 import http.server
 from PyQt6.QtCore import QThread, pyqtSignal
 
-DATABASE_PATH = "./database/mgtu_app.db"
+DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "database", "mgtu_app.db")
 
 logging.basicConfig(
     filename='server_control.log',
@@ -161,12 +161,16 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
             return {'status': 'error', 'message': f"Ошибка базы данных: {e}"}
 
     def handle_get_lab_works(self):
-        c = sqlite3.connect(DATABASE_PATH)
-        r = c.cursor()
-        r.execute("SELECT id, theme, time FROM lab_works")
-        d = r.fetchall()
-        c.close()
-        return {'status': 'success', 'data': {'lab_works': [{'id': x[0], 'theme': x[1], 'time': x[2]} for x in d]}}
+        try:
+            conn = sqlite3.connect(DATABASE_PATH)
+            cursor = conn.cursor()
+            cursor.execute("SELECT id, theme, time FROM lab_works")
+            data = cursor.fetchall()
+            conn.close()
+            return {'status': 'success', 'data': {'lab_works': [{'id': x[0], 'theme': x[1], 'time': x[2]} for x in data]}}
+        except sqlite3.Error as e:
+            logger.error(f"Database error in handle_get_lab_works: {e}")
+            return {'status': 'error', 'message': str(e)}
 
     def handle_get_questions(self, data):
         lid = data.get('lab_id')
