@@ -1,2 +1,16 @@
 2025-01-14 19:34:27,000 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
 2025-01-14 19:36:12,937 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:42:22,387 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:45:03,935 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:45:17,200 - windows.server_control - INFO - «апуск сервера по команде пользовател€.
+2025-01-14 19:45:17,200 - server.server - INFO - Static file server запущен
+2025-01-14 19:45:17,200 - windows.server_control - INFO - Static file server запущен
+2025-01-14 19:45:17,200 - server.server - INFO - TCP-сервер запущен
+2025-01-14 19:45:17,200 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 19:45:17,200 - windows.server_control - INFO - —ервер успешно запущен.
+2025-01-14 19:45:17,205 - windows.server_control - INFO - —ервер успешно запущен.
+2025-01-14 19:48:43,579 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:51:30,475 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:52:40,834 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:53:43,374 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:54:56,898 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
