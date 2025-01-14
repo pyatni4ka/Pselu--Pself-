@@ -3,9 +3,8 @@ import os
 from sqlite3 import Error
 
 # Get the absolute path to the database
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_FOLDER = os.path.join(BASE_DIR, "database")
-DB_FILE = os.path.join(DB_FOLDER, "mgtu_app.db")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_FILE = os.path.join(BASE_DIR, "mgtu_app.db")
 
 def create_connection(db_file):
     conn = None
@@ -17,9 +16,9 @@ def create_connection(db_file):
 
 def initialize_db():
     # Ensure the database folder exists
-    if not os.path.exists(DB_FOLDER):
-        os.makedirs(DB_FOLDER)
-        print(f"Folder '{DB_FOLDER}' created.")
+    if not os.path.exists(os.path.dirname(DB_FILE)):
+        os.makedirs(os.path.dirname(DB_FILE))
+        print(f"Folder '{os.path.dirname(DB_FILE)}' created.")
 
     conn = create_connection(DB_FILE)
     if conn is not None:
@@ -57,6 +56,13 @@ def initialize_db():
                 score INTEGER,
                 FOREIGN KEY (student_id) REFERENCES students (id),
                 FOREIGN KEY (lab_id) REFERENCES lab_works (id)
+            );""")
+        cursor.execute("""CREATE TABLE IF NOT EXISTS users (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                username TEXT UNIQUE NOT NULL,
+                password TEXT NOT NULL,
+                student_id INTEGER,
+                FOREIGN KEY (student_id) REFERENCES students (id)
             );""")
         conn.commit()
         conn.close()

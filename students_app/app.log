@@ -1,0 +1,3 @@
+2025-01-14 19:38:45,212 - DEBUG - Ответ на get_lab_works: {'status': 'success', 'data': {'lab_works': [{'id': 1, 'theme': 'Test Lab', 'time': 30}]}}
+2025-01-14 19:38:45,213 - DEBUG - Получен student_id: 3
+2025-01-14 19:38:45,213 - DEBUG - Отправка запроса check_lab_completed для student_id=3, lab_id=1

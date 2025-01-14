@@ -1,9 +1,44 @@
-2025-01-11 01:07:03,812 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
-2025-01-11 01:10:21,170 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
-2025-01-11 01:11:43,098 - windows.server_control - INFO - Р—Р°РїСѓСЃРє СЃРµСЂРІРµСЂР° РїРѕ РєРѕРјР°РЅРґРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
-2025-01-11 01:11:43,099 - server.server - INFO - Static file server Р·Р°РїСѓС‰РµРЅ
-2025-01-11 01:11:43,100 - windows.server_control - INFO - Static file server Р·Р°РїСѓС‰РµРЅ
-2025-01-11 01:11:43,100 - server.server - INFO - TCP-СЃРµСЂРІРµСЂ Р·Р°РїСѓС‰РµРЅ
-2025-01-11 01:11:43,105 - windows.server_control - INFO - TCP-СЃРµСЂРІРµСЂ Р·Р°РїСѓС‰РµРЅ
-2025-01-11 01:11:43,106 - windows.server_control - INFO - РЎРµСЂРІРµСЂ СѓСЃРїРµС€РЅРѕ Р·Р°РїСѓС‰РµРЅ.
-2025-01-11 01:11:43,106 - windows.server_control - INFO - РЎРµСЂРІРµСЂ СѓСЃРїРµС€РЅРѕ Р·Р°РїСѓС‰РµРЅ.
+2025-01-14 19:31:46,255 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:33:43,258 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:38:03,528 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-14 19:38:13,514 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-14 19:38:13,515 - server.server - INFO - Static file server запущен
+2025-01-14 19:38:13,516 - windows.server_control - INFO - Static file server запущен
+2025-01-14 19:38:13,516 - server.server - INFO - TCP-сервер запущен
+2025-01-14 19:38:13,516 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 19:38:13,516 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 19:38:13,518 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 19:38:18,609 - windows.server_control - INFO - TCP-сервер остановлен
+2025-01-14 19:38:18,609 - server.server - INFO - TCP-сервер остановлен
+2025-01-14 19:38:19,112 - windows.server_control - INFO - Static file server остановлен
+2025-01-14 19:38:19,112 - server.server - INFO - Static file server остановлен
+2025-01-14 19:38:19,112 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-14 19:38:19,112 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-14 19:38:19,112 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-14 19:38:19,925 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-14 19:38:19,926 - server.server - INFO - Static file server запущен
+2025-01-14 19:38:19,926 - windows.server_control - INFO - Static file server запущен
+2025-01-14 19:38:19,926 - server.server - INFO - TCP-сервер запущен
+2025-01-14 19:38:19,926 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-14 19:38:19,926 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 19:38:19,926 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-14 19:38:41,906 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 19:38:41,906 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 19:38:41,910 - server.server - INFO - Пятница Антон Андреевич подключился (новая регистрация)
+2025-01-14 19:38:41,910 - windows.server_control - INFO - Пятница Антон Андреевич подключился (новая регистрация)
+2025-01-14 19:38:41,912 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 19:38:41,912 - server.server - INFO - Пятница Антон Андреевич отключился
+2025-01-14 19:38:41,916 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 19:38:41,916 - windows.server_control - INFO - Пятница Антон Андреевич отключился
+2025-01-14 19:38:45,200 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 19:38:45,200 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 19:38:45,200 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 19:38:45,200 - server.server - INFO - Клиент отключился: ('127.0.0.1', 64842)
+2025-01-14 19:38:45,200 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 19:38:45,200 - windows.server_control - INFO - Клиент отключился: ('127.0.0.1', 64842)
+2025-01-14 19:38:45,215 - server.server - INFO - Клиентов подключено: 1
+2025-01-14 19:38:45,215 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-14 19:38:45,216 - server.server - INFO - Клиентов подключено: 0
+2025-01-14 19:38:45,216 - server.server - INFO - Клиент отключился: ('127.0.0.1', 64843)
+2025-01-14 19:38:45,217 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-14 19:38:45,217 - windows.server_control - INFO - Клиент отключился: ('127.0.0.1', 64843)

@@ -44,7 +44,7 @@ class App(QStackedWidget):
         self.setWindowIcon(QIcon(os.path.join(base_path, "app_icon.ico")))
 
         self.setWindowTitle("Pselp")
-        self.setGeometry(100, 100, 800, 600)
+        self.showMaximized()  # Запускаем в полноэкранном режиме
         self.apply_style()
         self.show()
 
