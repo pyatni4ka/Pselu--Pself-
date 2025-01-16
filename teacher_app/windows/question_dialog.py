@@ -59,9 +59,10 @@ class ImageTextEdit(QTextEdit):
 class QuestionDialog(QDialog):
     def __init__(self, category="", question_number="", question_text="", answer1="", answer2="", answer3="", answer4="", correct_idx=1):
         super().__init__()
+        self.parent_window = None  # Будет установлено из QuestionsManagement
         self.init_ui(category, question_number, question_text, answer1, answer2, answer3, answer4, correct_idx)
 
-    def init_ui(self, question_number, category, question_text, ans1, ans2, ans3, ans4, correct_idx):
+    def init_ui(self, category, question_number, question_text, ans1, ans2, ans3, ans4, correct_idx):
         layout = QVBoxLayout()
 
         # Add question number input
@@ -70,15 +71,15 @@ class QuestionDialog(QDialog):
         self.input_question_number.setText(question_number)
         layout.addWidget(lbl_question_number)
         layout.addWidget(self.input_question_number)
-        self.input_question_number.setText("1.")
 
+        # Add category selection
         lbl_category = QLabel("Категория:")
         self.combo_category = QComboBox()
-        self.combo_category.addItems(["Вопрос 1", "Вопрос 2", "Вопрос 3", "Вопрос 4", "Вопрос 5"])
+        categories = ["Вопрос 1", "Вопрос 2", "Вопрос 3", "Вопрос 4", "Вопрос 5"]
+        self.combo_category.addItems(categories)
         idx = self.combo_category.findText(category)
         if idx >= 0:
             self.combo_category.setCurrentIndex(idx)
-        # Add connection to update question number when category changes
         self.combo_category.currentTextChanged.connect(self.update_question_number)
         layout.addWidget(lbl_category)
         layout.addWidget(self.combo_category)
@@ -99,7 +100,7 @@ class QuestionDialog(QDialog):
         for i, ans_text in enumerate([ans1, ans2, ans3, ans4], start=1):
             lbl_ans = QLabel(f"Вариант {i}:")
             text_ans = ImageTextEdit()
-            text_ans.setPlainText(ans_text)
+            text_ans.setPlainText(str(ans_text))
             btn_paste_a = QPushButton("Вставить из буфера")
             btn_paste_a.clicked.connect(self.create_paste_handler(text_ans))
 
@@ -154,9 +155,9 @@ class QuestionDialog(QDialog):
         return handler
 
     def update_question_number(self, category_text):
-        # Extract number from category text (e.g., "Вопрос 1" -> "1")
-        number = category_text.split()[-1]
-        self.input_question_number.setText(number + ".")
+        if hasattr(self, 'parent_window') and self.parent_window:
+            next_number = self.parent_window.get_next_question_number(category_text)
+            self.input_question_number.setText(next_number)
 
     def save(self):
         try:

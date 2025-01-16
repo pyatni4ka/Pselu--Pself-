@@ -184,7 +184,7 @@ class LabManagement(QWidget):
 
     def load_data(self):
         try:
-            conn = sqlite3.connect(DB_FILE)  # Используем правильный путь
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
             cursor.execute("""
                 SELECT lab_works.theme, lab_works.time,
@@ -197,13 +197,11 @@ class LabManagement(QWidget):
             self.table.setRowCount(0)
             for row_number, row_data in enumerate(records):
                 self.table.insertRow(row_number)
-                for column_number in range(3):
-                    self.table.setItem(
-                        row_number,
-                        column_number,
-                        QTableWidgetItem(str(row_data[column_number]))
-                    )
-                self.table.setItem(row_number, 3, QTableWidgetItem(str(row_data[3])))
+                for column_number, data in enumerate(row_data):
+                    item = QTableWidgetItem(str(data))
+                    if column_number in [1, 2]:  # время и кол-во вопросов
+                        item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+                    self.table.setItem(row_number, column_number, item)
                 self.table.setRowHeight(row_number, 70)
             conn.close()
         except sqlite3.Error as e:

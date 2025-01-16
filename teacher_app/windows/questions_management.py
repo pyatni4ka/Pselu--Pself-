@@ -8,7 +8,8 @@ from PyQt6.QtWidgets import (
     QMessageBox,
     QHeaderView,
     QLabel,
-    QComboBox
+    QComboBox,
+    QLineEdit
 )
 from PyQt6.QtCore import Qt
 import sqlite3
@@ -28,15 +29,30 @@ class QuestionsManagement(QWidget):
         super().__init__()
         self.switch_window = switch_window
         self.lab_id = lab_id
+        self.last_used_category = "Вопрос 1"  # Значение по умолчанию
         self.init_ui()
         self.load_data()
 
     def init_ui(self):
         layout = QVBoxLayout()
+        layout.setSpacing(20)
+        layout.setContentsMargins(30, 30, 30, 30)
+
         header = QLabel("Управление вопросами")
         header.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        header.setStyleSheet("""
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px;
+            color: #2c3e50;
+            padding: 20px;
+        """)
         layout.addWidget(header)
 
+        # Верхняя панель с фильтром и поиском
+        top_panel = QHBoxLayout()
+
+        # Левая часть - фильтр по типу
         filter_layout = QHBoxLayout()
         lbl_filter = QLabel("Фильтр по типу:")
         self.combo_filter = QComboBox()
@@ -49,12 +65,26 @@ class QuestionsManagement(QWidget):
         self.combo_filter.currentIndexChanged.connect(self.load_data)
         filter_layout.addWidget(lbl_filter)
         filter_layout.addWidget(self.combo_filter)
-        filter_layout.addStretch()
-        layout.addLayout(filter_layout)
+        
+        # Правая часть - поиск
+        search_layout = QHBoxLayout()
+        self.search_input = QLineEdit()
+        self.search_input.setPlaceholderText("Поиск по номеру или тексту вопроса...")
+        self.search_input.textChanged.connect(self.filter_questions)
+        self.search_input.setFixedWidth(300)  # Фиксированная ширина поля поиска
+        search_layout.addWidget(self.search_input)
+        search_layout.setAlignment(Qt.AlignmentFlag.AlignRight)
+
+        # Добавляем фильтр и поиск в верхнюю панель
+        top_panel.addLayout(filter_layout)
+        top_panel.addStretch()  # Растягиваем пространство между фильтром и поиском
+        top_panel.addLayout(search_layout)
+        
+        layout.addLayout(top_panel)
 
         self.table = QTableWidget()
         self.table.setColumnCount(5)
-        self.table.setHorizontalHeaderLabels(["Номер вопроса", "Вопрос", "Категория", "Правильный ответ", "ID"])
+        self.table.setHorizontalHeaderLabels(["Номер\nвопроса", "Вопрос", "Категория", "Правильный\nответ", "ID"])
         self.table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
         self.table.setColumnHidden(4, True)
 
@@ -91,8 +121,6 @@ class QuestionsManagement(QWidget):
         btn_delete.clicked.connect(self.delete_question)
         btn_back.clicked.connect(lambda: self.switch_window("lab_management"))
 
-        layout.setSpacing(20)
-        layout.setContentsMargins(50, 50, 50, 50)
         self.setLayout(layout)
         self.setWindowTitle("Управление вопросами")
         self.resize(900, 600)
@@ -109,7 +137,8 @@ class QuestionsManagement(QWidget):
                     question_text,
                     category,
                     correct_index,
-                    id
+                    id,
+                    CAST(SUBSTR(question_number, INSTR(question_number, '.') + 1) AS INTEGER) as sort_number
                 FROM questions
                 WHERE lab_id=?
             """
@@ -119,7 +148,7 @@ class QuestionsManagement(QWidget):
                 query += " AND category = ?"
                 params.append(selected_category)
 
-            query += " ORDER BY category ASC"
+            query += " ORDER BY category ASC, sort_number ASC"
             cursor.execute(query, params)
 
             records = cursor.fetchall()
@@ -129,17 +158,54 @@ class QuestionsManagement(QWidget):
                 for column_number in range(4):
                     cell_data = row_data[column_number] if row_data[column_number] else ""
                     item = QTableWidgetItem(str(cell_data))
+                    if column_number in [0, 2, 3]:  # номер вопроса, категория, правильный ответ
+                        item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
                     self.table.setItem(row_number, column_number, item)
                 self.table.setItem(row_number, 4, QTableWidgetItem(str(row_data[4])))
-                self.table.setRowHeight(row_number, 20)
+                self.table.setRowHeight(row_number, 30)  # Устанавливаем высоту для каждой строки
             conn.close()
             logger.info(f"Загружены {len(records)} вопросов для ЛР ID {self.lab_id}.")
         except sqlite3.Error as e:
             QMessageBox.critical(self, "Ошибка базы данных", f"Произошла ошибка при подключении к базе данных:\n{e}")
             logger.error("Ошибка при загрузке данных вопросов.", exc_info=True)
 
+    def get_next_question_number(self, category):
+        try:
+            conn = sqlite3.connect("mgtu_app.db")
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT question_number
+                FROM questions
+                WHERE lab_id = ? AND category = ?
+                ORDER BY CAST(SUBSTR(question_number, INSTR(question_number, '.') + 1) AS INTEGER) DESC
+                LIMIT 1
+            """, (self.lab_id, category))
+            result = cursor.fetchone()
+            conn.close()
+
+            if result:
+                # Если есть существующие вопросы, берем последний номер и увеличиваем на 1
+                last_number = result[0]
+                base_number = category.split()[-1]  # Получаем номер из категории (например, "1" из "Вопрос 1")
+                current_number = int(last_number.split('.')[-1])  # Получаем число после точки
+                return f"{base_number}.{current_number + 1}"
+            else:
+                # Если вопросов нет, начинаем с .1
+                base_number = category.split()[-1]
+                return f"{base_number}.1"
+        except sqlite3.Error as e:
+            logger.error(f"Ошибка при получении следующего номера вопроса: {e}", exc_info=True)
+            return "1.1"  # Возвращаем значение по умолчанию в случае ошибки
+
     def add_question(self):
-        dialog = QuestionDialog()
+        # Используем последнюю категорию или текущий фильтр, если он не "Все"
+        selected_category = self.combo_filter.currentText()
+        if selected_category == "Все":
+            selected_category = self.last_used_category
+        
+        next_number = self.get_next_question_number(selected_category)
+        dialog = QuestionDialog(selected_category, next_number)
+        dialog.parent_window = self
         if dialog.exec():
             category, question_number, question_text, a1, a2, a3, a4, correct_idx = dialog.get_data()
             try:
@@ -147,16 +213,28 @@ class QuestionsManagement(QWidget):
                 cursor = conn.cursor()
                 cursor.execute("""
                     INSERT INTO questions 
-                    (lab_id, category, question_number, question_text, answer1, answer2, answer3, answer4, correct_index)
+                    (lab_id, category, question_number, question_text, answer1, answer2, answer3, answer4, correct_index) 
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (self.lab_id, category, question_number, question_text, a1, a2, a3, a4, correct_idx))
                 conn.commit()
+                
+                # Обновляем счетчик вопросов в лабораторной работе
                 cursor.execute("SELECT COUNT(*) FROM questions WHERE lab_id=?", (self.lab_id,))
                 count = cursor.fetchone()[0]
                 cursor.execute("UPDATE lab_works SET question_count=? WHERE id=?", (count, self.lab_id))
                 conn.commit()
                 conn.close()
-                self.load_data()
+                
+                # Сохраняем использованную категорию
+                self.last_used_category = category
+                
+                # Всегда переключаем фильтр на категорию созданного вопроса
+                index = self.combo_filter.findText(category)
+                if index >= 0:
+                    self.combo_filter.setCurrentIndex(index)
+                else:
+                    self.load_data()  # Если по какой-то причине категория не найдена, просто обновляем данные
+                
                 logger.info(f"Добавлен новый вопрос в ЛР ID {self.lab_id}. Всего {count} вопросов.")
             except sqlite3.Error as e:
                 QMessageBox.critical(self, "Ошибка базы данных", f"Не удалось добавить вопрос:\n{e}")
@@ -184,7 +262,7 @@ class QuestionsManagement(QWidget):
                     QMessageBox.warning(self, "Ошибка", "Вопрос не найден в базе.")
                     return
                 cat, qn, qt, ans1, ans2, ans3, ans4, cidx = row
-                dialog = QuestionDialog(cat, qt, ans1, ans2, ans3, ans4, cidx)
+                dialog = QuestionDialog(cat, qn, qt, ans1, ans2, ans3, ans4, cidx)  # Правильный порядок: категория, номер, текст, ответы, индекс
                 if dialog.exec():
                     category, question_number, question_text, a1n, a2n, a3n, a4n, correct_idx = dialog.get_data()
                     conn2 = sqlite3.connect("mgtu_app.db")
@@ -245,3 +323,18 @@ class QuestionsManagement(QWidget):
                     logger.error(f"Ошибка при удалении вопроса ID {question_id}.", exc_info=True)
         else:
             QMessageBox.warning(self, "Ошибка", "Пожалуйста, выберите вопрос для удаления.")
+
+    def filter_questions(self, search_text):
+        search_text = search_text.lower()
+        for row in range(self.table.rowCount()):
+            show_row = False
+            # Проверяем номер вопроса (колонка 0)
+            question_number = self.table.item(row, 0).text().lower()
+            # Проверяем текст вопроса (колонка 1)
+            question_text = self.table.item(row, 1).text().lower()
+            
+            # Показываем строку, если текст поиска найден в номере или тексте вопроса
+            if search_text in question_number or search_text in question_text:
+                show_row = True
+                
+            self.table.setRowHidden(row, not show_row)
