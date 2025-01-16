@@ -9,6 +9,7 @@ import http.server
 from PyQt6.QtCore import QThread, pyqtSignal
 
 DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "database", "mgtu_app.db")
+STATIC_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
 
 logging.basicConfig(
     filename='server_control.log',
@@ -19,7 +20,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class StaticFileServer:
-    def __init__(self, directory="static", host="0.0.0.0", port=8080):
+    def __init__(self, directory=STATIC_DIR, host="0.0.0.0", port=8080):
         self.directory = directory
         self.host = host
         self.port = port
@@ -405,7 +406,7 @@ class ServerThread(QThread):
     server_started = pyqtSignal()
     server_stopped = pyqtSignal()
     log_message = pyqtSignal(str)
-    def __init__(self, host="0.0.0.0", port=9999, static_dir="static", static_port=8080):
+    def __init__(self, host="0.0.0.0", port=9999, static_dir=STATIC_DIR, static_port=8080):
         super().__init__()
         self.host = host
         self.port = port

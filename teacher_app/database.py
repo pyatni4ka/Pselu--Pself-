@@ -19,6 +19,11 @@ def initialize_db():
     if not os.path.exists(os.path.dirname(DB_FILE)):
         os.makedirs(os.path.dirname(DB_FILE))
         print(f"Folder '{os.path.dirname(DB_FILE)}' created.")
+    
+    # Если база данных уже существует, ничего не делаем
+    if os.path.exists(DB_FILE):
+        print(f"Database already exists at '{DB_FILE}'")
+        return
 
     conn = create_connection(DB_FILE)
     if conn is not None:

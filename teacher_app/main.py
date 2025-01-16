@@ -22,7 +22,6 @@ logging.basicConfig(
 class App(QStackedWidget):
     def __init__(self):
         super().__init__()
-        initialize_db()
         self.init_ui()
 
     def init_ui(self):
@@ -76,6 +75,9 @@ class App(QStackedWidget):
         return self.current_student_id
 
 if __name__ == "__main__":
+    # Инициализируем базу данных перед созданием приложения
+    initialize_db()
+    
     app = QApplication(sys.argv)
     ex = App()
     base_path = getattr(sys, '_MEIPASS', os.path.dirname(__file__))

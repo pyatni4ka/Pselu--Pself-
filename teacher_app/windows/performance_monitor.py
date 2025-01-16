@@ -6,6 +6,8 @@ from PyQt6.QtCore import Qt
 import sqlite3
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+import os
+from database import DB_FILE
 
 
 class EditStudentDialog(QDialog):
@@ -172,7 +174,7 @@ class PerformanceMonitor(QWidget):
 
     def load_years(self):
         try:
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
             cursor.execute("SELECT DISTINCT year FROM students ORDER BY year DESC")
             rows = cursor.fetchall()
@@ -192,7 +194,7 @@ class PerformanceMonitor(QWidget):
 
     def load_groups(self):
         try:
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
             cursor.execute("SELECT DISTINCT group_name FROM students ORDER BY group_name ASC")
             groups = cursor.fetchall()
@@ -214,7 +216,7 @@ class PerformanceMonitor(QWidget):
         selected_year = self.combo_year.currentText()
         selected_group = self.combo_group.currentText()
         try:
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
 
             base_query = """
@@ -275,7 +277,7 @@ class PerformanceMonitor(QWidget):
         selected_year = self.combo_year.currentText()
         selected_group = self.combo_group.currentText()
         try:
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
 
             query = """
@@ -345,7 +347,7 @@ class PerformanceMonitor(QWidget):
         if dialog.exec() == QDialog.DialogCode.Accepted:
             new_first_name, new_last_name, new_middle_name, new_group_name, new_year = dialog.get_data()
             try:
-                conn = sqlite3.connect("mgtu_app.db")
+                conn = sqlite3.connect(DB_FILE)
                 cursor = conn.cursor()
                 cursor.execute("""
                     UPDATE students
@@ -383,7 +385,7 @@ class PerformanceMonitor(QWidget):
         )
         if confirmation == QMessageBox.StandardButton.Yes:
             try:
-                conn = sqlite3.connect("mgtu_app.db")
+                conn = sqlite3.connect(DB_FILE)
                 cursor = conn.cursor()
                 cursor.execute("""
                     DELETE FROM students
@@ -406,7 +408,7 @@ class PerformanceMonitor(QWidget):
         )
         if confirmation == QMessageBox.StandardButton.Yes:
             try:
-                conn = sqlite3.connect("mgtu_app.db")
+                conn = sqlite3.connect(DB_FILE)
                 cursor = conn.cursor()
                 cursor.execute("DELETE FROM students")
                 conn.commit()
@@ -426,4 +428,3 @@ class PerformanceMonitor(QWidget):
         elif optional:
             return "", True
         return None, False
-

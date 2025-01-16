@@ -309,3 +309,39 @@ sqlite3.OperationalError: table questions has no column named correct_answer
 2025-01-16 18:22:34,669 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
 2025-01-16 18:22:34,670 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 4 вопросов.
 2025-01-16 18:22:36,421 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 2.
+2025-01-16 18:24:20,388 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:24:47,191 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 2.
+2025-01-16 18:24:54,101 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 2.
+2025-01-16 18:24:57,561 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 2.
+2025-01-16 18:30:48,183 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:31:24,833 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:32:11,954 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:33:25,182 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:35:40,061 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:36:44,960 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:36:49,783 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 18:36:54,831 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 18:36:54,831 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-16 18:37:01,201 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 18:37:01,201 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 2 вопросов.
+2025-01-16 18:37:06,007 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 3 вопросов.
+2025-01-16 18:37:09,386 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 18:37:10,383 - windows.questions_management - INFO - Загружены 3 вопросов для ЛР ID 1.
+2025-01-16 18:37:13,042 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 18:37:17,005 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 4 вопросов.
+2025-01-16 18:38:18,602 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 18:38:19,635 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 18:38:20,440 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 1.
+2025-01-16 18:38:23,227 - windows.questions_management - INFO - Загружены 3 вопросов для ЛР ID 1.
+2025-01-16 18:38:59,443 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 18:39:04,692 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 1.
+2025-01-16 18:39:10,761 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 18:39:10,762 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 18:39:10,762 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 5 вопросов.
+2025-01-16 18:39:15,653 - windows.questions_management - INFO - Загружены 3 вопросов для ЛР ID 1.
+2025-01-16 18:39:15,653 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 6 вопросов.
+2025-01-16 18:39:21,474 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 1.
+2025-01-16 18:39:21,474 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 1.
+2025-01-16 18:39:21,475 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 7 вопросов.
+2025-01-16 18:39:25,528 - windows.questions_management - INFO - Загружены 5 вопросов для ЛР ID 1.
+2025-01-16 18:39:25,528 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 8 вопросов.

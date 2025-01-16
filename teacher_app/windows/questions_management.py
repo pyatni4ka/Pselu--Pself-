@@ -15,6 +15,7 @@ from PyQt6.QtCore import Qt
 import sqlite3
 from .question_dialog import QuestionDialog
 import logging
+from database import DB_FILE
 
 logging.basicConfig(
     filename='app.log',
@@ -128,7 +129,7 @@ class QuestionsManagement(QWidget):
     def load_data(self):
         selected_category = self.combo_filter.currentText()
         try:
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
 
             query = """
@@ -171,7 +172,7 @@ class QuestionsManagement(QWidget):
 
     def get_next_question_number(self, category):
         try:
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             cursor = conn.cursor()
             cursor.execute("""
                 SELECT question_number
@@ -209,7 +210,7 @@ class QuestionsManagement(QWidget):
         if dialog.exec():
             category, question_number, question_text, a1, a2, a3, a4, correct_idx = dialog.get_data()
             try:
-                conn = sqlite3.connect("mgtu_app.db")
+                conn = sqlite3.connect(DB_FILE)
                 cursor = conn.cursor()
                 cursor.execute("""
                     INSERT INTO questions 
@@ -232,8 +233,9 @@ class QuestionsManagement(QWidget):
                 index = self.combo_filter.findText(category)
                 if index >= 0:
                     self.combo_filter.setCurrentIndex(index)
+                    self.load_data()  # Обновляем данные после переключения фильтра
                 else:
-                    self.load_data()  # Если по какой-то причине категория не найдена, просто обновляем данные
+                    self.load_data()  # Если категория не найдена, просто обновляем данные
                 
                 logger.info(f"Добавлен новый вопрос в ЛР ID {self.lab_id}. Всего {count} вопросов.")
             except sqlite3.Error as e:
@@ -248,7 +250,7 @@ class QuestionsManagement(QWidget):
                 QMessageBox.warning(self, "Ошибка", "Не удалось получить идентификатор вопроса.")
                 return
             question_id = id_item.text()
-            conn = sqlite3.connect("mgtu_app.db")
+            conn = sqlite3.connect(DB_FILE)
             try:
                 cursor = conn.cursor()
                 cursor.execute("""
@@ -265,7 +267,7 @@ class QuestionsManagement(QWidget):
                 dialog = QuestionDialog(cat, qn, qt, ans1, ans2, ans3, ans4, cidx)  # Правильный порядок: категория, номер, текст, ответы, индекс
                 if dialog.exec():
                     category, question_number, question_text, a1n, a2n, a3n, a4n, correct_idx = dialog.get_data()
-                    conn2 = sqlite3.connect("mgtu_app.db")
+                    conn2 = sqlite3.connect(DB_FILE)
                     cur2 = conn2.cursor()
                     cur2.execute("""
                         UPDATE questions
@@ -307,7 +309,7 @@ class QuestionsManagement(QWidget):
             )
             if reply == QMessageBox.StandardButton.Yes:
                 try:
-                    conn = sqlite3.connect("mgtu_app.db")
+                    conn = sqlite3.connect(DB_FILE)
                     cursor = conn.cursor()
                     cursor.execute("DELETE FROM questions WHERE id=?", (question_id,))
                     conn.commit()
