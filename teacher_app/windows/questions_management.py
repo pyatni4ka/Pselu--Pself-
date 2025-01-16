@@ -54,7 +54,7 @@ class QuestionsManagement(QWidget):
 
         self.table = QTableWidget()
         self.table.setColumnCount(5)
-        self.table.setHorizontalHeaderLabels(["Номер вопроса","Вопрос", "Тип вопроса", "Правильный ответ", "ID"])
+        self.table.setHorizontalHeaderLabels(["Номер вопроса", "Вопрос", "Категория", "Правильный ответ", "ID"])
         self.table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
         self.table.setColumnHidden(4, True)
 
@@ -105,15 +105,10 @@ class QuestionsManagement(QWidget):
 
             query = """
                 SELECT 
+                    question_number,
                     question_text,
                     category,
-                    CASE correct_index
-                        WHEN 1 THEN answer1
-                        WHEN 2 THEN answer2
-                        WHEN 3 THEN answer3
-                        WHEN 4 THEN answer4
-                        ELSE ''
-                    END as correct_answer,
+                    correct_index,
                     id
                 FROM questions
                 WHERE lab_id=?
@@ -134,9 +129,8 @@ class QuestionsManagement(QWidget):
                 for column_number in range(4):
                     cell_data = row_data[column_number] if row_data[column_number] else ""
                     item = QTableWidgetItem(str(cell_data))
-                    if column_number == 3:
-                        item.setData(Qt.ItemDataRole.UserRole, row_data[column_number])
                     self.table.setItem(row_number, column_number, item)
+                self.table.setItem(row_number, 4, QTableWidgetItem(str(row_data[4])))
                 self.table.setRowHeight(row_number, 20)
             conn.close()
             logger.info(f"Загружены {len(records)} вопросов для ЛР ID {self.lab_id}.")
@@ -147,15 +141,15 @@ class QuestionsManagement(QWidget):
     def add_question(self):
         dialog = QuestionDialog()
         if dialog.exec():
-            category, question_text, a1, a2, a3, a4, correct_idx = dialog.get_data()
+            category, question_number, question_text, a1, a2, a3, a4, correct_idx = dialog.get_data()
             try:
                 conn = sqlite3.connect("mgtu_app.db")
                 cursor = conn.cursor()
                 cursor.execute("""
                     INSERT INTO questions 
-                    (lab_id, category, question_text, answer1, answer2, answer3, answer4, correct_index)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                """, (self.lab_id, category, question_text, a1, a2, a3, a4, correct_idx))
+                    (lab_id, category, question_number, question_text, answer1, answer2, answer3, answer4, correct_index)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, (self.lab_id, category, question_number, question_text, a1, a2, a3, a4, correct_idx))
                 conn.commit()
                 cursor.execute("SELECT COUNT(*) FROM questions WHERE lab_id=?", (self.lab_id,))
                 count = cursor.fetchone()[0]
@@ -171,7 +165,7 @@ class QuestionsManagement(QWidget):
     def edit_question(self):
         selected = self.table.currentRow()
         if selected >= 0:
-            id_item = self.table.item(selected, 3)
+            id_item = self.table.item(selected, 4)
             if not id_item or not id_item.text():
                 QMessageBox.warning(self, "Ошибка", "Не удалось получить идентификатор вопроса.")
                 return
@@ -180,7 +174,7 @@ class QuestionsManagement(QWidget):
             try:
                 cursor = conn.cursor()
                 cursor.execute("""
-                    SELECT category, question_text, answer1, answer2, answer3, answer4, correct_index
+                    SELECT category, question_number, question_text, answer1, answer2, answer3, answer4, correct_index
                     FROM questions
                     WHERE id=?
                 """, (question_id,))
@@ -189,15 +183,16 @@ class QuestionsManagement(QWidget):
                 if not row:
                     QMessageBox.warning(self, "Ошибка", "Вопрос не найден в базе.")
                     return
-                cat, qt, ans1, ans2, ans3, ans4, cidx = row
+                cat, qn, qt, ans1, ans2, ans3, ans4, cidx = row
                 dialog = QuestionDialog(cat, qt, ans1, ans2, ans3, ans4, cidx)
                 if dialog.exec():
-                    category, question_text, a1n, a2n, a3n, a4n, correct_idx = dialog.get_data()
+                    category, question_number, question_text, a1n, a2n, a3n, a4n, correct_idx = dialog.get_data()
                     conn2 = sqlite3.connect("mgtu_app.db")
                     cur2 = conn2.cursor()
                     cur2.execute("""
                         UPDATE questions
                         SET category=?,
+                            question_number=?,
                             question_text=?,
                             answer1=?,
                             answer2=?,
@@ -205,7 +200,7 @@ class QuestionsManagement(QWidget):
                             answer4=?,
                             correct_index=?
                         WHERE id=?
-                    """, (category, question_text, a1n, a2n, a3n, a4n, correct_idx, question_id))
+                    """, (category, question_number, question_text, a1n, a2n, a3n, a4n, correct_idx, question_id))
                     conn2.commit()
                     conn2.close()
                     self.load_data()
@@ -219,12 +214,12 @@ class QuestionsManagement(QWidget):
     def delete_question(self):
         selected = self.table.currentRow()
         if selected >= 0:
-            id_item = self.table.item(selected, 2)
+            id_item = self.table.item(selected, 4)
             if not id_item or not id_item.text():
                 QMessageBox.warning(self, "Ошибка", "Не удалось получить идентификатор вопроса.")
                 return
-            question_id = id_item.text()
-            question_text = self.table.item(selected, 0).text()
+            question_id = int(id_item.text())
+            question_text = self.table.item(selected, 1).text()
             reply = QMessageBox.question(
                 self,
                 'Подтверждение',

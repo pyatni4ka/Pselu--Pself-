@@ -63,3 +63,68 @@
 2025-01-16 17:08:30,491 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
 2025-01-16 17:10:24,282 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
 2025-01-16 17:10:26,845 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 17:11:49,576 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:11:55,165 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 17:12:22,918 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:12:26,109 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 17:21:08,448 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:21:13,269 - windows.questions_management - ERROR - Ошибка при загрузке данных вопросов.
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\teacher_app\windows\questions_management.py", line 129, in load_data
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such column: question_number
+2025-01-16 17:21:17,881 - windows.questions_management - ERROR - Ошибка при загрузке данных вопросов.
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\teacher_app\windows\questions_management.py", line 129, in load_data
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such column: question_number
+2025-01-16 17:21:25,581 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:21:37,927 - windows.questions_management - ERROR - Ошибка при загрузке данных вопросов.
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\teacher_app\windows\questions_management.py", line 129, in load_data
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such column: question_number
+2025-01-16 17:21:55,776 - windows.questions_management - ERROR - Ошибка при добавлении вопроса.
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\teacher_app\windows\questions_management.py", line 156, in add_question
+    cursor.execute("""
+sqlite3.OperationalError: table questions has no column named question_number
+2025-01-16 17:22:03,591 - windows.questions_management - ERROR - Ошибка при загрузке данных вопросов.
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\teacher_app\windows\questions_management.py", line 129, in load_data
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such column: question_number
+2025-01-16 17:22:52,860 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:23:02,212 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 17:23:10,710 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 17:23:10,710 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-16 17:23:51,180 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 17:24:09,727 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 17:24:09,727 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 2 вопросов.
+2025-01-16 17:24:14,541 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 17:24:15,986 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 17:24:17,560 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 17:24:40,169 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:24:42,971 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 17:27:34,541 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:27:46,226 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-16 17:27:53,530 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-16 17:27:53,531 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 1 вопросов.
+2025-01-16 17:30:40,666 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:30:51,845 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 3.
+2025-01-16 17:31:00,146 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-16 17:31:00,146 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 1 вопросов.
+2025-01-16 17:32:27,261 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:32:34,686 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 17:32:40,879 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 17:32:40,879 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-16 17:35:27,948 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 17:35:38,480 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-16 17:35:45,755 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-16 17:35:45,755 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 1 вопросов.
+2025-01-16 17:35:50,837 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-16 17:35:51,809 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-16 17:35:52,941 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-16 17:35:53,903 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-16 17:35:54,883 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-16 17:35:56,066 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.

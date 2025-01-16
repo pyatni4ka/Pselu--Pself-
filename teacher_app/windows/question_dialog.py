@@ -176,11 +176,11 @@ class QuestionDialog(QDialog):
     def get_data(self):
         return (
             self.combo_category.currentText(),
+            self.input_question_number.text().strip(),
             self.text_question.toPlainText().strip(),
             self.answers_edits[0].toPlainText().strip(),
             self.answers_edits[1].toPlainText().strip(),
             self.answers_edits[2].toPlainText().strip(),
             self.answers_edits[3].toPlainText().strip(),
-            self.combo_correct.currentIndex() + 1,
-            self.input_question_number.text().strip()
+            self.combo_correct.currentIndex() + 1
         )

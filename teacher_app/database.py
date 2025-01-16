@@ -32,7 +32,8 @@ def initialize_db():
         cursor.execute("""CREATE TABLE IF NOT EXISTS questions (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 lab_id INTEGER,
-                category TEXT CHECK(category IN ('теория', 'практика', 'графики')),
+                category TEXT CHECK(category IN ('Вопрос 1', 'Вопрос 2', 'Вопрос 3', 'Вопрос 4', 'Вопрос 5')),
+                question_number TEXT,
                 question_text TEXT,
                 answer1 TEXT,
                 answer2 TEXT,
