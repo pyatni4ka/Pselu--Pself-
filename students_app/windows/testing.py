@@ -5,15 +5,19 @@
 Включает в себя таймер, навигацию по вопросам и отправку ответов.
 """
 
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QMessageBox, QHBoxLayout, QRadioButton, QButtonGroup, QGridLayout, QDialog
+from PyQt5.QtWidgets import (
+    QWidget, QVBoxLayout, QPushButton, QLabel, QMessageBox, 
+    QHBoxLayout, QRadioButton, QButtonGroup, QGridLayout, QDialog
+)
 from PyQt5.QtCore import Qt, QTimer, QThreadPool
 from PyQt5.QtGui import QPixmap, QFont
 import os
-from .network_workers import Worker
 import random
-import re
 import requests
 import logging
+from .network_workers import Worker
+import re
+import uuid
 
 def parse_images(text: str, server_url: str = "http://localhost:8080/images") -> tuple[str, list[str]]:
     pattern = r'!\[image\]\((.*?)\)'
@@ -65,7 +69,7 @@ class TestingWindow(QWidget):
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_timer)
         self.remaining_time = 0
-        self.thread_pool = QThreadPool.globalInstance()
+        self.thread_pool = QThreadPool()
 
     def init_ui(self):
         self.layout = QVBoxLayout()
@@ -185,29 +189,72 @@ class TestingWindow(QWidget):
     def handle_load_questions_response(self, response):
         if response.get('status') == 'success':
             all_questions = response['data']['questions']
-
-            theory_questions = [q for q in all_questions if q.get('category') == 'теория']
-            practice_questions = [q for q in all_questions if q.get('category') == 'практика']
-            graph_questions = [q for q in all_questions if q.get('category') == 'графики']
-
-            if len(theory_questions) < 2 or len(practice_questions) < 2 or len(graph_questions) < 1:
-                QMessageBox.warning(self, "Предупреждение", "Недостаточно вопросов для формирования теста.")
+            logging.debug(f"Получены вопросы: {all_questions}")
+            
+            if not all_questions:
+                QMessageBox.warning(self, "Предупреждение", "В базе данных нет вопросов для этой лабораторной работы.")
                 self.switch_window("lab_selection")
                 return
 
-            self.selected_questions = []
-            self.selected_questions.extend(random.sample(theory_questions, 2))
-            self.selected_questions.extend(random.sample(practice_questions, 2))
-            self.selected_questions.extend(random.sample(graph_questions, 1))
+            questions_1 = [q for q in all_questions if q.get('category') == 'Вопрос 1']
+            questions_2 = [q for q in all_questions if q.get('category') == 'Вопрос 2']
+            questions_3 = [q for q in all_questions if q.get('category') == 'Вопрос 3']
+            questions_4 = [q for q in all_questions if q.get('category') == 'Вопрос 4']
+            questions_5 = [q for q in all_questions if q.get('category') == 'Вопрос 5']
 
+            logging.debug(f"Вопрос 1: {len(questions_1)}")
+            logging.debug(f"Вопрос 2: {len(questions_2)}")
+            logging.debug(f"Вопрос 3: {len(questions_3)}")
+            logging.debug(f"Вопрос 4: {len(questions_4)}")
+            logging.debug(f"Вопрос 5: {len(questions_5)}")
+
+            missing_categories = []
+            if len(questions_1) < 1:
+                missing_categories.append(f"Вопрос 1 (нужно 1, есть {len(questions_1)})")
+            if len(questions_2) < 1:
+                missing_categories.append(f"Вопрос 2 (нужно 1, есть {len(questions_2)})")
+            if len(questions_3) < 1:
+                missing_categories.append(f"Вопрос 3 (нужно 1, есть {len(questions_3)})")
+            if len(questions_4) < 1:
+                missing_categories.append(f"Вопрос 4 (нужно 1, есть {len(questions_4)})")
+            if len(questions_5) < 1:
+                missing_categories.append(f"Вопрос 5 (нужно 1, есть {len(questions_5)})")
+
+            if missing_categories:
+                message = "Недостаточно вопросов в следующих категориях:\n- " + "\n- ".join(missing_categories)
+                QMessageBox.warning(self, "Предупреждение", message)
+                self.switch_window("lab_selection")
+                return
+
+            # Reset state before loading new questions
+            self.selected_questions = []
+            self.current_question = 0
+            self.user_answers = {}
+
+            # Select questions in strict order: Вопрос 1 -> 2 -> 3 -> 4 -> 5
+            self.selected_questions.extend(random.sample(questions_1, 1))  # Вопрос 1
+            self.selected_questions.extend(random.sample(questions_2, 1))  # Вопрос 2
+            self.selected_questions.extend(random.sample(questions_3, 1))  # Вопрос 3
+            self.selected_questions.extend(random.sample(questions_4, 1))  # Вопрос 4
+            self.selected_questions.extend(random.sample(questions_5, 1))  # Вопрос 5
+
+            logging.debug(f"Выбранные вопросы: {self.selected_questions}")
+
+            # Set up timer
+            if 'time_limit' not in response['data']:
+                QMessageBox.critical(self, "Ошибка", "Не задано время для выполнения теста")
+                self.switch_window("lab_selection")
+                return
+                
+            self.remaining_time = response['data']['time_limit'] * 60
+            self.timer.start(1000)  # Update every second
+            self.update_timer_label()
+
+            # Display first question
             self.current_question = 0
             self.user_answers.clear()
-            self.remaining_time = response['data']['time_limit'] * 60
-            self.update_timer_label()
-            self.timer.start(1000)
-
-            self.update_navigation_buttons()
             self.display_question()
+            self.update_navigation_buttons()
         else:
             QMessageBox.warning(self, "Ошибка", response.get('message', 'Не удалось загрузить вопросы'))
 
@@ -322,17 +369,46 @@ class TestingWindow(QWidget):
     def submit_test(self):
         if self.timer.isActive():
             self.timer.stop()
+
+        # Сохраняем ответ на текущий вопрос, если он выбран
         chosen = self.answer_group.checkedId()
         if 0 <= self.current_question < len(self.selected_questions) and chosen >= 0:
             qid = str(self.selected_questions[self.current_question]['id'])
             self.user_answers[qid] = str(chosen + 1)
+
+        # Проверяем наличие ID студента
         sid = self.get_student_id()
         if not sid:
             QMessageBox.critical(self, "Ошибка", "Не удалось получить данные студента.")
+            self.switch_window("lab_selection")
             return
+
+        # Проверяем наличие ID лабораторной работы
         if not self.lab_id:
             QMessageBox.critical(self, "Ошибка", "Не удалось определить лабораторную работу.")
+            self.switch_window("lab_selection")
             return
+
+        # Проверяем, что есть хотя бы один ответ
+        if not self.user_answers:
+            QMessageBox.warning(self, "Предупреждение", "Вы не ответили ни на один вопрос. Тест не может быть завершен.")
+            return
+
+        # Проверяем, что даны ответы на все вопросы
+        if len(self.user_answers) < len(self.selected_questions):
+            missing = len(self.selected_questions) - len(self.user_answers)
+            result = QMessageBox.question(
+                self,
+                "Подтверждение",
+                f"Вы ответили не на все вопросы (пропущено {missing}). Вы уверены, что хотите завершить тест?",
+                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
+            )
+            if result == QMessageBox.StandardButton.No:
+                if not self.timer.isActive() and self.remaining_time > 0:
+                    self.timer.start(1000)
+                return
+
+        # Отправляем данные на сервер
         request = {
             'action': 'submit_test',
             'data': {
@@ -365,13 +441,15 @@ class TestingWindow(QWidget):
         logging.error(f"Ошибка при отправке результатов теста: {error_message}")
 
     def update_timer_label(self):
-        m, s = divmod(self.remaining_time, 60)
-        self.timer_label.setText(f"Оставшееся время: {m:02}:{s:02}")
+        minutes = self.remaining_time // 60
+        seconds = self.remaining_time % 60
+        self.timer_label.setText(f"Оставшееся время: {minutes:02d}:{seconds:02d}")
 
     def update_timer(self):
-        self.remaining_time -= 1
-        self.update_timer_label()
-        if self.remaining_time <= 0:
+        if self.remaining_time > 0:
+            self.remaining_time -= 1
+            self.update_timer_label()
+        else:
             self.timer.stop()
-            QMessageBox.information(self, "Время истекло", "Время на выполнение тестирования истекло. Ваши текущие ответы будут отправлены.")
+            QMessageBox.warning(self, "Время вышло", "Время на выполнение теста закончилось!")
             self.submit_test()

@@ -6,7 +6,8 @@ from PyQt5.QtWidgets import (
     QTableWidget,
     QTableWidgetItem,
     QMessageBox,
-    QHBoxLayout
+    QHBoxLayout,
+    QHeaderView
 )
 from PyQt5.QtCore import Qt, QThreadPool
 from .network_workers import Worker
@@ -32,8 +33,17 @@ class LabSelectionWindow(QWidget):
         self.table.setColumnCount(4)
         self.table.setHorizontalHeaderLabels(["ID", "Тема ЛР", "Время (мин)", "Статус"])
         self.table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
-        self.table.horizontalHeader().setStretchLastSection(True)
+        # self.table.horizontalHeader().setStretchLastSection(True)
         layout.addWidget(self.table)
+        self.table.setColumnHidden(0, True)
+
+        self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)
+        self.table.horizontalHeader().setSectionResizeMode(2, QHeaderView.Fixed)
+        self.table.horizontalHeader().setSectionResizeMode(3, QHeaderView.Fixed)
+
+        self.table.setColumnWidth(2, 150)  
+        self.table.setColumnWidth(3, 150)
+        
 
         btn_layout = QHBoxLayout()
         btn_start = QPushButton("Начать тестирование")

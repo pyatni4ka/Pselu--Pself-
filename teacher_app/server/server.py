@@ -8,7 +8,7 @@ import os
 import http.server
 from PyQt6.QtCore import QThread, pyqtSignal
 
-DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "database", "mgtu_app.db")
+DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "mgtu_app.db")
 STATIC_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
 
 logging.basicConfig(
@@ -181,6 +181,9 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
         try:
             conn = sqlite3.connect(DATABASE_PATH)
             cursor = conn.cursor()
+            
+            logger.debug(f"Загрузка вопросов для lab_id={lid}")
+            
             cursor.execute("""
                 SELECT
                     id,
@@ -195,22 +198,34 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
                 WHERE lab_id=?
             """, (lid,))
             questions = cursor.fetchall()
+            
+            logger.debug(f"Найдено вопросов: {len(questions)}")
+            if not questions:
+                logger.warning(f"Вопросы для lab_id={lid} не найдены")
+                conn.close()
+                return {'status': 'error', 'message': 'Для данной лабораторной работы не созданы вопросы'}
 
             cursor.execute("SELECT time FROM lab_works WHERE id=?", (lid,))
             lab_time = cursor.fetchone()
+            logger.debug(f"Время на тест: {lab_time}")
+            
             conn.close()
 
-            time_limit = lab_time[0] if lab_time else 30
+            time_limit = lab_time[0] if lab_time else None
+            if time_limit is None:
+                logger.error(f"Не найдено время для lab_id={lid}")
+                return {'status': 'error', 'message': 'Не задано время для выполнения теста'}
 
             results = []
             for q in questions:
                 q_id, category, q_text, a1, a2, a3, a4, correct_idx = q
+                logger.debug(f"Обработка вопроса {q_id}, категория: {category}")
 
-                q_text_parsed, q_image_urls = parse_images(q_text)
-                a1_parsed, a1_image_urls = parse_images(a1)
-                a2_parsed, a2_image_urls = parse_images(a2)
-                a3_parsed, a3_image_urls = parse_images(a3)
-                a4_parsed, a4_image_urls = parse_images(a4)
+                q_text_parsed, q_image_urls = self.parse_images(q_text)
+                a1_parsed, a1_image_urls = self.parse_images(a1)
+                a2_parsed, a2_image_urls = self.parse_images(a2)
+                a3_parsed, a3_image_urls = self.parse_images(a3)
+                a4_parsed, a4_image_urls = self.parse_images(a4)
 
                 results.append({
                     'id': q_id,
@@ -226,13 +241,15 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
                     'correct_index': correct_idx
                 })
 
-            return {
+            response_data = {
                 'status': 'success',
                 'data': {
                     'questions': results,
                     'time_limit': time_limit
                 }
             }
+            logger.debug(f"Отправка ответа: {response_data}")
+            return response_data
 
         except sqlite3.Error as e:
             logger.error(f"SQLite error: {e}")
@@ -241,7 +258,7 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
             logger.error(f"Unexpected error: {e}")
             return {'status': 'error', 'message': 'Внутренняя ошибка сервера'}
 
-    def parse_images(text: str, base_url: str = "http://localhost:8080/images") -> tuple[str, list[str]]:
+    def parse_images(self, text: str, base_url: str = "http://localhost:8080/images") -> tuple[str, list[str]]:
         import re
         pattern = r'!\[image\]\((.*?)\)'
         matches = re.findall(pattern, text)
