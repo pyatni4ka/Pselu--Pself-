@@ -57,19 +57,29 @@ class ImageTextEdit(QTextEdit):
         self.insertPlainText(f'![image]({file_path})\n')
 
 class QuestionDialog(QDialog):
-    def __init__(self, category="", question_text="", answer1="", answer2="", answer3="", answer4="", correct_idx=1):
+    def __init__(self, category="", question_number="", question_text="", answer1="", answer2="", answer3="", answer4="", correct_idx=1):
         super().__init__()
-        self.init_ui(category, question_text, answer1, answer2, answer3, answer4, correct_idx)
+        self.init_ui(category, question_number, question_text, answer1, answer2, answer3, answer4, correct_idx)
 
-    def init_ui(self, category, question_text, ans1, ans2, ans3, ans4, correct_idx):
+    def init_ui(self, question_number, category, question_text, ans1, ans2, ans3, ans4, correct_idx):
         layout = QVBoxLayout()
+
+        # Add question number input
+        lbl_question_number = QLabel("Номер вопроса:")
+        self.input_question_number = QLineEdit()
+        self.input_question_number.setText(question_number)
+        layout.addWidget(lbl_question_number)
+        layout.addWidget(self.input_question_number)
+        self.input_question_number.setText("1.")
 
         lbl_category = QLabel("Категория:")
         self.combo_category = QComboBox()
-        self.combo_category.addItems(["теория", "практика", "графики"])
+        self.combo_category.addItems(["Вопрос 1", "Вопрос 2", "Вопрос 3", "Вопрос 4", "Вопрос 5"])
         idx = self.combo_category.findText(category)
         if idx >= 0:
             self.combo_category.setCurrentIndex(idx)
+        # Add connection to update question number when category changes
+        self.combo_category.currentTextChanged.connect(self.update_question_number)
         layout.addWidget(lbl_category)
         layout.addWidget(self.combo_category)
 
@@ -143,12 +153,18 @@ class QuestionDialog(QDialog):
             self.paste_image_into_textedit(text_edit)
         return handler
 
+    def update_question_number(self, category_text):
+        # Extract number from category text (e.g., "Вопрос 1" -> "1")
+        number = category_text.split()[-1]
+        self.input_question_number.setText(number + ".")
+
     def save(self):
         try:
             category = self.combo_category.currentText()
             question_text = self.text_question.toPlainText().strip()
             answers = [te.toPlainText().strip() for te in self.answers_edits]
             correct_idx = self.combo_correct.currentIndex() + 1
+            question_number = self.input_question_number.text().strip()
             if not question_text:
                 raise ValueError("Вопрос не может быть пустым.")
             if any(not a for a in answers):
@@ -165,5 +181,6 @@ class QuestionDialog(QDialog):
             self.answers_edits[1].toPlainText().strip(),
             self.answers_edits[2].toPlainText().strip(),
             self.answers_edits[3].toPlainText().strip(),
-            self.combo_correct.currentIndex() + 1
+            self.combo_correct.currentIndex() + 1,
+            self.input_question_number.text().strip()
         )
