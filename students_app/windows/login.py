@@ -31,11 +31,17 @@ class LoginWindow(QWidget):
         self.logo_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         if hasattr(sys, '_MEIPASS'):
+            # Если приложение скомпилировано
             base_path = sys._MEIPASS
         else:
-            base_path = os.path.dirname(__file__)
+            # Если приложение запущено из исходников
+            base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
         logo_path = os.path.join(base_path, "resources", "logo.png")
+        
+        # Добавим отладочный вывод
+        print(f"Путь к логотипу: {logo_path}")
+        print(f"Файл существует: {os.path.exists(logo_path)}")
 
         pixmap = QPixmap(logo_path)
         if not pixmap.isNull():
@@ -44,6 +50,7 @@ class LoginWindow(QWidget):
             ))
         else:
             self.logo_label.setText("Логотип отсутствует")
+            print(f"Ошибка загрузки логотипа: {logo_path}")
 
         layout.addWidget(self.logo_label)
 

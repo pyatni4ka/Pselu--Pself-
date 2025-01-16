@@ -79,7 +79,6 @@ if __name__ == "__main__":
     initialize_db()
     
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon('app_icon.ico'))
     ex = App()
-    base_path = getattr(sys, '_MEIPASS', os.path.dirname(__file__))
-    app.setWindowIcon(QIcon(os.path.join(base_path, "app_icon.ico")))
     sys.exit(app.exec())

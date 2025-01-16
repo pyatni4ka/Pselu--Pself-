@@ -103,13 +103,22 @@ if __name__ == "__main__":
     logging.basicConfig(
         level=logging.DEBUG,
         format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[
-            logging.FileHandler("app.log"),
-            logging.StreamHandler()
-        ]
+        filename='app.log',
+        filemode='w'
     )
     app = QApplication(sys.argv)
-    base_path = getattr(sys, '_MEIPASS', os.path.dirname(__file__))
-    app.setWindowIcon(QIcon(os.path.join(base_path, "app_icon.ico")))
+    
+    # Получаем путь к директории с исполняемым файлом
+    if getattr(sys, 'frozen', False):
+        # Если приложение скомпилировано
+        application_path = sys._MEIPASS
+    else:
+        # Если приложение запущено из исходников
+        application_path = os.path.dirname(os.path.abspath(__file__))
+    
+    # Устанавливаем иконку приложения
+    icon_path = os.path.join(application_path, 'app_icon.ico')
+    app.setWindowIcon(QIcon(icon_path))
+    
     ex = App()
     sys.exit(app.exec_())

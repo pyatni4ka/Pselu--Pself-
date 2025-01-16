@@ -1,1 +1,556 @@
-2024-12-24 14:00:03,608 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.8.0.
+2025-01-16 19:42:56,635 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 19:44:32,212 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 6.6.1.
+2025-01-16 19:44:48,762 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-16 19:44:48,763 - server.server - INFO - Static file server запущен
+2025-01-16 19:44:48,763 - windows.server_control - INFO - Static file server запущен
+2025-01-16 19:44:48,765 - server.server - INFO - TCP-сервер запущен
+2025-01-16 19:44:48,765 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-16 19:44:48,765 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-16 19:44:48,766 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-16 19:45:48,202 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:45:48,202 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:45:48,216 - server.server - INFO - Пятница Антон подключился (новая регистрация)
+2025-01-16 19:45:48,216 - windows.server_control - INFO - Пятница Антон подключился (новая регистрация)
+2025-01-16 19:45:48,220 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:45:48,220 - server.server - INFO - Пятница Антон отключился
+2025-01-16 19:45:48,221 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:45:48,221 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-16 19:45:49,627 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:45:49,627 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:45:49,631 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:45:49,631 - server.server - INFO - Клиент отключился: ('192.168.0.7', 55128)
+2025-01-16 19:45:49,631 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:45:49,631 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 55128)
+2025-01-16 19:46:55,438 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 19:47:03,416 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:47:03,417 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:47:03,417 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-16 19:47:06,760 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 19:47:10,447 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:47:10,447 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 2 вопросов.
+2025-01-16 19:47:16,039 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 19:47:16,039 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 3 вопросов.
+2025-01-16 19:47:18,766 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 19:47:22,651 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:47:22,651 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 4 вопросов.
+2025-01-16 19:47:26,632 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 19:47:26,632 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 5 вопросов.
+2025-01-16 19:47:30,365 - windows.questions_management - INFO - Загружены 3 вопросов для ЛР ID 1.
+2025-01-16 19:47:30,365 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 6 вопросов.
+2025-01-16 19:47:33,943 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 1.
+2025-01-16 19:47:33,943 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 7 вопросов.
+2025-01-16 19:47:35,254 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 19:47:39,462 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:47:39,462 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 8 вопросов.
+2025-01-16 19:47:44,410 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 19:47:44,410 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 9 вопросов.
+2025-01-16 19:47:48,007 - windows.questions_management - INFO - Загружены 3 вопросов для ЛР ID 1.
+2025-01-16 19:47:48,007 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 10 вопросов.
+2025-01-16 19:47:49,225 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-16 19:47:53,343 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:47:53,343 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 11 вопросов.
+2025-01-16 19:47:57,608 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 19:47:57,608 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 12 вопросов.
+2025-01-16 19:48:16,615 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:48:16,615 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:48:16,617 - server.server - INFO - Пятница Антон подключился
+2025-01-16 19:48:16,617 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-16 19:48:16,620 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:48:16,620 - server.server - INFO - Пятница Антон отключился
+2025-01-16 19:48:16,620 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:48:16,620 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-16 19:48:17,452 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:48:17,453 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:48:17,457 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:48:17,457 - server.server - INFO - Клиент отключился: ('192.168.0.7', 60578)
+2025-01-16 19:48:17,457 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:48:17,457 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 60578)
+2025-01-16 19:48:17,465 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:48:17,467 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:48:17,470 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:48:17,470 - server.server - INFO - Клиент отключился: ('192.168.0.7', 60579)
+2025-01-16 19:48:17,470 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:48:17,471 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 60579)
+2025-01-16 19:48:20,504 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:48:20,504 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:48:20,505 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:48:20,507 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:48:20,507 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:48:20,507 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:48:20,507 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:48:20,507 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:48:20,507 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:48:20,507 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:48:20,508 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:48:20,508 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:48:20,519 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:48:20,519 - server.server - INFO - Клиент отключился: ('192.168.0.7', 60581)
+2025-01-16 19:48:20,519 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:48:20,519 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 60581)
+2025-01-16 19:49:56,797 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:49:56,798 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:49:56,800 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:49:56,800 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:49:56,805 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:49:56,805 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50834)
+2025-01-16 19:49:56,805 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:49:56,805 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50834)
+2025-01-16 19:49:56,812 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:49:56,814 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:49:56,823 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:49:56,823 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50835)
+2025-01-16 19:49:56,823 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:49:56,823 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50835)
+2025-01-16 19:49:58,803 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:49:58,803 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:49:58,807 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:49:58,807 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50836)
+2025-01-16 19:49:58,807 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:49:58,807 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50836)
+2025-01-16 19:49:58,835 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:49:58,835 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:49:58,839 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:49:58,839 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50837)
+2025-01-16 19:49:58,839 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:49:58,839 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50837)
+2025-01-16 19:50:00,482 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:50:00,482 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:50:00,483 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:50:00,483 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:50:00,483 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:50:00,483 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:50:00,484 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:50:00,484 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:50:00,487 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:50:00,487 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50841)
+2025-01-16 19:50:00,487 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:50:00,488 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50841)
+2025-01-16 19:50:40,439 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:50:40,439 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:50:40,440 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:50:40,441 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:50:40,452 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:50:40,452 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50851)
+2025-01-16 19:50:40,452 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:50:40,452 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50851)
+2025-01-16 19:50:40,459 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:50:40,459 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:50:40,472 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:50:40,472 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50852)
+2025-01-16 19:50:40,472 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:50:40,472 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50852)
+2025-01-16 19:50:43,758 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:50:43,758 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:50:43,761 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:50:43,762 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50855)
+2025-01-16 19:50:43,762 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:50:43,762 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50855)
+2025-01-16 19:50:43,784 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:50:43,784 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:50:43,788 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:50:43,788 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50856)
+2025-01-16 19:50:43,789 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:50:43,789 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50856)
+2025-01-16 19:50:47,072 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:50:47,072 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:50:47,072 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:50:47,072 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:50:47,074 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:50:47,074 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:50:47,075 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:50:47,077 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:50:47,077 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50857)
+2025-01-16 19:50:47,077 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:50:47,078 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50857)
+2025-01-16 19:50:59,140 - windows.questions_management - INFO - Загружены 12 вопросов для ЛР ID 1.
+2025-01-16 19:51:00,811 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-16 19:51:22,715 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:51:22,715 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:51:22,717 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:51:22,717 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:51:22,720 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:51:22,720 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50859)
+2025-01-16 19:51:22,720 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:51:22,720 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50859)
+2025-01-16 19:51:22,736 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:51:22,736 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:51:22,740 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:51:22,740 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50860)
+2025-01-16 19:51:22,740 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:51:22,740 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50860)
+2025-01-16 19:51:25,084 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:51:25,084 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:51:25,087 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:51:25,087 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50862)
+2025-01-16 19:51:25,089 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:51:25,089 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50862)
+2025-01-16 19:51:25,108 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:51:25,109 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:51:25,112 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:51:25,112 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50863)
+2025-01-16 19:51:25,112 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:51:25,112 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50863)
+2025-01-16 19:51:28,700 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:51:28,700 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:51:28,701 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:51:28,701 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:51:28,701 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:51:28,701 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:51:28,701 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:51:28,701 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:51:28,701 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:51:28,701 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:51:28,702 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:51:28,702 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:51:28,706 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:51:28,706 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50864)
+2025-01-16 19:51:28,706 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:51:28,706 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50864)
+2025-01-16 19:52:00,464 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:00,465 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:00,466 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:52:00,466 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:52:00,470 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:00,470 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50873)
+2025-01-16 19:52:00,470 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:00,470 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50873)
+2025-01-16 19:52:00,479 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:00,480 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:00,484 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:00,484 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50874)
+2025-01-16 19:52:00,484 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:00,484 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50874)
+2025-01-16 19:52:03,373 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:03,373 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:03,377 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:03,377 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50875)
+2025-01-16 19:52:03,377 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:03,377 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50875)
+2025-01-16 19:52:03,403 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:03,403 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:03,408 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:03,408 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50876)
+2025-01-16 19:52:03,408 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:03,408 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50876)
+2025-01-16 19:52:06,770 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:06,771 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:06,771 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:52:06,772 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:52:06,772 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:52:06,772 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:52:06,772 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:52:06,772 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:52:06,772 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:52:06,772 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:52:06,773 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:52:06,773 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:52:06,776 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:06,776 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50878)
+2025-01-16 19:52:06,776 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:06,776 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50878)
+2025-01-16 19:52:35,645 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:35,646 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:35,647 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:52:35,648 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:52:35,652 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:35,653 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50883)
+2025-01-16 19:52:35,653 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:35,653 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50883)
+2025-01-16 19:52:35,663 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:35,664 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:35,680 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:35,680 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50884)
+2025-01-16 19:52:35,680 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:35,680 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50884)
+2025-01-16 19:52:38,572 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:38,573 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:38,576 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:38,576 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50885)
+2025-01-16 19:52:38,576 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:38,576 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50885)
+2025-01-16 19:52:38,597 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:38,597 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:38,601 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:38,601 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50886)
+2025-01-16 19:52:38,601 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:38,601 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50886)
+2025-01-16 19:52:42,069 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:52:42,069 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:52:42,070 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:52:42,070 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:52:42,070 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:52:42,070 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:52:42,070 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:52:42,070 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:52:42,070 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:52:42,070 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:52:42,071 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:52:42,072 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:52:42,074 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:52:42,074 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50887)
+2025-01-16 19:52:42,074 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:52:42,074 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50887)
+2025-01-16 19:53:01,356 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-16 19:53:07,977 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:07,977 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:07,978 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:53:07,978 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:53:07,982 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:07,982 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50892)
+2025-01-16 19:53:07,982 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:07,982 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50892)
+2025-01-16 19:53:07,998 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:07,998 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:08,003 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:08,003 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50893)
+2025-01-16 19:53:08,003 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:08,003 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50893)
+2025-01-16 19:53:10,061 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:10,061 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:10,065 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:10,065 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50895)
+2025-01-16 19:53:10,065 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:10,065 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50895)
+2025-01-16 19:53:10,086 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:10,086 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:10,090 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:10,090 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50896)
+2025-01-16 19:53:10,091 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:10,091 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50896)
+2025-01-16 19:53:13,150 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:13,150 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:13,150 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:53:13,151 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:53:13,151 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:53:13,151 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:53:13,152 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:53:13,152 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:53:13,152 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:53:13,152 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:53:13,152 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:53:13,156 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:13,156 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50897)
+2025-01-16 19:53:13,156 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:13,156 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50897)
+2025-01-16 19:53:42,773 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:42,773 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:42,774 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:53:42,774 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:53:42,776 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:42,776 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50903)
+2025-01-16 19:53:42,777 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:42,777 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50903)
+2025-01-16 19:53:42,786 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:42,786 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:42,791 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:42,791 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50904)
+2025-01-16 19:53:42,791 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:42,791 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50904)
+2025-01-16 19:53:49,415 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:49,415 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:49,420 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:49,420 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50907)
+2025-01-16 19:53:49,420 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:49,420 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50907)
+2025-01-16 19:53:49,438 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:49,438 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:49,444 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:49,444 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50908)
+2025-01-16 19:53:49,444 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:49,444 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50908)
+2025-01-16 19:53:52,274 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:53:52,275 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:53:52,275 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:53:52,275 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:53:52,276 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:53:52,276 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:53:52,276 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:53:52,276 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:53:52,276 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:53:52,276 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:53:52,276 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:53:52,277 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:53:52,277 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:53:52,277 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:53:52,277 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:53:52,277 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:53:52,277 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:53:52,277 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:53:52,298 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:53:52,298 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50915)
+2025-01-16 19:53:52,298 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:53:52,298 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50915)
+2025-01-16 19:54:35,670 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:54:35,670 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:54:35,671 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:54:35,671 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:54:35,675 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:54:35,675 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50919)
+2025-01-16 19:54:35,675 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:54:35,675 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50919)
+2025-01-16 19:54:35,682 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:54:35,682 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:54:35,686 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:54:35,686 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50920)
+2025-01-16 19:54:35,686 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:54:35,686 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50920)
+2025-01-16 19:54:37,199 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:54:37,199 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:54:37,203 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:54:37,203 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50921)
+2025-01-16 19:54:37,203 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:54:37,203 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50921)
+2025-01-16 19:54:37,230 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:54:37,230 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:54:37,235 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:54:37,235 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50922)
+2025-01-16 19:54:37,235 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:54:37,235 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50922)
+2025-01-16 19:54:39,674 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:54:39,674 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:54:39,675 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:54:39,675 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:54:39,675 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:54:39,675 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:54:39,675 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:54:39,676 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:54:39,676 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:54:39,680 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:54:39,680 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50923)
+2025-01-16 19:54:39,680 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:54:39,680 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50923)
+2025-01-16 19:55:11,193 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:11,193 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:11,194 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:55:11,194 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 0/5
+2025-01-16 19:55:11,198 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:11,198 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50925)
+2025-01-16 19:55:11,198 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:11,198 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50925)
+2025-01-16 19:55:11,205 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:11,205 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:11,209 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:11,209 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50926)
+2025-01-16 19:55:11,209 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:11,209 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50926)
+2025-01-16 19:55:12,810 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:12,810 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:12,814 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:12,814 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50927)
+2025-01-16 19:55:12,814 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:12,814 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50927)
+2025-01-16 19:55:12,830 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:12,830 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:12,833 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:12,833 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50928)
+2025-01-16 19:55:12,833 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:12,833 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50928)
+2025-01-16 19:55:19,013 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:19,013 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:19,014 - server.server - DEBUG - Загрузка вопросов для lab_id=1
+2025-01-16 19:55:19,014 - server.server - DEBUG - Найдено вопросов: 12
+2025-01-16 19:55:19,014 - server.server - DEBUG - Время на тест: (15,)
+2025-01-16 19:55:19,014 - server.server - DEBUG - Обработка вопроса 1, категория: Вопрос 1
+2025-01-16 19:55:19,014 - server.server - DEBUG - Обработка вопроса 2, категория: Вопрос 2
+2025-01-16 19:55:19,014 - server.server - DEBUG - Обработка вопроса 3, категория: Вопрос 2
+2025-01-16 19:55:19,014 - server.server - DEBUG - Обработка вопроса 4, категория: Вопрос 3
+2025-01-16 19:55:19,014 - server.server - DEBUG - Обработка вопроса 5, категория: Вопрос 3
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 6, категория: Вопрос 3
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 7, категория: Вопрос 3
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 8, категория: Вопрос 4
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 9, категория: Вопрос 4
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 10, категория: Вопрос 4
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 11, категория: Вопрос 5
+2025-01-16 19:55:19,015 - server.server - DEBUG - Обработка вопроса 12, категория: Вопрос 5
+2025-01-16 19:55:19,015 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': '\ufffc', 'question_images': ['http://localhost:8080/images/C:/Users/MrDes/AppData/Local/Temp\\b2d2e20c-c7ca-4612-ba6d-d4fcdeaf176e.png'], 'answers': [{'text': '1', 'images': []}, {'text': '2', 'images': []}, {'text': '3', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 2', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 3', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 3', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 6, 'category': 'Вопрос 3', 'question_text': '44', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 7, 'category': 'Вопрос 3', 'question_text': '5', 'question_images': [], 'answers': [{'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}, {'text': '5', 'images': []}], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 4', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 4', 'question_text': '2', 'question_images': [], 'answers': [{'text': '2', 'images': []}, {'text': '22', 'images': []}, {'text': '22', 'images': []}, {'text': '2', 'images': []}], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': '3', 'question_images': [], 'answers': [{'text': '3', 'images': []}, {'text': '3', 'images': []}, {'text': '33', 'images': []}, {'text': '3', 'images': []}], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': '4', 'question_images': [], 'answers': [{'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}, {'text': '4', 'images': []}], 'correct_index': 1}, {'id': 12, 'category': 'Вопрос 5', 'question_text': '1', 'question_images': [], 'answers': [{'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}, {'text': '1', 'images': []}], 'correct_index': 1}], 'time_limit': 15}}
+2025-01-16 19:55:19,018 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:19,018 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50929)
+2025-01-16 19:55:19,018 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:19,018 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50929)
+2025-01-16 19:55:22,763 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:22,763 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:22,765 - server.server - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 1/5
+2025-01-16 19:55:22,765 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу 'Test'. Баллы: 1/5
+2025-01-16 19:55:22,768 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:22,768 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50930)
+2025-01-16 19:55:22,768 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:22,768 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50930)
+2025-01-16 19:55:22,777 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:22,777 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:22,782 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:22,782 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50931)
+2025-01-16 19:55:22,782 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:22,782 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50931)
+2025-01-16 19:55:27,805 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:27,805 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:27,808 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:27,808 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50932)
+2025-01-16 19:55:27,808 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:27,808 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50932)
+2025-01-16 19:55:27,814 - server.server - INFO - Клиентов подключено: 1
+2025-01-16 19:55:27,814 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-16 19:55:27,817 - server.server - INFO - Клиентов подключено: 0
+2025-01-16 19:55:27,817 - server.server - INFO - Клиент отключился: ('192.168.0.7', 50933)
+2025-01-16 19:55:27,818 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-16 19:55:27,818 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 50933)
