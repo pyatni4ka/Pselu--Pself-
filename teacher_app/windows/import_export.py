@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QWidget,
     QVBoxLayout,
     QPushButton,
@@ -6,7 +6,7 @@ from PyQt6.QtWidgets import (
     QLabel,
     QFileDialog
 )
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 import sqlite3
 import json
 import os

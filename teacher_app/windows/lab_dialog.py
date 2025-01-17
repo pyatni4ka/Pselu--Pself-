@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QDialog,
     QVBoxLayout,
     QHBoxLayout,
@@ -7,7 +7,7 @@ from PyQt6.QtWidgets import (
     QPushButton,
     QMessageBox
 )
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 
 class LabDialog(QDialog):
     def __init__(self, theme="", time=""):

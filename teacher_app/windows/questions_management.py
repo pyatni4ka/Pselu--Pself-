@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QWidget,
     QVBoxLayout,
     QPushButton,
@@ -11,7 +11,7 @@ from PyQt6.QtWidgets import (
     QComboBox,
     QLineEdit
 )
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 import sqlite3
 from .question_dialog import QuestionDialog
 import logging

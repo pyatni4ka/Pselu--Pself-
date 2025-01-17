@@ -5,7 +5,8 @@ from PyQt5.QtWidgets import (
     QLabel,
     QLineEdit,
     QMessageBox,
-    QHBoxLayout
+    QHBoxLayout,
+    QDialog
 )
 from PyQt5.QtCore import Qt, QThreadPool
 from PyQt5.QtGui import QPixmap
@@ -53,6 +54,12 @@ class LoginWindow(QWidget):
             print(f"Ошибка загрузки логотипа: {logo_path}")
 
         layout.addWidget(self.logo_label)
+
+        # Добавляем кнопку настроек
+        settings_button = QPushButton("⚙️ Настройки")
+        settings_button.clicked.connect(self.show_settings)
+        settings_button.setFixedWidth(100)
+        layout.addWidget(settings_button, alignment=Qt.AlignmentFlag.AlignRight)
 
         self.input_last_name = QLineEdit()
         self.input_last_name.setPlaceholderText("Фамилия")
@@ -143,3 +150,14 @@ class LoginWindow(QWidget):
 
     def handle_login_error(self, error_message):
         QMessageBox.critical(self, "Ошибка", error_message)
+
+    def show_settings(self):
+        """Показывает окно настроек."""
+        from .settings import SettingsDialog
+        dialog = SettingsDialog()
+        if dialog.exec() == QDialog.DialogCode.Accepted:
+            QMessageBox.information(
+                self,
+                "Настройки сохранены",
+                "Настройки успешно сохранены. Перезапустите приложение для применения изменений."
+            )

@@ -32,9 +32,15 @@ class RegistrationWindow(QWidget):
         if hasattr(sys, '_MEIPASS'): 
             base_path = sys._MEIPASS
         else:
-            base_path = os.path.dirname(__file__)
+            # Получаем путь к корневой директории приложения
+            base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
         logo_path = os.path.join(base_path, "resources", "logo.png")
+        
+        # Добавляем логирование для отладки
+        print(f"Путь к логотипу: {logo_path}")
+        if not os.path.exists(logo_path):
+            print(f"Файл логотипа не найден!")
 
         pixmap = QPixmap(logo_path)
         if not pixmap.isNull():

@@ -1,7 +1,7 @@
 import sys
 import logging
-from PyQt6.QtWidgets import QApplication, QStackedWidget
-from PyQt6.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication, QStackedWidget
+from PyQt5.QtGui import QIcon
 from database import initialize_db
 from windows.main_menu import MainMenu
 from windows.lab_management import LabManagement
@@ -79,6 +79,18 @@ if __name__ == "__main__":
     initialize_db()
     
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('app_icon.ico'))
+    
+    # Получаем путь к директории с исполняемым файлом
+    if getattr(sys, 'frozen', False):
+        # Если приложение скомпилировано
+        application_path = sys._MEIPASS
+    else:
+        # Если приложение запущено из исходников
+        application_path = os.path.dirname(os.path.abspath(__file__))
+    
+    # Устанавливаем иконку приложения
+    icon_path = os.path.join(application_path, 'app_icon.ico')
+    app.setWindowIcon(QIcon(icon_path))
+    
     ex = App()
     sys.exit(app.exec())

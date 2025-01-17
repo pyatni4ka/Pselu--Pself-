@@ -1,5 +1,5 @@
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QApplication
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QApplication
+from PyQt5.QtCore import Qt
 
 class MainMenu(QWidget):
     def __init__(self, switch_window):

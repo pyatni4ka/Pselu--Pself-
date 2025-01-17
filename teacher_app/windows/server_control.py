@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QWidget,
     QVBoxLayout,
     QPushButton,
@@ -7,7 +7,7 @@ from PyQt6.QtWidgets import (
     QMessageBox,
     QHBoxLayout
 )
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 from server.server import ServerThread
 import logging
 import socket
@@ -139,4 +139,3 @@ class ServerControl(QWidget):
         except Exception as e:
             logger.error(f"Ошибка получения локального IP в сети: {e}")
             return "localhost"
-

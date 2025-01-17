@@ -1,11 +1,12 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QComboBox,
     QFileDialog, QMessageBox, QLineEdit, QTextEdit, QVBoxLayout, QGridLayout
 )
-from PyQt6.QtCore import Qt, QStandardPaths, QMimeData
-from PyQt6.QtGui import QGuiApplication, QDragEnterEvent, QDropEvent
+from PyQt5.QtCore import Qt, QStandardPaths, QMimeData, QByteArray, QBuffer, QIODevice
+from PyQt5.QtGui import QGuiApplication, QDragEnterEvent, QDropEvent
 import os
 import uuid
+import hashlib
 
 class ImageTextEdit(QTextEdit):
     def __init__(self, parent=None):
@@ -45,16 +46,33 @@ class ImageTextEdit(QTextEdit):
             super().dropEvent(event)
 
     def _save_and_insert_image(self, qimage):
-        unique_name = str(uuid.uuid4()) + ".png"
-        temp_dir = QStandardPaths.writableLocation(QStandardPaths.StandardLocation.TempLocation)
-        if not os.path.exists(temp_dir):
-            os.makedirs(temp_dir, exist_ok=True)
-        file_path = os.path.join(temp_dir, unique_name)
+        # Вычисляем хэш изображения для дедупликации
+        byte_array = QByteArray()
+        buffer = QBuffer(byte_array)
+        buffer.open(QIODevice.OpenModeFlag.WriteOnly)
+        qimage.save(buffer, "PNG")
+        image_hash = hashlib.md5(byte_array.data()).hexdigest()
+        
+        # Проверяем, есть ли уже такое изображение
+        static_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
+        images_dir = os.path.join(static_dir, "images")
+        os.makedirs(images_dir, exist_ok=True)
+        
+        # Ищем существующий файл с таким же хэшем
+        for filename in os.listdir(images_dir):
+            if filename.startswith(image_hash):
+                self.insertPlainText(f'![image]({filename})\n')
+                return
+        
+        # Если изображение новое, сохраняем его
+        filename = f"{image_hash}.png"
+        file_path = os.path.join(images_dir, filename)
+        
         if not qimage.save(file_path, "PNG"):
             QMessageBox.warning(self, "Ошибка", "Не удалось сохранить изображение.")
             return
-        self.insertHtml(f'<br><img src="{file_path}" width="200"/><br>')
-        self.insertPlainText(f'![image]({file_path})\n')
+            
+        self.insertPlainText(f'![image]({filename})\n')
 
 class QuestionDialog(QDialog):
     def __init__(self, category="", question_number="", question_text="", answer1="", answer2="", answer3="", answer4="", correct_idx=1):

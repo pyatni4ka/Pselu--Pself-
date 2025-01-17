@@ -1,8 +1,8 @@
-from PyQt6.QtWidgets import (
+from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QPushButton, QTableWidget, QTableWidgetItem, QHBoxLayout,
     QMessageBox, QLabel, QComboBox, QHeaderView, QInputDialog, QLineEdit, QMessageBox, QDialog
 )
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 import sqlite3
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas

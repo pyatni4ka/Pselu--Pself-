@@ -6,10 +6,23 @@ import sqlite3
 import struct
 import os
 import http.server
-from PyQt6.QtCore import QThread, pyqtSignal
+import configparser
+from PyQt5.QtCore import QThread, pyqtSignal
 
 DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "mgtu_app.db")
 STATIC_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
+
+# Загружаем конфигурацию
+config = configparser.ConfigParser()
+config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config.ini")
+if not os.path.exists(config_path):
+    config_path = "config.ini"  # Fallback для собранного приложения
+config.read(config_path)
+
+# Получаем настройки сервера
+SERVER_HOST = config.get('Server', 'host', fallback='0.0.0.0')
+SERVER_PORT = config.getint('Server', 'port', fallback=9999)
+STATIC_PORT = config.getint('Server', 'static_port', fallback=8080)
 
 logging.basicConfig(
     filename='server_control.log',
@@ -27,7 +40,10 @@ class StaticFileServer:
         self.httpd = None
         self.thread = None
 
+        # Создаем директорию для статических файлов и изображений
         os.makedirs(self.directory, exist_ok=True)
+        images_dir = os.path.join(self.directory, "images")
+        os.makedirs(images_dir, exist_ok=True)
 
     def start(self):
         handler = http.server.SimpleHTTPRequestHandler
@@ -258,12 +274,29 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
             logger.error(f"Unexpected error: {e}")
             return {'status': 'error', 'message': 'Внутренняя ошибка сервера'}
 
-    def parse_images(self, text: str, base_url: str = "http://localhost:8080/images") -> tuple[str, list[str]]:
+    def parse_images(self, text: str, base_url: str = None) -> tuple[str, list[str]]:
+        """
+        Извлекает изображения из текста в формате markdown и возвращает очищенный текст и список URL изображений.
+        
+        Args:
+            text (str): Текст с markdown разметкой изображений
+            base_url (str): Базовый URL для изображений
+            
+        Returns:
+            tuple[str, list[str]]: Кортеж (очищенный текст, список URL изображений)
+        """
+        if base_url is None:
+            # Используем IP-адрес сервера вместо localhost
+            base_url = f"http://{SERVER_HOST}:{STATIC_PORT}/images"
+            
         import re
         pattern = r'!\[image\]\((.*?)\)'
         matches = re.findall(pattern, text)
         cleaned_text = re.sub(pattern, '', text).strip()
+        
+        # Преобразуем имена файлов в полные URL
         image_urls = [f"{base_url}/{match}" for match in matches]
+        
         return cleaned_text, image_urls
 
     def handle_submit_test(self, data):
@@ -423,13 +456,13 @@ class ServerThread(QThread):
     server_started = pyqtSignal()
     server_stopped = pyqtSignal()
     log_message = pyqtSignal(str)
-    def __init__(self, host="0.0.0.0", port=9999, static_dir=STATIC_DIR, static_port=8080):
+    def __init__(self, host=SERVER_HOST, port=SERVER_PORT, static_dir=STATIC_DIR, static_port=STATIC_PORT):
         super().__init__()
         self.host = host
         self.port = port
         self.server = None
         self.server_thread = None
-        self.static_file_server = StaticFileServer(directory=static_dir, port=static_port)
+        self.static_file_server = StaticFileServer(directory=static_dir, host=host, port=static_port)
     def run(self):
         try:
             self.static_file_server.start()
