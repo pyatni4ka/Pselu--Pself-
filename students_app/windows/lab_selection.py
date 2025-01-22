@@ -7,10 +7,17 @@ from PyQt5.QtWidgets import (
     QTableWidgetItem,
     QMessageBox,
     QHBoxLayout,
-    QHeaderView
+    QHeaderView,
+    QScrollArea,
+    QFrame
 )
 from PyQt5.QtCore import Qt, QThreadPool
-from .network_workers import Worker
+from PyQt5.QtGui import QPixmap
+import sys
+import os
+from network_workers import Worker
+from config_manager import ConfigManager
+from logger_config import get_logger
 import json
 import logging
 

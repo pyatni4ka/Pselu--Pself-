@@ -1,0 +1,10 @@
+[2025-01-22 23:48:53] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-22 23:48:53] students_app - INFO - Запуск приложения
+[2025-01-22 23:48:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-22 23:48:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-22 23:48:55] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-22 23:48:55] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out

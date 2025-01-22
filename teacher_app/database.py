@@ -70,6 +70,11 @@ def initialize_db():
                 student_id INTEGER,
                 FOREIGN KEY (student_id) REFERENCES students (id)
             );""")
+        cursor.execute("""CREATE TABLE IF NOT EXISTS images (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                filename TEXT NOT NULL UNIQUE,
+                hash TEXT NOT NULL UNIQUE
+            );""")
         conn.commit()
         conn.close()
         print(f"Database initialized at '{DB_FILE}'.")

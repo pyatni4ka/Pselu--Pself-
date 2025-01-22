@@ -11,7 +11,9 @@ from PyQt5.QtCore import Qt, QThreadPool
 from PyQt5.QtGui import QPixmap
 import sys
 import os
-from .network_workers import Worker
+from network_workers import Worker
+from config_manager import ConfigManager
+from logger_config import get_logger
 
 class RegistrationWindow(QWidget):
     def __init__(self, switch_window):

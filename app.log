@@ -1064,3 +1064,4 @@
 2025-01-16 22:34:28,185 - server.server - INFO - Клиент отключился: ('192.168.0.7', 51886)
 2025-01-16 22:34:28,185 - windows.server_control - INFO - Клиентов подключено: 0
 2025-01-16 22:34:28,185 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 51886)
+2025-01-23 00:21:24,005 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
