@@ -1065,3 +1065,1048 @@
 2025-01-16 22:34:28,185 - windows.server_control - INFO - Клиентов подключено: 0
 2025-01-16 22:34:28,185 - windows.server_control - INFO - Клиент отключился: ('192.168.0.7', 51886)
 2025-01-23 00:21:24,005 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 00:22:11,906 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 00:22:11,907 - server.server - INFO - Static file server запущен
+2025-01-23 00:22:11,907 - windows.server_control - INFO - Static file server запущен
+2025-01-23 00:22:11,907 - server.server - INFO - TCP-сервер запущен
+2025-01-23 00:22:11,907 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-23 00:22:11,907 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:22:11,908 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:22:24,175 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:24,176 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:24,176 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61566)
+2025-01-23 00:22:24,176 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:24,176 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:24,176 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61566)
+2025-01-23 00:22:29,174 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:29,174 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:29,174 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:29,174 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61567)
+2025-01-23 00:22:29,175 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:29,175 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61567)
+2025-01-23 00:22:34,177 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:34,177 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:34,191 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:34,191 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61568)
+2025-01-23 00:22:34,191 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:34,192 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61568)
+2025-01-23 00:22:37,171 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:37,171 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:37,172 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:22:37,172 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:22:37,173 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:37,173 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:22:37,176 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:37,176 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:22:39,190 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:39,190 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:39,204 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:39,204 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61570)
+2025-01-23 00:22:39,205 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:39,205 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61570)
+2025-01-23 00:22:39,611 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:39,612 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:39,613 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:39,613 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61571)
+2025-01-23 00:22:39,614 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:39,614 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61571)
+2025-01-23 00:22:39,626 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:39,626 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:39,629 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:39,629 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61572)
+2025-01-23 00:22:39,629 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:39,629 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61572)
+2025-01-23 00:22:41,347 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:41,349 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:41,350 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:22:41,351 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:22:41,352 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:22:41,352 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:22:41,353 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:22:41,354 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:22:41,354 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:22:41,354 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:22:41,355 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:22:41,358 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:41,358 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61573)
+2025-01-23 00:22:41,359 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:41,359 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61573)
+2025-01-23 00:22:44,203 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:44,203 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:44,217 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:44,217 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61574)
+2025-01-23 00:22:44,218 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:44,218 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61574)
+2025-01-23 00:22:49,217 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:22:49,217 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:22:49,217 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:22:49,217 - server.server - INFO - Клиент отключился: ('192.168.0.164', 61575)
+2025-01-23 00:22:49,217 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:22:49,218 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 61575)
+2025-01-23 00:23:22,890 - windows.server_control - INFO - TCP-сервер остановлен
+2025-01-23 00:23:22,890 - server.server - INFO - TCP-сервер остановлен
+2025-01-23 00:23:23,202 - windows.server_control - INFO - Static file server остановлен
+2025-01-23 00:23:23,202 - server.server - INFO - Static file server остановлен
+2025-01-23 00:23:23,202 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 00:23:23,202 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 00:23:23,202 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 00:28:15,681 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 00:28:28,216 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 00:28:28,218 - server.server - INFO - Static file server запущен
+2025-01-23 00:28:28,218 - windows.server_control - INFO - Static file server запущен
+2025-01-23 00:28:28,219 - server.server - INFO - TCP-сервер запущен
+2025-01-23 00:28:28,219 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-23 00:28:28,219 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:28:28,219 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:28:33,700 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:33,700 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:33,720 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:33,720 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57491)
+2025-01-23 00:28:33,720 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:33,720 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57491)
+2025-01-23 00:28:38,718 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:38,718 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:38,718 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:38,718 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57493)
+2025-01-23 00:28:38,718 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:38,718 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57493)
+2025-01-23 00:28:43,712 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:43,712 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:43,712 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:43,712 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57498)
+2025-01-23 00:28:43,712 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:43,712 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57498)
+2025-01-23 00:28:48,278 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:48,279 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:48,279 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:28:48,279 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:28:48,281 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:48,281 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:28:48,285 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:48,285 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:28:48,720 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:48,720 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:48,735 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:48,735 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57500)
+2025-01-23 00:28:48,735 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:48,736 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57500)
+2025-01-23 00:28:49,174 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:49,174 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:49,177 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:49,177 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57501)
+2025-01-23 00:28:49,178 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:49,178 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57501)
+2025-01-23 00:28:49,190 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:49,190 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:49,192 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:49,192 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57502)
+2025-01-23 00:28:49,192 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:49,192 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57502)
+2025-01-23 00:28:50,534 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:50,534 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:50,536 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:28:50,536 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:28:50,536 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:28:50,536 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:28:50,536 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:28:50,536 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:28:50,536 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:28:50,536 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:28:50,537 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:28:50,538 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:50,539 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57506)
+2025-01-23 00:28:50,539 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:50,539 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57506)
+2025-01-23 00:28:53,724 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:53,724 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:53,724 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:53,724 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57509)
+2025-01-23 00:28:53,725 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:53,725 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57509)
+2025-01-23 00:28:58,735 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:28:58,735 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:28:58,735 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:28:58,735 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57513)
+2025-01-23 00:28:58,735 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:28:58,735 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57513)
+2025-01-23 00:29:03,735 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:03,735 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:03,735 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:03,735 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57518)
+2025-01-23 00:29:03,735 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:03,735 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57518)
+2025-01-23 00:29:08,737 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:08,737 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:08,752 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:08,752 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57520)
+2025-01-23 00:29:08,752 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:08,752 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57520)
+2025-01-23 00:29:13,751 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:13,751 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:13,751 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:13,751 - server.server - INFO - Клиент отключился: ('192.168.0.164', 57523)
+2025-01-23 00:29:13,751 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:13,751 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 57523)
+2025-01-23 00:29:18,745 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:18,745 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:18,760 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:18,760 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62724)
+2025-01-23 00:29:18,760 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:18,760 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62724)
+2025-01-23 00:29:23,777 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:23,777 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:23,792 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:23,792 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62727)
+2025-01-23 00:29:23,792 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:23,792 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62727)
+2025-01-23 00:29:28,793 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:28,793 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:28,794 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62728)
+2025-01-23 00:29:28,795 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:28,795 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:28,795 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62728)
+2025-01-23 00:29:33,791 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:33,791 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:33,791 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:33,791 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62730)
+2025-01-23 00:29:33,791 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:33,791 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62730)
+2025-01-23 00:29:38,789 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:38,789 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:38,811 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:38,811 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62738)
+2025-01-23 00:29:38,811 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:38,811 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62738)
+2025-01-23 00:29:43,805 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:43,805 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:43,818 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:43,818 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62741)
+2025-01-23 00:29:43,818 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:43,818 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62741)
+2025-01-23 00:29:48,820 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:48,820 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:48,835 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:48,835 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62742)
+2025-01-23 00:29:48,835 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:48,835 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62742)
+2025-01-23 00:29:53,839 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:53,839 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:53,840 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:53,840 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62746)
+2025-01-23 00:29:53,840 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:53,840 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62746)
+2025-01-23 00:29:58,847 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:29:58,847 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:29:58,862 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:29:58,862 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62751)
+2025-01-23 00:29:58,863 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:29:58,863 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62751)
+2025-01-23 00:30:03,853 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:03,853 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:03,868 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:03,868 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62757)
+2025-01-23 00:30:03,868 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:03,868 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62757)
+2025-01-23 00:30:08,866 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:08,867 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:08,881 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:08,881 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62758)
+2025-01-23 00:30:08,881 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:08,881 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62758)
+2025-01-23 00:30:13,882 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:13,882 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:13,882 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:13,882 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62761)
+2025-01-23 00:30:13,882 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:13,883 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62761)
+2025-01-23 00:30:18,894 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:18,894 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:18,894 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:18,894 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62764)
+2025-01-23 00:30:18,894 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:18,895 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62764)
+2025-01-23 00:30:23,889 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:23,889 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:23,889 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:23,889 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62770)
+2025-01-23 00:30:23,890 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:23,890 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62770)
+2025-01-23 00:30:28,894 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:28,894 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:28,894 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:28,894 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62776)
+2025-01-23 00:30:28,895 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:28,895 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62776)
+2025-01-23 00:30:33,886 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:30:33,886 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:30:33,886 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:30:33,886 - server.server - INFO - Клиент отключился: ('192.168.0.164', 62779)
+2025-01-23 00:30:33,886 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:30:33,886 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 62779)
+2025-01-23 00:33:17,400 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:17,400 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:17,422 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:17,422 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58764)
+2025-01-23 00:33:17,423 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:17,423 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58764)
+2025-01-23 00:33:22,414 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:22,414 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:22,436 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:22,436 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58767)
+2025-01-23 00:33:22,436 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:22,436 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58767)
+2025-01-23 00:33:27,430 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:27,430 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:27,445 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:27,445 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58768)
+2025-01-23 00:33:27,445 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:27,445 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58768)
+2025-01-23 00:33:30,596 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:30,596 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:30,596 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:33:30,596 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:33:30,597 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:30,597 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:33:30,600 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:30,600 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:33:31,470 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:31,470 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:31,472 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:31,472 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58771)
+2025-01-23 00:33:31,472 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:31,473 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58771)
+2025-01-23 00:33:31,485 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:31,485 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:31,487 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:31,487 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58772)
+2025-01-23 00:33:31,487 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:31,487 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58772)
+2025-01-23 00:33:32,447 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:32,447 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:32,462 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:32,462 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58773)
+2025-01-23 00:33:32,462 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:32,462 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58773)
+2025-01-23 00:33:32,765 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:32,765 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:32,766 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:33:32,766 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:33:32,766 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:33:32,766 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:33:32,766 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:33:32,766 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:33:32,766 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:33:32,766 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:33:32,767 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:33:32,768 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:32,768 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58774)
+2025-01-23 00:33:32,769 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:32,769 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58774)
+2025-01-23 00:33:50,887 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:50,887 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:50,887 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:50,887 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58781)
+2025-01-23 00:33:50,887 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:50,888 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58781)
+2025-01-23 00:33:55,890 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:33:55,890 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:33:55,890 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:33:55,890 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58785)
+2025-01-23 00:33:55,890 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:33:55,890 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58785)
+2025-01-23 00:34:00,899 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:00,899 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:00,914 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:00,914 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58788)
+2025-01-23 00:34:00,914 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:00,914 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58788)
+2025-01-23 00:34:04,483 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:04,483 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:04,484 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:34:04,484 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:34:04,485 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:04,485 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:34:04,485 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:04,485 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:34:05,519 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:05,519 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:05,521 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:05,521 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58796)
+2025-01-23 00:34:05,522 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:05,522 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58796)
+2025-01-23 00:34:05,533 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:05,534 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:05,535 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:05,535 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58797)
+2025-01-23 00:34:05,535 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:05,535 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58797)
+2025-01-23 00:34:05,912 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:05,913 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:05,913 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58798)
+2025-01-23 00:34:05,913 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:05,913 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:05,913 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58798)
+2025-01-23 00:34:06,671 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:06,673 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:06,673 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:34:06,674 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:34:06,674 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:34:06,674 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:34:06,674 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:34:06,674 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:34:06,674 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:34:06,674 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:34:06,674 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:34:06,676 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:06,676 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58799)
+2025-01-23 00:34:06,677 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:06,677 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58799)
+2025-01-23 00:34:46,851 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:46,851 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:46,851 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:46,852 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58816)
+2025-01-23 00:34:46,852 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:46,852 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58816)
+2025-01-23 00:34:51,860 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:51,860 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:51,860 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:51,860 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58820)
+2025-01-23 00:34:51,861 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:51,861 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58820)
+2025-01-23 00:34:56,855 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:56,855 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:56,856 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:56,856 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58822)
+2025-01-23 00:34:56,856 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:56,856 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58822)
+2025-01-23 00:34:58,909 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:58,909 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:58,910 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:34:58,910 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:34:58,912 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:58,912 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:34:58,912 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:58,913 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:34:59,817 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:59,817 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:59,819 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:59,819 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58826)
+2025-01-23 00:34:59,819 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:59,819 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58826)
+2025-01-23 00:34:59,832 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:34:59,832 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:34:59,834 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:34:59,834 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58827)
+2025-01-23 00:34:59,835 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:34:59,835 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58827)
+2025-01-23 00:35:01,295 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:01,295 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:01,296 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:35:01,296 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:35:01,296 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:35:01,296 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:35:01,296 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:35:01,296 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:35:01,296 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:35:01,296 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:35:01,296 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:35:01,298 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:01,298 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58830)
+2025-01-23 00:35:01,299 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:01,299 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58830)
+2025-01-23 00:35:01,864 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:01,864 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:01,879 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:01,879 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58832)
+2025-01-23 00:35:01,879 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:01,879 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58832)
+2025-01-23 00:35:06,867 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:06,867 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:06,867 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:06,867 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58835)
+2025-01-23 00:35:06,867 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:06,867 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58835)
+2025-01-23 00:35:11,865 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:11,865 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:11,878 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:11,878 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58838)
+2025-01-23 00:35:11,879 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:11,879 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58838)
+2025-01-23 00:35:16,867 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:16,867 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:16,867 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:16,867 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58843)
+2025-01-23 00:35:16,867 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:16,867 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58843)
+2025-01-23 00:35:21,865 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:21,865 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:21,865 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:21,865 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58850)
+2025-01-23 00:35:21,866 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:21,866 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58850)
+2025-01-23 00:35:26,888 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:26,888 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:26,888 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:26,888 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58853)
+2025-01-23 00:35:26,888 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:26,888 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58853)
+2025-01-23 00:35:31,891 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:31,892 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:31,908 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:31,909 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58855)
+2025-01-23 00:35:31,909 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:31,909 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58855)
+2025-01-23 00:35:36,910 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:36,910 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:36,910 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58856)
+2025-01-23 00:35:36,910 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:36,911 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:36,911 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58856)
+2025-01-23 00:35:41,908 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:41,908 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:41,922 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:41,922 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58858)
+2025-01-23 00:35:41,922 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:41,924 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58858)
+2025-01-23 00:35:46,925 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:46,925 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:46,925 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:46,925 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58863)
+2025-01-23 00:35:46,926 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:46,926 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58863)
+2025-01-23 00:35:51,932 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:51,932 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:51,932 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:51,932 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58870)
+2025-01-23 00:35:51,932 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:51,932 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58870)
+2025-01-23 00:35:56,939 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:35:56,939 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:35:56,953 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:35:56,953 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58871)
+2025-01-23 00:35:56,954 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:35:56,954 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58871)
+2025-01-23 00:36:01,954 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:01,954 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:01,954 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:01,954 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58875)
+2025-01-23 00:36:01,954 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:01,954 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58875)
+2025-01-23 00:36:06,944 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:06,944 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:06,944 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:06,944 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58879)
+2025-01-23 00:36:06,944 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:06,944 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58879)
+2025-01-23 00:36:11,967 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:11,968 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:11,983 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:11,983 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58880)
+2025-01-23 00:36:11,984 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:11,984 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58880)
+2025-01-23 00:36:16,974 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:16,974 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:16,989 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:16,989 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58883)
+2025-01-23 00:36:16,990 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:16,990 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58883)
+2025-01-23 00:36:22,006 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:22,006 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:22,021 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:22,021 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58889)
+2025-01-23 00:36:22,021 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:22,021 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58889)
+2025-01-23 00:36:27,032 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:27,032 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:27,032 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:27,032 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58890)
+2025-01-23 00:36:27,033 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:27,033 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58890)
+2025-01-23 00:36:32,031 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:32,031 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:32,046 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:32,046 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58891)
+2025-01-23 00:36:32,046 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:32,046 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58891)
+2025-01-23 00:36:37,040 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:37,040 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:37,040 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:37,040 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58893)
+2025-01-23 00:36:37,040 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:37,041 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58893)
+2025-01-23 00:36:42,056 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:42,056 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:42,071 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:42,071 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58894)
+2025-01-23 00:36:42,071 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:42,071 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58894)
+2025-01-23 00:36:47,081 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:47,081 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:47,081 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:47,081 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58895)
+2025-01-23 00:36:47,081 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:47,082 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58895)
+2025-01-23 00:36:51,596 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:51,596 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:51,596 - server.server - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 1/5
+2025-01-23 00:36:51,597 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 1/5
+2025-01-23 00:36:51,597 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:51,599 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58901)
+2025-01-23 00:36:51,601 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:51,604 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:51,604 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:51,604 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58902)
+2025-01-23 00:36:51,604 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58901)
+2025-01-23 00:36:51,604 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:51,604 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:51,604 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58902)
+2025-01-23 00:36:52,081 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:52,081 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:52,082 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58903)
+2025-01-23 00:36:52,082 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:52,082 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:52,082 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58903)
+2025-01-23 00:36:55,942 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:55,943 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:55,944 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:55,945 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58904)
+2025-01-23 00:36:55,945 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:55,945 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58904)
+2025-01-23 00:36:55,954 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:55,956 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:55,957 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:55,957 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58905)
+2025-01-23 00:36:55,958 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:55,958 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58905)
+2025-01-23 00:36:57,086 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:36:57,086 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:36:57,086 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:36:57,086 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58906)
+2025-01-23 00:36:57,086 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:36:57,086 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58906)
+2025-01-23 00:37:02,089 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:02,089 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:02,089 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:02,089 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58910)
+2025-01-23 00:37:02,089 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:02,089 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58910)
+2025-01-23 00:37:07,087 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:07,087 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:07,087 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:07,087 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58913)
+2025-01-23 00:37:07,087 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:07,087 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58913)
+2025-01-23 00:37:12,098 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:12,098 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:12,113 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:12,113 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58914)
+2025-01-23 00:37:12,113 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:12,113 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58914)
+2025-01-23 00:37:17,122 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:17,122 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:17,122 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:17,122 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58918)
+2025-01-23 00:37:17,122 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:17,123 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58918)
+2025-01-23 00:37:22,124 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:22,124 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:22,138 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:22,138 - server.server - INFO - Клиент отключился: ('192.168.0.164', 58922)
+2025-01-23 00:37:22,138 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:22,138 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 58922)
+2025-01-23 00:37:27,136 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:27,136 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:27,136 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:27,136 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50627)
+2025-01-23 00:37:27,136 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:27,136 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50627)
+2025-01-23 00:37:32,133 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:32,133 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:32,147 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:32,147 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50628)
+2025-01-23 00:37:32,147 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:32,147 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50628)
+2025-01-23 00:37:37,158 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:37,158 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:37,159 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:37,159 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50629)
+2025-01-23 00:37:37,159 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:37,159 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50629)
+2025-01-23 00:37:42,147 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:42,147 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:42,147 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:42,147 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50637)
+2025-01-23 00:37:42,147 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:42,147 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50637)
+2025-01-23 00:37:47,149 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:47,150 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:47,150 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50638)
+2025-01-23 00:37:47,150 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:47,150 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:47,150 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50638)
+2025-01-23 00:37:52,153 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:52,153 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:52,153 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:52,153 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50644)
+2025-01-23 00:37:52,153 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:52,154 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50644)
+2025-01-23 00:37:57,162 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:37:57,162 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:37:57,162 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:37:57,162 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50646)
+2025-01-23 00:37:57,163 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:37:57,163 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50646)
+2025-01-23 00:38:02,174 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:02,174 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:02,174 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:02,174 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50652)
+2025-01-23 00:38:02,174 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:02,174 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50652)
+2025-01-23 00:38:07,187 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:07,187 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:07,187 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:07,187 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50656)
+2025-01-23 00:38:07,188 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:07,188 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 50656)
+2025-01-23 00:38:12,189 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:12,189 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:12,189 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55779)
+2025-01-23 00:38:12,189 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:12,189 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:12,189 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55779)
+2025-01-23 00:38:17,184 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:17,184 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:17,184 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:17,184 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55834)
+2025-01-23 00:38:17,184 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:17,184 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55834)
+2025-01-23 00:38:22,192 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:22,192 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:22,207 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:22,207 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55840)
+2025-01-23 00:38:22,207 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:22,207 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55840)
+2025-01-23 00:38:27,202 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:27,202 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:27,203 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:27,203 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55855)
+2025-01-23 00:38:27,203 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:27,203 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55855)
+2025-01-23 00:38:32,201 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:32,201 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:32,201 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:32,201 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55863)
+2025-01-23 00:38:32,201 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:32,201 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55863)
+2025-01-23 00:38:37,199 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:37,199 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:37,199 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:37,199 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55864)
+2025-01-23 00:38:37,200 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:37,200 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55864)
+2025-01-23 00:38:42,194 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:42,194 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:42,194 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:42,194 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55867)
+2025-01-23 00:38:42,194 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:42,194 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55867)
+2025-01-23 00:38:47,205 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:47,205 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:47,205 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:47,205 - server.server - INFO - Клиент отключился: ('192.168.0.164', 55869)
+2025-01-23 00:38:47,206 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:47,206 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 55869)
+2025-01-23 00:38:52,207 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:38:52,208 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:38:52,208 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54373)
+2025-01-23 00:38:52,208 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:38:52,208 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:38:52,208 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54373)
+2025-01-23 00:39:00,019 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:00,020 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:00,036 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:00,036 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54378)
+2025-01-23 00:39:00,036 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:00,036 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54378)
+2025-01-23 00:39:05,047 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:05,047 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:05,047 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:05,047 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54383)
+2025-01-23 00:39:05,048 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:05,048 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54383)
+2025-01-23 00:39:10,062 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:10,062 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:10,062 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:10,062 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54385)
+2025-01-23 00:39:10,062 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:10,062 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54385)
+2025-01-23 00:39:15,065 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:15,065 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:15,065 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:15,065 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54386)
+2025-01-23 00:39:15,065 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:15,065 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54386)
+2025-01-23 00:39:20,062 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:20,062 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:20,062 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:20,062 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54389)
+2025-01-23 00:39:20,062 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:20,062 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54389)
+2025-01-23 00:39:25,066 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:25,066 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:25,066 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:25,066 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54394)
+2025-01-23 00:39:25,066 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:25,066 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54394)
+2025-01-23 00:39:30,066 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:30,066 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:30,080 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:30,080 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54436)
+2025-01-23 00:39:30,080 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:30,080 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54436)
+2025-01-23 00:39:35,088 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:35,088 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:35,088 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:35,088 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54460)
+2025-01-23 00:39:35,089 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:35,089 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54460)
+2025-01-23 00:39:40,091 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:40,091 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:40,091 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54482)
+2025-01-23 00:39:40,091 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:40,092 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:40,092 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54482)
+2025-01-23 00:39:45,098 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:45,098 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:45,112 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:45,112 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54486)
+2025-01-23 00:39:45,112 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:45,113 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54486)
+2025-01-23 00:39:50,110 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:50,110 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:50,110 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:50,110 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54493)
+2025-01-23 00:39:50,110 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:50,110 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54493)
+2025-01-23 00:39:55,101 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:55,101 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:55,116 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:55,116 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54495)
+2025-01-23 00:39:55,117 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:55,117 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54495)
+2025-01-23 00:39:56,386 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:56,386 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:56,388 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:39:56,388 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:39:56,390 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:56,390 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:39:56,390 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:56,390 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:39:57,481 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:57,481 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:57,483 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:57,483 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54499)
+2025-01-23 00:39:57,483 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:57,483 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54499)
+2025-01-23 00:39:57,495 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:57,495 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:57,498 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:57,498 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54500)
+2025-01-23 00:39:57,498 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:57,498 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54500)
+2025-01-23 00:39:59,471 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:39:59,471 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:39:59,472 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:39:59,472 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:39:59,472 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:39:59,472 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:39:59,472 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:39:59,472 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:39:59,472 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:39:59,473 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:39:59,473 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:39:59,474 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:39:59,475 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54503)
+2025-01-23 00:39:59,475 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:39:59,475 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54503)
+2025-01-23 00:40:00,117 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:00,117 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:00,117 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:00,118 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54505)
+2025-01-23 00:40:00,118 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:00,118 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54505)
+2025-01-23 00:40:05,119 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:05,119 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:05,143 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:05,143 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54519)
+2025-01-23 00:40:05,143 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:05,143 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54519)
+2025-01-23 00:40:10,131 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:10,132 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:10,132 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:10,132 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54521)
+2025-01-23 00:40:10,132 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:10,132 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54521)
+2025-01-23 00:40:15,142 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:15,142 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:15,142 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:15,142 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54530)
+2025-01-23 00:40:15,142 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:15,143 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54530)
+2025-01-23 00:40:20,138 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:20,138 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:20,138 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:20,139 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54540)
+2025-01-23 00:40:20,139 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:20,139 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54540)
+2025-01-23 00:40:25,137 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:25,137 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:25,137 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:25,137 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54543)
+2025-01-23 00:40:25,137 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:25,137 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54543)
+2025-01-23 00:40:30,149 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:30,149 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:30,149 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:30,150 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54547)
+2025-01-23 00:40:30,150 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:30,150 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54547)
+2025-01-23 00:40:36,587 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:36,587 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:36,587 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54553)
+2025-01-23 00:40:36,587 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:36,587 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:36,588 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54553)
+2025-01-23 00:40:41,584 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:41,584 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:41,584 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:41,585 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54558)
+2025-01-23 00:40:41,585 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:41,585 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54558)
+2025-01-23 00:40:46,598 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:46,598 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:46,613 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:46,613 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54563)
+2025-01-23 00:40:46,613 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:46,613 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54563)
+2025-01-23 00:40:48,950 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:48,950 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:48,951 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:40:48,951 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:40:48,952 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:48,952 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:40:48,952 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:48,952 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:40:49,700 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:49,700 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:49,702 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:49,702 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54565)
+2025-01-23 00:40:49,702 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:49,702 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54565)
+2025-01-23 00:40:49,714 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:49,715 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:49,718 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:49,718 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54566)
+2025-01-23 00:40:49,718 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:49,718 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54566)
+2025-01-23 00:40:51,124 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:51,124 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:51,124 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:40:51,125 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:40:51,125 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:40:51,125 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:40:51,125 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:40:51,125 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:40:51,125 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:40:51,125 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:40:51,126 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:40:51,127 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:51,127 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54569)
+2025-01-23 00:40:51,127 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:51,127 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54569)
+2025-01-23 00:40:51,601 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:51,601 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:51,616 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:51,616 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54570)
+2025-01-23 00:40:51,616 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:51,616 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54570)
+2025-01-23 00:40:56,622 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:40:56,622 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:40:56,636 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:40:56,636 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54571)
+2025-01-23 00:40:56,636 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:40:56,636 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54571)
+2025-01-23 00:41:01,637 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:01,638 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:01,638 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:01,638 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54576)
+2025-01-23 00:41:01,638 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:01,638 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54576)
+2025-01-23 00:41:06,630 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:06,630 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:06,648 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:06,648 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54580)
+2025-01-23 00:41:06,648 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:06,648 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54580)
+2025-01-23 00:41:11,657 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:11,657 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:11,657 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:11,657 - server.server - INFO - Клиент отключился: ('192.168.0.164', 54583)
+2025-01-23 00:41:11,657 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:11,657 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 54583)
+2025-01-23 00:41:16,648 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:16,649 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:16,663 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:16,663 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64673)
+2025-01-23 00:41:16,663 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:16,663 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64673)
+2025-01-23 00:41:21,684 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:21,684 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:21,684 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:21,684 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64677)
+2025-01-23 00:41:21,685 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:21,685 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64677)
+2025-01-23 00:41:24,436 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:24,436 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:24,438 - server.server - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 1/5
+2025-01-23 00:41:24,438 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 1/5
+2025-01-23 00:41:24,439 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:24,440 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64678)
+2025-01-23 00:41:24,440 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:24,440 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64678)
+2025-01-23 00:41:24,442 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:24,442 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:24,444 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:24,444 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64679)
+2025-01-23 00:41:24,444 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:24,444 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64679)
+2025-01-23 00:41:26,371 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:26,371 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:26,373 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:26,373 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64680)
+2025-01-23 00:41:26,373 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:26,373 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64680)
+2025-01-23 00:41:26,379 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:26,380 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:26,382 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:26,382 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64681)
+2025-01-23 00:41:26,382 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:26,382 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64681)
+2025-01-23 00:41:26,677 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:26,678 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:26,678 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:26,678 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64682)
+2025-01-23 00:41:26,678 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:26,678 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64682)
+2025-01-23 00:41:31,682 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:31,682 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:31,697 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:31,697 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64684)
+2025-01-23 00:41:31,697 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:31,697 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64684)
+2025-01-23 00:41:36,703 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:41:36,704 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:41:36,704 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:41:36,704 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64688)
+2025-01-23 00:41:36,704 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:41:36,704 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64688)

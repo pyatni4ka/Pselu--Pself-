@@ -97,36 +97,43 @@ def load_image_to_pixmap(url):
         logger.error(f"Ошибка при загрузке изображения: {str(e)}")
         return None
 
-class ImageViewer(QDialog):
-    def __init__(self, image_path):
-        super().__init__()
-        self.setWindowTitle("Просмотр изображения")
-        self.setMinimumSize(600, 600)
-        layout = QVBoxLayout()
-        self.image_label = QLabel()
-        self.image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        
-        # Загружаем изображение
-        try:
-            if os.path.exists(image_path):
-                pixmap = QPixmap(image_path)
-                if not pixmap.isNull():
-                    pixmap = pixmap.scaled(
-                        600, 600, 
-                        Qt.AspectRatioMode.KeepAspectRatio, 
-                        Qt.TransformationMode.SmoothTransformation
-                    )
-                    self.image_label.setPixmap(pixmap)
-                else:
-                    self.image_label.setText("Ошибка: изображение повреждено")
-            else:
-                self.image_label.setText("Ошибка: файл не найден")
-        except Exception as e:
-            logger.error(f"Ошибка при загрузке изображения: {str(e)}")
-            self.image_label.setText(f"Ошибка загрузки: {str(e)}")
-        
-        layout.addWidget(self.image_label)
-        self.setLayout(layout)
+class ClickableLabel(QLabel):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.original_pixmap = None
+
+    def mouseReleaseEvent(self, event):
+        if self.original_pixmap and event.button() == Qt.MouseButton.LeftButton:
+            dialog = QDialog(self.window())
+            dialog.setWindowTitle("Просмотр изображения")
+            dialog.setWindowFlags(Qt.WindowType.Window | Qt.WindowType.WindowStaysOnTopHint)
+            dialog.setModal(True)
+            
+            layout = QVBoxLayout()
+            
+            image_label = QLabel()
+            image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            
+            # Получаем размер экрана
+            screen = QApplication.primaryScreen().geometry()
+            screen_width = screen.width() * 0.4  # 40% от ширины экрана
+            screen_height = screen.height() * 0.4  # 40% от высоты экрана
+            
+            # Масштабируем изображение, сохраняя пропорции
+            scaled_pixmap = self.original_pixmap.scaled(
+                int(screen_width),
+                int(screen_height),
+                Qt.AspectRatioMode.KeepAspectRatio,
+                Qt.TransformationMode.SmoothTransformation
+            )
+            
+            image_label.setPixmap(scaled_pixmap)
+            layout.addWidget(image_label)
+            
+            dialog.setLayout(layout)
+            dialog.resize(scaled_pixmap.width() + 40, scaled_pixmap.height() + 40)
+            dialog.exec_()
 
 class TestingWindow(QMainWindow):
     """
@@ -377,9 +384,8 @@ class TestingWindow(QMainWindow):
                 image_container = QWidget()
                 image_layout = QVBoxLayout(image_container)
                 
-                image_label = QLabel()
+                image_label = ClickableLabel()
                 image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                image_label.setCursor(Qt.CursorShape.PointingHandCursor)
                 
                 pixmap = load_image_to_pixmap(url)
                 if pixmap and not pixmap.isNull():
@@ -391,7 +397,6 @@ class TestingWindow(QMainWindow):
                     image_label.setPixmap(scaled_pixmap)
                     # Сохраняем оригинальный pixmap для просмотра
                     image_label.original_pixmap = pixmap
-                    image_label.mousePressEvent = lambda _, label=image_label: self.show_full_image(label)
                 else:
                     image_label.setText("Ошибка загрузки изображения")
                 
@@ -439,9 +444,8 @@ class TestingWindow(QMainWindow):
             
             # Добавляем изображения ответа
             for url in answer['images']:
-                image_label = QLabel()
+                image_label = ClickableLabel()
                 image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                image_label.setCursor(Qt.CursorShape.PointingHandCursor)
                 
                 pixmap = load_image_to_pixmap(url)
                 if pixmap and not pixmap.isNull():
@@ -453,7 +457,6 @@ class TestingWindow(QMainWindow):
                     image_label.setPixmap(scaled_pixmap)
                     # Сохраняем оригинальный pixmap для просмотра
                     image_label.original_pixmap = pixmap
-                    image_label.mousePressEvent = lambda _, label=image_label: self.show_full_image(label)
                 else:
                     image_label.setText("Ошибка загрузки изображения")
                 
@@ -666,7 +669,38 @@ class TestingWindow(QMainWindow):
     def update_timer_label(self):
         minutes = self.remaining_time // 60
         seconds = self.remaining_time % 60
-        self.timer_label.setText(f"Осталось времени: {minutes:02d}:{seconds:02d}")
+        time_text = f"Осталось времени: {minutes:02d}:{seconds:02d}"
+        
+        # Изменяем цвет в зависимости от оставшегося времени
+        if self.remaining_time <= 120:  # меньше 2 минут
+            self.timer_label.setStyleSheet("""
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                background-color: #e74c3c;
+                padding: 5px 10px;
+                border-radius: 5px;
+            """)
+        elif self.remaining_time <= 300:  # меньше 5 минут
+            self.timer_label.setStyleSheet("""
+                font-size: 14px;
+                font-weight: bold;
+                color: #2c3e50;
+                background-color: #f1c40f;
+                padding: 5px 10px;
+                border-radius: 5px;
+            """)
+        else:
+            self.timer_label.setStyleSheet("""
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                background-color: #2ecc71;
+                padding: 5px 10px;
+                border-radius: 5px;
+            """)
+        
+        self.timer_label.setText(time_text)
 
     def update_timer(self):
         if self.remaining_time > 0:
@@ -802,7 +836,7 @@ class TestingWindow(QMainWindow):
             if i == self.current_question:
                 base_color = "#3498db"  # Текущий вопрос - синий
             elif str(self.selected_questions[i]['id']) in self.user_answers:
-                base_color = "#27ae60"  # Отвеченный вопрос - зеленый
+                base_color = "#f39c12"  # Отвеченный вопрос - оранжевый
             else:
                 base_color = "#bdc3c7"  # Неотвеченный вопрос - серый
             
@@ -817,7 +851,7 @@ class TestingWindow(QMainWindow):
                     font-weight: bold;
                 }}
                 QPushButton:hover {{
-                    background-color: {base_color if base_color == "#3498db" else "#2c3e50"};
+                    background-color: {base_color if base_color == "#3498db" else "#d35400"};
                 }}
             """)
             

@@ -1,0 +1,894 @@
+[2025-01-23 00:34:46] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-23 00:34:46] students_app - INFO - Запуск приложения
+[2025-01-23 00:34:46] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:34:46] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:34:46] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:34:51] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:34:51] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:34:51] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:34:56] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:34:56] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:34:56] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Получены вопросы: [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}]
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Вопрос 1: 1
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Вопрос 2: 1
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Вопрос 3: 1
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Вопрос 4: 1
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Вопрос 5: 1
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Выбранные вопросы: [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}]
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:01] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:01] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:01] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:01] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:01] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:05] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:05] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:06] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:06] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:06] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:06] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:08] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:08] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:09] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:09] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:10] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:10] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:11] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:11] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:11] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:11] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:11] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:13] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:13] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:15] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:15] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:16] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:16] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:16] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:19] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:19] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:21] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:21] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:21] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:21] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:21] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:21] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:21] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:21] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:21] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:23] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:23] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:23] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:23] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:23] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:23] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:26] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:26] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:26] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:31] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:31] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:31] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:32] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:32] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:32] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:32] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:32] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:32] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:33] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:33] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:33] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:33] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:33] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:34] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:35] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:35] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:36] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:36] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:36] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:36] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:36] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:37] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:37] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:38] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:38] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:39] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:39] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:40] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:40] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:41] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:41] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:41] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:41] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:41] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:42] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:42] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Текст вопроса: 
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - URL изображений вопроса: ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Найдены изображения для отображения
+[2025-01-23 00:35:43] students_app.windows.testing - DEBUG - Обработка изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Попытка загрузки изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 00:35:43] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 00:35:46] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:46] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:46] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:51] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:51] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:51] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:35:56] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:35:56] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:35:56] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:01] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:01] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:01] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:06] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:06] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:06] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:11] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:11] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:11] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:16] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:16] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:16] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:22] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:22] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:22] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:27] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:27] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:27] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:32] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:32] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:32] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:37] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:37] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:37] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:42] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:42] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:42] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:47] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:47] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:47] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:52] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:52] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:52] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:36:57] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:36:57] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:36:57] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:02] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:02] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:02] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:07] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:07] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:07] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:12] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:12] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:12] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:17] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:17] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:17] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:22] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:22] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:22] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:27] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:27] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:27] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:32] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:32] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:32] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:37] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:37] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:37] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:42] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:42] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:42] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:47] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:47] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:47] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:52] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:52] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:52] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:37:57] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:37:57] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:37:57] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:02] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:02] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:02] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:07] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:07] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:07] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:12] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:12] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:12] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:17] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:17] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:17] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:22] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:22] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:22] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:27] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:27] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:27] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:32] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:32] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:32] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:37] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:37] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:37] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:42] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:42] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:42] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:47] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:47] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:47] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 00:38:52] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 00:38:52] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 00:38:52] students_app.windows.login - DEBUG - Соединение установлено успешно
