@@ -1,0 +1,275 @@
+[2025-01-23 01:57:28] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-23 01:57:28] students_app - INFO - Запуск приложения
+[2025-01-23 01:57:28] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:28] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:28] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:57:33] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:33] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:33] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:57:38] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:38] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:38] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:57:43] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:43] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:43] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Получены вопросы: [{'id': 32, 'category': 'Вопрос 1', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}]
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Вопрос 1: 1
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Вопрос 2: 1
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Вопрос 3: 1
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Вопрос 4: 1
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Вопрос 5: 1
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Выбранные вопросы: [{'id': 32, 'category': 'Вопрос 1', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}]
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}
+[2025-01-23 01:57:46] students_app.windows.testing - DEBUG - Текст вопроса: ![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:57:46] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:57:48] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:48] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:48] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:57:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:53] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:57:58] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:57:58] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:57:58] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:03] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:03] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:03] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:08] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:08] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:08] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:13] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:13] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:13] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:18] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:18] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:18] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:23] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:23] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:23] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:28] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:28] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:28] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:30] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 33, 'category': 'Вопрос 2', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}
+[2025-01-23 01:58:30] students_app.windows.testing - DEBUG - Текст вопроса: ![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:30] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:31] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 34, 'category': 'Вопрос 3', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}
+[2025-01-23 01:58:31] students_app.windows.testing - DEBUG - Текст вопроса: ![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:31] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:33] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 35, 'category': 'Вопрос 4', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}
+[2025-01-23 01:58:33] students_app.windows.testing - DEBUG - Текст вопроса: ![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:33] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:33] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:33] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:33] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:34] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 36, 'category': 'Вопрос 5', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}
+[2025-01-23 01:58:34] students_app.windows.testing - DEBUG - Текст вопроса: ![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Попытка загрузки изображения: f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Полный URL изображения: http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png
+[2025-01-23 01:58:34] students_app.windows.testing - INFO - Изображение успешно загружено из кэша
+[2025-01-23 01:58:38] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:38] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:38] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:43] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:43] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:43] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:48] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:48] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:48] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:53] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:58:58] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:58:58] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:58:58] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:03] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:03] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:03] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:08] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:08] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:08] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:13] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:13] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:13] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:18] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:18] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:18] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:23] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:23] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:23] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:28] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:28] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:28] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:33] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:33] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:33] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:38] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:38] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:38] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:43] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:43] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:43] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:48] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:48] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:48] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:53] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:59:58] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:59:58] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:59:58] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:03] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:03] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:03] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:08] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:08] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:08] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:13] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:13] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:13] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:18] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:18] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:18] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:23] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:23] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:24] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:29] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:29] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:29] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:34] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:34] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:34] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:39] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:39] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:39] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:44] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:44] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:44] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:49] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:49] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:49] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:54] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:54] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:54] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:00:59] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:00:59] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:00:59] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:04] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:04] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:04] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:09] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:09] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:09] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:14] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:14] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:14] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:19] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:19] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:19] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:24] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:24] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:24] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:29] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:29] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:29] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:34] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:34] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:34] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:39] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:39] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:39] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:44] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:44] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:44] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:49] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:49] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:49] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:54] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:54] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:54] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:01:59] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:01:59] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:01:59] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:02:04] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:02:04] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:02:06] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:02:06] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out
+[2025-01-23 02:02:11] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:02:11] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:02:13] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:02:13] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out

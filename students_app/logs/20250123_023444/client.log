@@ -1,0 +1,77 @@
+[2025-01-23 02:34:44] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-23 02:34:44] students_app - INFO - Запуск приложения
+[2025-01-23 02:34:44] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:34:44] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:34:44] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:34:49] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:34:49] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:34:49] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:34:54] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:34:54] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:34:54] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:34:59] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:34:59] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:34:59] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:04] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:04] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:04] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:09] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:09] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:09] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:14] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:14] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:14] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:19] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:19] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:19] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Получены вопросы: [{'id': 7, 'category': 'Вопрос 1', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 2', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 3', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}]
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Вопрос 1: 1
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Вопрос 2: 1
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Вопрос 3: 1
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Вопрос 4: 1
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Вопрос 5: 1
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Выбранные вопросы: [{'id': 7, 'category': 'Вопрос 1', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 2', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 3', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}]
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 7, 'category': 'Вопрос 1', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}
+[2025-01-23 02:35:19] students_app.windows.testing - DEBUG - Текст вопроса: file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png
+[2025-01-23 02:35:24] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:24] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:24] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:29] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:29] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:29] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:34] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:34] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:34] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:39] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:39] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:39] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:44] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:44] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:44] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:49] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:49] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:49] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:35:54] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:54] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:35:56] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:35:56] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out
+[2025-01-23 02:36:01] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:36:01] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:36:03] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:36:03] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out
+[2025-01-23 02:36:08] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:36:08] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:36:10] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:36:10] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out

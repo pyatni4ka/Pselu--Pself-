@@ -1,0 +1,30 @@
+[2025-01-23 02:52:19] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-23 02:52:19] students_app - INFO - Запуск приложения
+[2025-01-23 02:52:19] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:19] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:52:21] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:52:21] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out
+[2025-01-23 02:52:26] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:26] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:52:26] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:52:31] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:31] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:52:31] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:52:36] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:36] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:52:36] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:52:41] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:41] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:52:41] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 02:52:46] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:46] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 02:52:48] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 02:52:48] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out

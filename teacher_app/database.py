@@ -60,6 +60,7 @@ def initialize_db():
                 student_id INTEGER,
                 lab_id INTEGER,
                 score INTEGER,
+                duration INTEGER DEFAULT 0,
                 FOREIGN KEY (student_id) REFERENCES students (id),
                 FOREIGN KEY (lab_id) REFERENCES lab_works (id)
             );""")
@@ -81,5 +82,24 @@ def initialize_db():
     else:
         print("Ошибка! Не удалось создать соединение с базой данных.")
 
+def update_database_structure():
+    """Обновляет структуру существующей базы данных"""
+    conn = create_connection(DB_FILE)
+    if conn is not None:
+        try:
+            cursor = conn.cursor()
+            # Проверяем наличие столбца duration
+            cursor.execute("PRAGMA table_info(results)")
+            columns = [column[1] for column in cursor.fetchall()]
+            if 'duration' not in columns:
+                cursor.execute("ALTER TABLE results ADD COLUMN duration INTEGER DEFAULT 0")
+                conn.commit()
+                print("Добавлен столбец duration в таблицу results")
+        except Error as e:
+            print(f"Ошибка при обновлении структуры базы данных: {e}")
+        finally:
+            conn.close()
+
 if __name__ == "__main__":
     initialize_db()
+    update_database_structure()

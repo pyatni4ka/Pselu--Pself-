@@ -1,0 +1,51 @@
+[2025-01-23 01:24:13] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:13] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:13] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:13] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-23 01:24:13] students_app.network - INFO - Получен префикс длины: 48 байт
+[2025-01-23 01:24:13] students_app.network - INFO - Получено 48 из 48 байт
+[2025-01-23 01:24:13] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student_id': 1}}
+[2025-01-23 01:24:13] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:13] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:13] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:13] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-23 01:24:13] students_app.network - INFO - Получен префикс длины: 86 байт
+[2025-01-23 01:24:13] students_app.network - INFO - Получено 86 из 86 байт
+[2025-01-23 01:24:13] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 5, 'theme': '123', 'time': 213}]}}
+[2025-01-23 01:24:13] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:13] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:13] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:13] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 1, 'lab_id': 5}}
+[2025-01-23 01:24:13] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-23 01:24:13] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-23 01:24:13] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}
+[2025-01-23 01:24:15] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:15] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:15] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:15] students_app.network - INFO - Отправляем данные: {'action': 'get_questions', 'data': {'lab_id': '5'}}
+[2025-01-23 01:24:15] students_app.network - INFO - Получен префикс длины: 149 байт
+[2025-01-23 01:24:15] students_app.network - INFO - Получено 149 из 149 байт
+[2025-01-23 01:24:15] students_app.network - INFO - Получен ответ: {'status': 'error', 'message': 'Неизвестное действие'}
+[2025-01-23 01:24:16] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:16] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:16] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:16] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-23 01:24:16] students_app.network - INFO - Получен префикс длины: 86 байт
+[2025-01-23 01:24:16] students_app.network - INFO - Получено 86 из 86 байт
+[2025-01-23 01:24:16] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 5, 'theme': '123', 'time': 213}]}}
+[2025-01-23 01:24:16] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:16] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:16] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:16] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 1, 'lab_id': 5}}
+[2025-01-23 01:24:16] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-23 01:24:16] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-23 01:24:16] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}
+[2025-01-23 01:24:20] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:20] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:24:20] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:24:20] students_app.network - INFO - Отправляем данные: {'action': 'get_questions', 'data': {'lab_id': '5'}}
+[2025-01-23 01:24:20] students_app.network - INFO - Получен префикс длины: 149 байт
+[2025-01-23 01:24:20] students_app.network - INFO - Получено 149 из 149 байт
+[2025-01-23 01:24:20] students_app.network - INFO - Получен ответ: {'status': 'error', 'message': 'Неизвестное действие'}
+[2025-01-23 01:26:06] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:06] students_app.network - INFO - Создан сокет, пытаемся подключиться...

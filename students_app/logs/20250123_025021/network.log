@@ -1,0 +1,14 @@
+[2025-01-23 02:50:29] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:50:29] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:50:30] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:50:30] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': '123', 'last_name': '123', 'middle_name': '', 'group_name': '123', 'year': 123}}
+[2025-01-23 02:50:30] students_app.network - INFO - Получен префикс длины: 178 байт
+[2025-01-23 02:50:30] students_app.network - INFO - Получено 178 из 178 байт
+[2025-01-23 02:50:30] students_app.network - INFO - Получен ответ: {'status': 'error', 'message': 'Необходимо предоставить student_id'}
+[2025-01-23 02:50:46] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:50:46] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:50:46] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:50:46] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-23 02:50:46] students_app.network - INFO - Получен префикс длины: 178 байт
+[2025-01-23 02:50:46] students_app.network - INFO - Получено 178 из 178 байт
+[2025-01-23 02:50:46] students_app.network - INFO - Получен ответ: {'status': 'error', 'message': 'Необходимо предоставить student_id'}

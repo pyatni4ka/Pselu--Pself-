@@ -1,0 +1,84 @@
+[2025-01-23 01:24:02] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-23 01:24:02] students_app - INFO - Запуск приложения
+[2025-01-23 01:24:02] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:02] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:02] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:07] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:07] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:07] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:12] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:12] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:12] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:15] students_app.windows.testing - ERROR - Ошибка при загрузке вопросов: Неизвестное действие
+[2025-01-23 01:24:17] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:17] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:17] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:20] students_app.windows.testing - ERROR - Ошибка при загрузке вопросов: Неизвестное действие
+[2025-01-23 01:24:23] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:23] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:23] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:28] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:28] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:28] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:33] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:33] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:33] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:38] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:38] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:38] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:43] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:43] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:43] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:48] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:48] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:48] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:53] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:24:58] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:24:58] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:24:58] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:03] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:03] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:03] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:08] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:08] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:08] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:13] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:13] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:13] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:18] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:18] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:18] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:23] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:23] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:23] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:28] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:28] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:28] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:33] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:33] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:33] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:38] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:38] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:38] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:43] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:43] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:43] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:48] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:48] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:48] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:53] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:25:58] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:25:58] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:25:58] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:03] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:03] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:05] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 01:26:05] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out

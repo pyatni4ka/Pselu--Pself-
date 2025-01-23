@@ -1,0 +1,30 @@
+[2025-01-23 02:28:17] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:28:17] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:28:17] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:28:17] students_app.network - INFO - Отправляем данные: {'action': 'register', 'data': {'first_name': '123', 'last_name': '123', 'middle_name': '', 'group_name': '123', 'year': 123}}
+[2025-01-23 02:28:17] students_app.network - INFO - Получен префикс длины: 48 байт
+[2025-01-23 02:28:17] students_app.network - INFO - Получено 48 из 48 байт
+[2025-01-23 02:28:17] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student_id': 1}}
+[2025-01-23 02:28:18] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:28:18] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:28:18] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:28:18] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-23 02:28:18] students_app.network - INFO - Получен префикс длины: 84 байт
+[2025-01-23 02:28:18] students_app.network - INFO - Получено 84 из 84 байт
+[2025-01-23 02:28:18] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 1, 'theme': '123', 'time': 5}]}}
+[2025-01-23 02:28:18] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:28:18] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:28:18] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:28:18] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 1, 'lab_id': 1}}
+[2025-01-23 02:28:18] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-23 02:28:18] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-23 02:28:18] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}
+[2025-01-23 02:28:25] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:28:25] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:28:25] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:28:25] students_app.network - INFO - Отправляем данные: {'action': 'get_questions', 'data': {'lab_id': '1'}}
+[2025-01-23 02:28:25] students_app.network - INFO - Получен префикс длины: 5888 байт
+[2025-01-23 02:28:25] students_app.network - INFO - Получено 2048 из 5888 байт
+[2025-01-23 02:28:25] students_app.network - INFO - Получено 4096 из 5888 байт
+[2025-01-23 02:28:25] students_app.network - INFO - Получено 5888 из 5888 байт
+[2025-01-23 02:28:25] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'questions': [{'id': 1, 'category': 'Вопрос 1', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 2, 'category': 'Вопрос 2', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 3, 'category': 'Вопрос 3', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 4, 'category': 'Вопрос 4', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 5, 'category': 'Вопрос 5', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}], 'time_limit': 5}}

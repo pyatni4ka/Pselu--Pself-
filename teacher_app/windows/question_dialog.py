@@ -54,14 +54,14 @@ class ImageTextEdit(QTextEdit):
         image_hash = hashlib.md5(byte_array.data()).hexdigest()
         
         # Проверяем, есть ли уже такое изображение
-        static_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
+        static_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "teacher_app", "static")
         images_dir = os.path.join(static_dir, "images")
         os.makedirs(images_dir, exist_ok=True)
         
         # Ищем существующий файл с таким же хэшем
         for filename in os.listdir(images_dir):
             if filename.startswith(image_hash):
-                self.insertPlainText(f'![image]({filename})\n')
+                self.insertPlainText(f'![image]({filename})')
                 return
         
         # Если изображение новое, сохраняем его
@@ -72,7 +72,7 @@ class ImageTextEdit(QTextEdit):
             QMessageBox.warning(self, "Ошибка", "Не удалось сохранить изображение.")
             return
             
-        self.insertPlainText(f'![image]({filename})\n')
+        self.insertPlainText(f'![image]({filename})')
 
 class QuestionDialog(QDialog):
     def __init__(self, category="", question_number="", question_text="", answer1="", answer2="", answer3="", answer4="", correct_idx=1):

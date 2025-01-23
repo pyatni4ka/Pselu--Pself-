@@ -1,0 +1,53 @@
+[2025-01-23 01:26:15] students_app - INFO - Логгер инициализирован. Проверка кодировки: русский текст
+[2025-01-23 01:26:15] students_app - INFO - Запуск приложения
+[2025-01-23 01:26:15] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:15] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:17] students_app.windows.login - ERROR - Ошибка подключения к 192.168.0.164:9999: timed out
+[2025-01-23 01:26:17] students_app.windows.login - ERROR - Подробная информация об ошибке:
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\login.py", line 145, in check_connection
+    sock.connect((self.server_host, self.server_port))
+TimeoutError: timed out
+[2025-01-23 01:26:22] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:22] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:23] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:28] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:28] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:28] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:33] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:33] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:33] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Получены вопросы: [{'id': 32, 'category': 'Вопрос 1', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}]
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Вопрос 1: 1
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Вопрос 2: 1
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Вопрос 3: 1
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Вопрос 4: 1
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Вопрос 5: 1
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Выбранные вопросы: [{'id': 32, 'category': 'Вопрос 1', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}]
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Данные вопроса: {'id': 32, 'category': 'Вопрос 1', 'question_text': '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', 'answers': ['![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)', '![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)'], 'correct_index': 1}
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - Текст вопроса: ![image](f0e5fa2eca9154c1f1a00e18bd6df50c.png)
+[2025-01-23 01:26:37] students_app.windows.testing - DEBUG - URL изображений вопроса: []
+[2025-01-23 01:26:37] students_app.windows.testing - ERROR - Ошибка при обработке вопросов: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\testing.py", line 808, in handle_load_questions_response
+    self.display_question(self.selected_questions[self.current_question])
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\windows\testing.py", line 440, in display_question
+    if answer['text']:
+       ~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+[2025-01-23 01:26:38] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:38] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:38] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:43] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:43] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:43] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:48] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:48] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:48] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:53] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:53] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:53] students_app.windows.login - DEBUG - Соединение установлено успешно
+[2025-01-23 01:26:58] students_app.windows.login - DEBUG - Проверка подключения к 192.168.0.164:9999
+[2025-01-23 01:26:58] students_app.windows.login - DEBUG - Сокет создан, устанавливаем соединение...
+[2025-01-23 01:26:58] students_app.windows.login - DEBUG - Соединение установлено успешно

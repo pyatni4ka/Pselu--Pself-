@@ -64,6 +64,16 @@ def load_image_to_pixmap(url):
     logger.info(f"Попытка загрузки изображения: {url}")
     cache = ImageCache()
     
+    # Получаем настройки сервера
+    config = ConfigManager()
+    server_host = config.get_server_host()
+    static_port = config.get_static_port()  # Используем порт для статических файлов
+    
+    # Формируем полный URL, если передано только имя файла
+    if not url.startswith(('http://', 'https://')):
+        url = f"http://{server_host}:{static_port}/images/{url}"
+    logger.info(f"Полный URL изображения: {url}")
+    
     # Сначала пробуем получить QPixmap из кэша
     pixmap = cache.get(url)
     if pixmap and not pixmap.isNull():
@@ -75,9 +85,9 @@ def load_image_to_pixmap(url):
         logger.info("Загрузка изображения с сервера")
         parsed_url = urlparse(url)
         if parsed_url.hostname in ['localhost', '127.0.0.1'] or parsed_url.hostname.startswith('192.168.'):
-            response = requests.get(url, verify=False)
+            response = requests.get(url, verify=False, timeout=5)  # Добавляем таймаут
         else:
-            response = requests.get(url)
+            response = requests.get(url, timeout=5)  # Добавляем таймаут
         response.raise_for_status()
         
         # Создаем QPixmap из полученных данных
@@ -368,43 +378,42 @@ class TestingWindow(QMainWindow):
         # Отображаем текст вопроса
         question_text = question_data.get('question_text', '').strip()
         logger.debug(f"Текст вопроса: {question_text}")
-        self.question_label.setText(question_text)
         
-        # Отображаем изображения вопроса
-        question_images = question_data.get('question_images', [])
-        logger.debug(f"URL изображений вопроса: {question_images}")
-        
-        if question_images:
-            logger.debug("Найдены изображения для отображения")
+        # Проверяем, есть ли изображение в тексте вопроса
+        if '![image]' in question_text:
+            image_url = question_text.split('(')[1].rstrip(')')
             question_images_layout = QHBoxLayout()
             question_images_layout.setObjectName("question_images_layout")
             
-            for url in question_images:
-                logger.debug(f"Обработка изображения: {url}")
-                image_container = QWidget()
-                image_layout = QVBoxLayout(image_container)
-                
-                image_label = ClickableLabel()
-                image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                
-                pixmap = load_image_to_pixmap(url)
-                if pixmap and not pixmap.isNull():
-                    scaled_pixmap = pixmap.scaled(
-                        400, 300,
-                        Qt.AspectRatioMode.KeepAspectRatio,
-                        Qt.TransformationMode.SmoothTransformation
-                    )
-                    image_label.setPixmap(scaled_pixmap)
-                    # Сохраняем оригинальный pixmap для просмотра
-                    image_label.original_pixmap = pixmap
-                else:
-                    image_label.setText("Ошибка загрузки изображения")
-                
-                image_layout.addWidget(image_label)
-                question_images_layout.addWidget(image_container)
+            image_container = QWidget()
+            image_layout = QVBoxLayout(image_container)
+            
+            image_label = ClickableLabel()
+            image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            
+            pixmap = load_image_to_pixmap(image_url)
+            if pixmap and not pixmap.isNull():
+                scaled_pixmap = pixmap.scaled(
+                    400, 300,
+                    Qt.AspectRatioMode.KeepAspectRatio,
+                    Qt.TransformationMode.SmoothTransformation
+                )
+                image_label.setPixmap(scaled_pixmap)
+                # Сохраняем оригинальный pixmap для просмотра
+                image_label.original_pixmap = pixmap
+            else:
+                image_label.setText("Ошибка загрузки изображения")
+            
+            image_layout.addWidget(image_label)
+            question_images_layout.addWidget(image_container)
             
             self.layout.insertLayout(2, question_images_layout)
             self.question_images_layout = question_images_layout
+            
+            # Очищаем текст вопроса от markdown-разметки изображения
+            self.question_label.setText("")
+        else:
+            self.question_label.setText(question_text)
         
         # Создаем группу для радиокнопок
         self.answer_group = QButtonGroup()
@@ -436,18 +445,13 @@ class TestingWindow(QMainWindow):
             
             answer_container.addLayout(header_container)
             
-            # Если есть текст ответа, добавляем его
-            if answer['text']:
-                text_label = QLabel(answer['text'])
-                text_label.setWordWrap(True)
-                answer_container.addWidget(text_label)
-            
-            # Добавляем изображения ответа
-            for url in answer['images']:
+            # Проверяем, является ли ответ ссылкой на изображение
+            if '![image]' in answer:
+                image_url = answer.split('(')[1].rstrip(')')
                 image_label = ClickableLabel()
                 image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
                 
-                pixmap = load_image_to_pixmap(url)
+                pixmap = load_image_to_pixmap(image_url)
                 if pixmap and not pixmap.isNull():
                     scaled_pixmap = pixmap.scaled(
                         300, 200,
@@ -461,6 +465,12 @@ class TestingWindow(QMainWindow):
                     image_label.setText("Ошибка загрузки изображения")
                 
                 answer_container.addWidget(image_label)
+                # Не добавляем текстовую метку, если это изображение
+            else:
+                # Если есть текст ответа, добавляем его
+                text_label = QLabel(answer)
+                text_label.setWordWrap(True)
+                answer_container.addWidget(text_label)
             
             # Добавляем варианты в соответствующие ряды
             if i <= 2:
@@ -713,12 +723,13 @@ class TestingWindow(QMainWindow):
 
     def load_questions(self, lab_id):
         try:
-            if not self.get_student_id():
+            student_id = self.get_student_id()
+            if not student_id:
                 QMessageBox.critical(self, "Ошибка", "Не удалось получить student_id.")
                 self.switch_window("lab_selection")
                 return
             self.lab_id = lab_id
-            request = {'action': 'get_questions', 'data': {'lab_id': lab_id}}
+            request = {'action': 'get_questions', 'data': {'lab_id': lab_id, 'student_id': student_id}}
             worker = Worker(request)
             worker.signals.finished.connect(self.handle_load_questions_response)
             worker.signals.error.connect(self.handle_load_questions_error)

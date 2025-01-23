@@ -1,0 +1,18 @@
+[2025-01-23 02:52:38] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:38] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:52:38] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:52:38] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-23 02:52:38] students_app.network - INFO - Получен префикс длины: 162 байт
+[2025-01-23 02:52:38] students_app.network - INFO - Получено 162 из 162 байт
+[2025-01-23 02:52:38] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student_id': 2, 'name': 'Пятница Антон', 'group': 'ПС4-51'}}
+[2025-01-23 02:52:39] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:52:39] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:52:39] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:52:39] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-23 02:52:42] students_app.network - ERROR - Error connecting to 192.168.0.164:9999: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\network_workers.py", line 66, in run
+    length_prefix = sock.recv(4)
+                    ^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+

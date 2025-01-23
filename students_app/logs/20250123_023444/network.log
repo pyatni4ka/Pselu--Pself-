@@ -1,0 +1,62 @@
+[2025-01-23 02:34:58] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:34:58] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:34:58] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:34:58] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-23 02:34:58] students_app.network - INFO - Получен префикс длины: 162 байт
+[2025-01-23 02:34:58] students_app.network - INFO - Получено 162 из 162 байт
+[2025-01-23 02:34:58] students_app.network - INFO - Получен ответ: {'status': 'error', 'message': 'Неверные учетные данные'}
+[2025-01-23 02:35:17] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:17] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:17] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:17] students_app.network - INFO - Отправляем данные: {'action': 'register', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-23 02:35:17] students_app.network - INFO - Получен префикс длины: 48 байт
+[2025-01-23 02:35:17] students_app.network - INFO - Получено 48 из 48 байт
+[2025-01-23 02:35:17] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student_id': 2}}
+[2025-01-23 02:35:18] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:18] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:18] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:18] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-23 02:35:18] students_app.network - INFO - Получен префикс длины: 84 байт
+[2025-01-23 02:35:18] students_app.network - INFO - Получено 84 из 84 байт
+[2025-01-23 02:35:18] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 1, 'theme': '123', 'time': 5}]}}
+[2025-01-23 02:35:18] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:18] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:18] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:18] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 2, 'lab_id': 1}}
+[2025-01-23 02:35:18] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-23 02:35:18] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-23 02:35:18] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}
+[2025-01-23 02:35:19] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:19] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:19] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:19] students_app.network - INFO - Отправляем данные: {'action': 'get_questions', 'data': {'lab_id': '1'}}
+[2025-01-23 02:35:19] students_app.network - INFO - Получен префикс длины: 5890 байт
+[2025-01-23 02:35:19] students_app.network - INFO - Получено 2048 из 5890 байт
+[2025-01-23 02:35:19] students_app.network - INFO - Получено 4096 из 5890 байт
+[2025-01-23 02:35:19] students_app.network - INFO - Получено 5890 из 5890 байт
+[2025-01-23 02:35:19] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'questions': [{'id': 7, 'category': 'Вопрос 1', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 8, 'category': 'Вопрос 2', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 9, 'category': 'Вопрос 3', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 10, 'category': 'Вопрос 4', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}, {'id': 11, 'category': 'Вопрос 5', 'question_text': 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'answers': ['file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png', 'file:///C:/Users/MrDes/OneDrive/Изображения/Screenshots/Снимок экрана 2024-12-22 122551.png'], 'correct_index': 1}], 'time_limit': 5}}
+[2025-01-23 02:35:48] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:48] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:48] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:48] students_app.network - INFO - Отправляем данные: {'action': 'submit_test', 'data': {'student_id': 2, 'lab_id': '1', 'answers': {'7': '1'}}}
+[2025-01-23 02:35:48] students_app.network - INFO - Получен префикс длины: 281 байт
+[2025-01-23 02:35:48] students_app.network - INFO - Получено 281 из 281 байт
+[2025-01-23 02:35:48] students_app.network - INFO - Получен ответ: {'status': 'retake', 'message': 'Вы набрали 1/5, лабораторная не засчитана.', 'data': {'score': 1, 'total_questions': 5}}
+[2025-01-23 02:35:48] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:48] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:48] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:48] students_app.network - INFO - Отправляем данные: {'action': 'get_student_info', 'data': {'student_id': 2}}
+[2025-01-23 02:35:48] students_app.network - INFO - Получен префикс длины: 204 байт
+[2025-01-23 02:35:48] students_app.network - INFO - Получено 204 из 204 байт
+[2025-01-23 02:35:48] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51'}}}
+[2025-01-23 02:35:49] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 02:35:49] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 02:35:49] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 02:35:49] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-23 02:35:51] students_app.network - ERROR - Error connecting to 192.168.0.164:9999: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "c:\Users\MrDes\OneDrive\Документы\GitHub\Pselu--Pself-\students_app\network_workers.py", line 66, in run
+    length_prefix = sock.recv(4)
+                    ^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+

@@ -1,0 +1,7 @@
+[2025-01-23 01:13:48] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:13:48] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:13:48] students_app.network - INFO - Подключение успешно установлено
+[2025-01-23 01:13:48] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-23 01:13:48] students_app.network - INFO - Получен префикс длины: 174 байт
+[2025-01-23 01:13:48] students_app.network - INFO - Получено 174 из 174 байт
+[2025-01-23 01:13:48] students_app.network - INFO - Получен ответ: {'status': 'error', 'message': 'Внутренняя ошибка сервера'}

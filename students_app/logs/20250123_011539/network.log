@@ -1,0 +1,3 @@
+[2025-01-23 01:15:58] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-23 01:15:58] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-23 01:16:00] students_app.network - ERROR - Could not connect to server at 192.168.0.164:9999. Connection refused.

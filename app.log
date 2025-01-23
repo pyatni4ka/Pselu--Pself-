@@ -2110,3 +2110,440 @@
 2025-01-23 00:41:36,704 - server.server - INFO - Клиент отключился: ('192.168.0.164', 64688)
 2025-01-23 00:41:36,704 - windows.server_control - INFO - Клиентов подключено: 0
 2025-01-23 00:41:36,704 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 64688)
+2025-01-23 00:42:27,708 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 00:45:26,228 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 00:45:33,851 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 00:45:33,852 - server.server - INFO - Static file server запущен
+2025-01-23 00:45:33,852 - windows.server_control - INFO - Static file server запущен
+2025-01-23 00:45:33,853 - server.server - INFO - TCP-сервер запущен
+2025-01-23 00:45:33,853 - windows.server_control - INFO - TCP-сервер запущен
+2025-01-23 00:45:33,853 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:45:33,853 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:49:32,105 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:32,105 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:32,105 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49877)
+2025-01-23 00:49:32,106 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:32,106 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:32,106 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49877)
+2025-01-23 00:49:37,109 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:37,109 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:37,109 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:37,109 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49879)
+2025-01-23 00:49:37,109 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:37,110 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49879)
+2025-01-23 00:49:42,099 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:42,099 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:42,099 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:42,099 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49881)
+2025-01-23 00:49:42,099 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:42,100 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49881)
+2025-01-23 00:49:44,149 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:44,149 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:44,150 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:49:44,150 - windows.server_control - INFO - Пятница Антон подключился
+2025-01-23 00:49:44,151 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:44,151 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:49:44,151 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:44,151 - windows.server_control - INFO - Пятница Антон отключился
+2025-01-23 00:49:45,124 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:45,124 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:45,126 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:45,126 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49884)
+2025-01-23 00:49:45,126 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:45,126 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49884)
+2025-01-23 00:49:45,138 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:45,138 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:45,140 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:45,140 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49885)
+2025-01-23 00:49:45,140 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:45,140 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49885)
+2025-01-23 00:49:46,862 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:46,863 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:46,863 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:49:46,864 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:49:46,864 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:49:46,864 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:49:46,864 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:49:46,864 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:49:46,864 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:49:46,864 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:49:46,864 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:49:46,866 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:46,866 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49886)
+2025-01-23 00:49:46,867 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:46,867 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49886)
+2025-01-23 00:49:47,101 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:47,101 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:47,101 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:47,101 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49887)
+2025-01-23 00:49:47,102 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:47,102 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49887)
+2025-01-23 00:49:52,103 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:52,103 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:52,103 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:52,103 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49888)
+2025-01-23 00:49:52,104 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:52,104 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49888)
+2025-01-23 00:49:52,676 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:52,677 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:52,678 - server.server - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 0/5
+2025-01-23 00:49:52,678 - windows.server_control - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 0/5
+2025-01-23 00:49:52,680 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:52,680 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49889)
+2025-01-23 00:49:52,680 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:52,680 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49889)
+2025-01-23 00:49:52,688 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:52,689 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:52,692 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:52,692 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49890)
+2025-01-23 00:49:52,692 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:52,692 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49890)
+2025-01-23 00:49:54,159 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:54,159 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:54,161 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:54,161 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49893)
+2025-01-23 00:49:54,161 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:54,161 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49893)
+2025-01-23 00:49:54,166 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:49:54,167 - windows.server_control - INFO - Клиентов подключено: 1
+2025-01-23 00:49:54,169 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:49:54,169 - server.server - INFO - Клиент отключился: ('192.168.0.164', 49894)
+2025-01-23 00:49:54,169 - windows.server_control - INFO - Клиентов подключено: 0
+2025-01-23 00:49:54,169 - windows.server_control - INFO - Клиент отключился: ('192.168.0.164', 49894)
+2025-01-23 00:54:01,866 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 00:54:09,418 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 00:54:09,419 - server.server - INFO - Static file server запущен
+2025-01-23 00:54:09,420 - server.server - INFO - TCP-сервер запущен
+2025-01-23 00:54:09,427 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 00:54:16,490 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:16,490 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:16,491 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50197)
+2025-01-23 00:54:21,502 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:21,502 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:21,503 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50203)
+2025-01-23 00:54:26,503 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:26,503 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:26,503 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50208)
+2025-01-23 00:54:31,506 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:31,506 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:31,506 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50210)
+2025-01-23 00:54:36,290 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:36,291 - server.server - INFO - Пятница Антон подключился
+2025-01-23 00:54:36,292 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:36,292 - server.server - INFO - Пятница Антон отключился
+2025-01-23 00:54:36,521 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:36,521 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:36,522 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50212)
+2025-01-23 00:54:37,287 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:37,290 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:37,290 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50213)
+2025-01-23 00:54:37,305 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:37,308 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:37,308 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50214)
+2025-01-23 00:54:40,832 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:40,833 - server.server - DEBUG - Загрузка вопросов для lab_id=5
+2025-01-23 00:54:40,833 - server.server - DEBUG - Найдено вопросов: 5
+2025-01-23 00:54:40,833 - server.server - DEBUG - Время на тест: (213,)
+2025-01-23 00:54:40,833 - server.server - DEBUG - Обработка вопроса 32, категория: Вопрос 1
+2025-01-23 00:54:40,834 - server.server - DEBUG - Обработка вопроса 33, категория: Вопрос 2
+2025-01-23 00:54:40,834 - server.server - DEBUG - Обработка вопроса 34, категория: Вопрос 3
+2025-01-23 00:54:40,834 - server.server - DEBUG - Обработка вопроса 35, категория: Вопрос 4
+2025-01-23 00:54:40,834 - server.server - DEBUG - Обработка вопроса 36, категория: Вопрос 5
+2025-01-23 00:54:40,834 - server.server - DEBUG - Отправка ответа: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+2025-01-23 00:54:40,836 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:40,836 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50216)
+2025-01-23 00:54:41,523 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:41,523 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:41,524 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50217)
+2025-01-23 00:54:46,523 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:46,523 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:46,524 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50222)
+2025-01-23 00:54:51,524 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:51,524 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:51,525 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50223)
+2025-01-23 00:54:56,530 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:56,530 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:56,530 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50225)
+2025-01-23 00:54:57,295 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:57,297 - server.server - INFO - Пятница Антон не прошел лабораторную работу '123'. Баллы: 1/5
+2025-01-23 00:54:57,298 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:57,298 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50228)
+2025-01-23 00:54:57,302 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:54:57,304 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:54:57,304 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50229)
+2025-01-23 00:55:01,528 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:01,547 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:01,547 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50231)
+2025-01-23 00:55:06,540 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:06,540 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:06,541 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50238)
+2025-01-23 00:55:11,561 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:11,575 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:11,575 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50242)
+2025-01-23 00:55:16,582 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:16,582 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:16,583 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50245)
+2025-01-23 00:55:21,579 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:21,579 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:21,580 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50253)
+2025-01-23 00:55:26,589 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:26,604 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:26,604 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50256)
+2025-01-23 00:55:31,599 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:31,599 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:31,599 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50258)
+2025-01-23 00:55:36,613 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:36,613 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:36,614 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50259)
+2025-01-23 00:55:41,610 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:41,610 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:41,610 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50264)
+2025-01-23 00:55:46,599 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:46,599 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:46,599 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50266)
+2025-01-23 00:55:51,612 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:51,612 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:51,612 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50267)
+2025-01-23 00:55:56,602 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:55:56,616 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:55:56,616 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50271)
+2025-01-23 00:56:01,629 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:01,629 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:01,629 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50274)
+2025-01-23 00:56:06,630 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:06,630 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:06,630 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50277)
+2025-01-23 00:56:11,632 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:11,633 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:11,633 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50281)
+2025-01-23 00:56:16,635 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:16,635 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:16,635 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50291)
+2025-01-23 00:56:21,637 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:21,637 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:21,637 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50294)
+2025-01-23 00:56:26,646 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:26,646 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:26,646 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50297)
+2025-01-23 00:56:31,646 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:31,668 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:31,668 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50298)
+2025-01-23 00:56:36,676 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:36,677 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:36,677 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50304)
+2025-01-23 00:56:37,469 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:37,472 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:37,472 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50305)
+2025-01-23 00:56:37,477 - server.server - INFO - Клиентов подключено: 1
+2025-01-23 00:56:37,502 - server.server - INFO - Клиентов подключено: 0
+2025-01-23 00:56:37,502 - server.server - INFO - Клиент отключился: ('192.168.0.164', 50306)
+2025-01-23 00:58:21,128 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 00:58:29,276 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 00:58:29,280 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:01:36,953 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:01:41,042 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:01:41,045 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:01:42,275 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 01:01:43,052 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 01:01:44,302 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:01:44,304 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:13:27,378 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:13:29,348 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:13:29,353 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:15:33,498 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:17:07,269 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:17:10,409 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:17:10,413 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:17:42,775 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:17:44,880 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:17:44,883 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:19:25,974 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:19:30,372 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:19:30,376 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:21:30,235 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:21:32,506 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:21:32,510 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:23:56,340 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:23:59,611 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:23:59,615 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:26:11,651 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:26:23,286 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:26:23,291 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:28:21,815 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:28:23,878 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:28:23,882 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:30:27,976 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:30:29,966 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:30:29,970 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:34:43,223 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:34:45,288 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:34:45,292 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:35:17,491 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 01:35:17,806 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 01:35:30,880 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:35:32,834 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:35:32,838 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:38:20,320 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:38:25,228 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:38:25,232 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:39:24,833 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 01:39:24,878 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 01:39:49,128 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:39:50,644 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:39:50,647 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:43:54,469 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:43:56,743 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:43:56,762 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:45:12,626 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 01:45:12,627 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 01:45:29,024 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:45:31,207 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:45:31,212 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:48:59,248 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:49:01,206 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:49:01,211 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:50:30,122 - windows.questions_management - INFO - Загружены 5 вопросов для ЛР ID 5.
+2025-01-23 01:53:30,795 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:53:32,803 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:53:32,809 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 01:57:23,370 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 01:57:26,256 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 01:57:26,275 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:02:20,194 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:02:22,087 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:02:22,103 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:07:42,188 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:07:44,029 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:07:44,047 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:10:47,527 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 02:10:47,773 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 02:11:09,272 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:11:11,681 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:11:11,687 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:12:12,283 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:12:14,261 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:12:14,280 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:13:26,759 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:13:28,534 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:13:28,539 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:17:38,258 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:17:49,937 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:17:49,944 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:19:13,666 - windows.server_control - INFO - Остановка сервера по команде пользователя.
+2025-01-23 02:19:13,668 - windows.server_control - INFO - Сервер успешно остановлен.
+2025-01-23 02:24:14,232 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:24:34,545 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:24:34,550 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:25:12,318 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-23 02:25:22,900 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:22,901 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:22,901 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-23 02:25:29,367 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:29,368 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:29,368 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 2 вопросов.
+2025-01-23 02:25:35,628 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:35,629 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:35,629 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 3 вопросов.
+2025-01-23 02:25:48,230 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:48,231 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:48,231 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 4 вопросов.
+2025-01-23 02:25:55,195 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:55,196 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:25:55,196 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 5 вопросов.
+2025-01-23 02:25:57,166 - windows.questions_management - INFO - Загружены 5 вопросов для ЛР ID 1.
+2025-01-23 02:28:06,520 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:28:08,969 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:28:08,974 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:30:21,907 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:30:25,044 - windows.questions_management - INFO - Загружены 5 вопросов для ЛР ID 1.
+2025-01-23 02:30:28,305 - windows.questions_management - INFO - Загружены 4 вопросов для ЛР ID 1.
+2025-01-23 02:30:28,306 - windows.questions_management - INFO - Вопрос ID 1 удален. Всего 4 вопросов осталось.
+2025-01-23 02:30:33,048 - windows.questions_management - INFO - Загружены 3 вопросов для ЛР ID 1.
+2025-01-23 02:30:33,048 - windows.questions_management - INFO - Вопрос ID 4 удален. Всего 3 вопросов осталось.
+2025-01-23 02:30:35,976 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 1.
+2025-01-23 02:30:35,976 - windows.questions_management - INFO - Вопрос ID 5 удален. Всего 2 вопросов осталось.
+2025-01-23 02:30:37,666 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:30:37,666 - windows.questions_management - INFO - Вопрос ID 3 удален. Всего 1 вопросов осталось.
+2025-01-23 02:30:39,521 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-23 02:30:39,521 - windows.questions_management - INFO - Вопрос ID 2 удален. Всего 0 вопросов осталось.
+2025-01-23 02:30:49,681 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:30:49,682 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:30:49,682 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-23 02:33:43,220 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:33:45,819 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:33:48,598 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 1.
+2025-01-23 02:33:48,598 - windows.questions_management - INFO - Вопрос ID 6 удален. Всего 0 вопросов осталось.
+2025-01-23 02:33:57,852 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:33:57,853 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:33:57,853 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 1 вопросов.
+2025-01-23 02:34:09,811 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:09,812 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:09,812 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 2 вопросов.
+2025-01-23 02:34:16,189 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:16,190 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:16,190 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 3 вопросов.
+2025-01-23 02:34:23,097 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:23,098 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:23,099 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 4 вопросов.
+2025-01-23 02:34:28,963 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:28,964 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 1.
+2025-01-23 02:34:28,964 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 1. Всего 5 вопросов.
+2025-01-23 02:34:31,313 - windows.questions_management - INFO - Загружены 5 вопросов для ЛР ID 1.
+2025-01-23 02:34:41,096 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:34:41,107 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:36:35,910 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:37:14,898 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-23 02:37:21,073 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:37:21,074 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:37:21,074 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 1 вопросов.
+2025-01-23 02:37:39,912 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:37:39,913 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:37:39,913 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 2 вопросов.
+2025-01-23 02:37:43,217 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-23 02:37:47,635 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:37:47,635 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 3 вопросов.
+2025-01-23 02:37:50,081 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-23 02:37:54,281 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:37:54,282 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 4 вопросов.
+2025-01-23 02:37:55,734 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 2.
+2025-01-23 02:38:00,044 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 2.
+2025-01-23 02:38:00,044 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 2. Всего 5 вопросов.
+2025-01-23 02:38:16,481 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:38:16,489 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:42:20,608 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:42:24,099 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:42:24,107 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:46:53,355 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:49:58,474 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:50:01,131 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:50:01,139 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:52:16,752 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:52:21,890 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:52:21,902 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:54:23,526 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:54:26,124 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:54:26,132 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:56:18,144 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 02:56:20,847 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 02:56:20,855 - windows.server_control - INFO - Сервер успешно запущен.
+2025-01-23 02:57:16,473 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 3.
+2025-01-23 02:57:27,373 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:27,374 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:27,374 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 1 вопросов.
+2025-01-23 02:57:33,268 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:33,268 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:33,268 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 2 вопросов.
+2025-01-23 02:57:35,029 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 3.
+2025-01-23 02:57:39,553 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:39,553 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 3 вопросов.
+2025-01-23 02:57:41,632 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 3.
+2025-01-23 02:57:45,571 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:45,571 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 4 вопросов.
+2025-01-23 02:57:51,626 - windows.questions_management - INFO - Загружены 2 вопросов для ЛР ID 3.
+2025-01-23 02:57:51,626 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 5 вопросов.
+2025-01-23 02:57:54,078 - windows.questions_management - INFO - Загружены 0 вопросов для ЛР ID 3.
+2025-01-23 02:57:58,908 - windows.questions_management - INFO - Загружены 1 вопросов для ЛР ID 3.
+2025-01-23 02:57:58,908 - windows.questions_management - INFO - Добавлен новый вопрос в ЛР ID 3. Всего 6 вопросов.
+2025-01-23 15:14:17,181 - matplotlib.pyplot - DEBUG - Loaded backend qtagg version 5.15.9.
+2025-01-23 15:14:19,301 - windows.server_control - INFO - Запуск сервера по команде пользователя.
+2025-01-23 15:14:19,308 - windows.server_control - INFO - Сервер успешно запущен.
