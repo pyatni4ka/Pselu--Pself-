@@ -6,24 +6,63 @@ from PyQt5.QtWidgets import (
     QLineEdit,
     QMessageBox,
     QHBoxLayout,
-    QDialog
+    QDialog,
+    QFrame
 )
-from PyQt5.QtCore import Qt, QThreadPool
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtCore import Qt, QThreadPool, QTimer
+from PyQt5.QtGui import QPixmap, QColor, QPainter
 import sys
 import os
-from .network_workers import Worker
+import socket
+from network_workers import Worker
+from config_manager import ConfigManager
+from logger_config import get_logger
+
+logger = get_logger('windows.login')
+
+
+class ConnectionIndicator(QFrame):
+    """Индикатор подключения к серверу."""
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setFixedSize(10, 10)  # Уменьшаем размер
+        self.setStyleSheet("background-color: red; border-radius: 5px; opacity: 0.7;")  # Добавляем прозрачность
+        self.connected = False
+
+    def set_connected(self, connected):
+        """Устанавливает состояние подключения."""
+        self.connected = connected
+        self.setStyleSheet(f"background-color: {'green' if connected else 'red'}; border-radius: 5px; opacity: 0.7;")
+        self.update()
 
 
 class LoginWindow(QWidget):
     def __init__(self, switch_window):
         super().__init__()
         self.switch_window = switch_window
-        self.init_ui()
         self.thread_pool = QThreadPool.globalInstance()
+        # Получаем настройки через ConfigManager
+        config = ConfigManager()
+        self.server_host = config.get_server_host()
+        self.server_port = config.get_server_port()
+        self.init_ui()
+        self.check_connection()  # Запускаем проверку подключения после инициализации UI
 
     def init_ui(self):
         layout = QVBoxLayout()
+
+        # Создаем верхний layout для индикатора подключения
+        top_layout = QHBoxLayout()
+        top_layout.addStretch()  # Добавляем растяжку, чтобы индикатор был справа
+
+        # Индикатор подключения
+        self.connection_indicator = ConnectionIndicator(self)
+        top_layout.addWidget(self.connection_indicator)
+
+        # Добавляем верхний layout в основной layout
+        layout.addLayout(top_layout)
+
+        # Заголовок
         header = QLabel("Вход студента")
         header.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(header)
@@ -54,12 +93,6 @@ class LoginWindow(QWidget):
             print(f"Ошибка загрузки логотипа: {logo_path}")
 
         layout.addWidget(self.logo_label)
-
-        # Добавляем кнопку настроек
-        settings_button = QPushButton("⚙️ Настройки")
-        settings_button.clicked.connect(self.show_settings)
-        settings_button.setFixedWidth(100)
-        layout.addWidget(settings_button, alignment=Qt.AlignmentFlag.AlignRight)
 
         self.input_last_name = QLineEdit()
         self.input_last_name.setPlaceholderText("Фамилия")
@@ -99,6 +132,26 @@ class LoginWindow(QWidget):
         self.setLayout(layout)
         self.setWindowTitle("Вход студента")
         self.resize(400, 600)
+
+    def check_connection(self):
+        """Проверяет подключение к серверу."""
+        try:
+            logger.debug(f"Проверка подключения к {self.server_host}:{self.server_port}")
+            print(f"Попытка подключения к {self.server_host}:{self.server_port}")
+
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(2)
+            logger.debug("Сокет создан, устанавливаем соединение...")
+            sock.connect((self.server_host, self.server_port))
+            logger.debug("Соединение установлено успешно")
+            sock.close()
+            self.connection_indicator.set_connected(True)
+        except Exception as e:
+            logger.error(f"Ошибка подключения к {self.server_host}:{self.server_port}: {e}")
+            logger.exception("Подробная информация об ошибке:")
+            self.connection_indicator.set_connected(False)
+        finally:
+            QTimer.singleShot(5000, self.check_connection)
 
     def capitalize_input(self):
         sender = self.sender()
@@ -153,8 +206,8 @@ class LoginWindow(QWidget):
 
     def show_settings(self):
         """Показывает окно настроек."""
-        from .settings import SettingsDialog
-        dialog = SettingsDialog()
+        from .settings import SettingsDialog  # Импортируем класс окна настроек
+        dialog = SettingsDialog(self)  # Создаем диалоговое окно
         if dialog.exec() == QDialog.DialogCode.Accepted:
             QMessageBox.information(
                 self,

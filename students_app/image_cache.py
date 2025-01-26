@@ -12,6 +12,7 @@ import requests
 from urllib.parse import urlparse
 import warnings
 import urllib3
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -39,29 +40,26 @@ class ImageCache:
     
     def _get_cache_path(self, url):
         """Получает путь к кэшированному файлу."""
-        # Создаем хэш URL для имени файла
-        filename = hashlib.md5(url.encode()).hexdigest() + '.png'
+        # Используем комбинацию хэша URL и времени для уникальности
+        hash_value = hashlib.md5(url.encode()).hexdigest()
+        timestamp = str(int(time.time()))
+        filename = f"{hash_value}_{timestamp}.png"
         return os.path.join(self.cache_dir, filename)
     
     def get(self, url):
-        """
-        Получает изображение из кэша.
-        
-        Args:
-            url (str): URL изображения
-            
-        Returns:
-            QPixmap: Закэшированное изображение или None
-        """
-        cache_path = self._get_cache_path(url)
-        if os.path.exists(cache_path):
-            try:
-                from PyQt5.QtGui import QPixmap
-                pixmap = QPixmap(cache_path)
-                if not pixmap.isNull():
-                    return pixmap
-            except Exception as e:
-                logger.error(f"Ошибка при загрузке изображения из кэша: {str(e)}")
+        """Получает изображение из кэша."""
+        # Проверяем все файлы с таким же хэшем URL
+        hash_value = hashlib.md5(url.encode()).hexdigest()
+        for filename in os.listdir(self.cache_dir):
+            if filename.startswith(hash_value):
+                cache_path = os.path.join(self.cache_dir, filename)
+                try:
+                    from PyQt5.QtGui import QPixmap
+                    pixmap = QPixmap(cache_path)
+                    if not pixmap.isNull():
+                        return pixmap
+                except Exception as e:
+                    logger.error(f"Ошибка при загрузке изображения из кэша: {str(e)}")
         return None
     
     def save(self, url, image):
@@ -82,6 +80,43 @@ class ImageCache:
             logger.info(f"Изображение сохранено в кэш: {url}")
         except Exception as e:
             logger.error(f"Ошибка при сохранении в кэш: {str(e)}")
+
+    def get_image(self, url):
+        """
+        Получает изображение из кэша или загружает его.
+        
+        Args:
+            url (str): URL изображения
+            
+        Returns:
+            str: Путь к локальному файлу изображения
+        """
+        # Проверяем кэш
+        cached_image = self.get(url)
+        if cached_image:
+            cache_path = self._get_cache_path(url)
+            if os.path.exists(cache_path):
+                return cache_path
+        
+        # Если изображения нет в кэше, загружаем его
+        try:
+            logger.info(f"Загрузка изображения: {url}")
+            parsed_url = urlparse(url)
+            if parsed_url.hostname in ['localhost', '127.0.0.1'] or parsed_url.hostname.startswith('192.168.'):
+                response = requests.get(url, verify=False)
+            else:
+                response = requests.get(url)
+            response.raise_for_status()
+            
+            # Сохраняем изображение
+            image = Image.open(BytesIO(response.content))
+            cache_path = self._get_cache_path(url)
+            self.save(url, image)
+            return cache_path
+            
+        except Exception as e:
+            logger.error(f"Ошибка при загрузке изображения {url}: {str(e)}")
+            return None
 
 def get_cached_image(url):
     """

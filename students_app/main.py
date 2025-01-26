@@ -25,6 +25,14 @@ from windows.result import ResultWindow
 from styles import MAIN_STYLE
 import logging
 import os
+from config_manager import ConfigManager
+from logger_config import setup_logger
+import codecs
+
+# Добавляем корневую директорию в PYTHONPATH
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.append(project_root)
 
 class App(QStackedWidget):
     """
@@ -100,12 +108,14 @@ class App(QStackedWidget):
         return self.current_student_id
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        filename='app.log',
-        filemode='w'
-    )
+    # Принудительно устанавливаем кодировку
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer)
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer)
+    
+    from logger_config import setup_logger
+    logger = setup_logger()
+    logger.info("Запуск приложения")
+    
     app = QApplication(sys.argv)
     
     # Получаем путь к директории с исполняемым файлом
@@ -119,6 +129,11 @@ if __name__ == "__main__":
     # Устанавливаем иконку приложения
     icon_path = os.path.join(application_path, 'app_icon.ico')
     app.setWindowIcon(QIcon(icon_path))
+    
+    # Если нужны настройки сервера:
+    config = ConfigManager()
+    server_host = config.get_server_host()
+    server_port = config.get_server_port()
     
     ex = App()
     sys.exit(app.exec_())

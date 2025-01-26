@@ -44,11 +44,16 @@ class Worker(QRunnable):
 
             # Загружаем изображение
             logger.info(f"Загрузка изображения: {self.url}")
-            response = requests.get(self.url)
+            response = requests.get(self.url, timeout=10)
             response.raise_for_status()
 
             # Открываем изображение с помощью PIL
             image = Image.open(BytesIO(response.content))
+
+            # Проверяем минимальный размер изображения
+            min_size = 100  # Минимальный размер в пикселях
+            if image.size[0] < min_size or image.size[1] < min_size:
+                raise ValueError(f"Изображение слишком маленькое: {image.size}")
 
             # Изменяем размер, если необходимо
             if image.size[0] > self.max_size[0] or image.size[1] > self.max_size[1]:
@@ -62,10 +67,15 @@ class Worker(QRunnable):
             
             self.signals.result.emit(pixmap)
 
-        except Exception as e:
+        except requests.exceptions.RequestException as e:
             logger.error(f"Ошибка при загрузке изображения: {str(e)}")
-            self.signals.error.emit((str(e), None))
-        
+            self.signals.error.emit(("Ошибка сети", str(e)))
+        except ValueError as e:
+            logger.error(f"Ошибка при обработке изображения: {str(e)}")
+            self.signals.error.emit(("Ошибка изображения", str(e)))
+        except Exception as e:
+            logger.error(f"Неизвестная ошибка: {str(e)}")
+            self.signals.error.emit(("Неизвестная ошибка", str(e)))
         finally:
             self.signals.finished.emit()
 

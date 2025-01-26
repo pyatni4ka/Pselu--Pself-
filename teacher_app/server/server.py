@@ -8,6 +8,8 @@ import os
 import http.server
 import configparser
 from PyQt5.QtCore import QThread, pyqtSignal
+import uuid
+import hashlib
 
 DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "mgtu_app.db")
 STATIC_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
@@ -64,9 +66,28 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
         self.server.increment_clients()
         try:
             while True:
-                data = self.request.recv(4096)
-                if not data:
+                # Читаем длину сообщения (4 байта)
+                length_prefix = self.request.recv(4)
+                if not length_prefix:
                     break
+                
+                # Распаковываем длину сообщения
+                message_length = struct.unpack('!I', length_prefix)[0]
+                
+                # Читаем данные
+                chunks = []
+                bytes_recd = 0
+                while bytes_recd < message_length:
+                    chunk = self.request.recv(min(message_length - bytes_recd, 2048))
+                    if not chunk:
+                        break
+                    chunks.append(chunk)
+                    bytes_recd += len(chunk)
+                
+                if not chunks:
+                    break
+                
+                data = b''.join(chunks)
                 try:
                     request = json.loads(data.decode('utf-8'))
                     response = self.process_request(request)
@@ -107,6 +128,8 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
             return self.handle_export_results(data)
         elif action == 'check_lab_completed':
             return self.handle_check_lab_completed(data)
+        elif action == 'upload_image':
+            return self.handle_upload_image(data)
         return {'status': 'error', 'message': 'Неизвестное действие'}
 
     def handle_login(self, data):
@@ -421,6 +444,41 @@ class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
             })
         return {'status': 'success', 'data': {'results': out}}
 
+    def handle_upload_image(self, image_data):
+        try:
+            # Создаем хэш содержимого изображения для проверки дубликатов
+            image_hash = hashlib.md5(image_data).hexdigest()
+            
+            # Проверяем, существует ли уже такое изображение
+            conn = sqlite3.connect(DATABASE_PATH)
+            cur = conn.cursor()
+            cur.execute("SELECT filename FROM images WHERE hash=?", (image_hash,))
+            existing_file = cur.fetchone()
+            
+            if existing_file:
+                # Если изображение уже существует, возвращаем существующий URL
+                filename = existing_file[0]
+                conn.close()
+                return {'status': 'success', 'data': {'image_url': f"http://localhost:8080/images/{filename}"}}
+            
+            # Генерируем уникальное имя файла
+            filename = f"{uuid.uuid4().hex}.png"
+            image_path = os.path.join(STATIC_DIR, "images", filename)
+            
+            # Сохраняем изображение
+            with open(image_path, "wb") as f:
+                f.write(image_data)
+            
+            # Сохраняем информацию об изображении в базе данных
+            cur.execute("INSERT INTO images (filename, hash) VALUES (?, ?)", (filename, image_hash))
+            conn.commit()
+            conn.close()
+            
+            return {'status': 'success', 'data': {'image_url': f"http://localhost:8080/images/{filename}"}}
+        except Exception as e:
+            logger.error(f"Ошибка при сохранении изображения: {e}")
+            return {'status': 'error', 'message': str(e)}
+
 class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
     allow_reuse_address = True
     def __init__(self, server_address, RequestHandlerClass):
@@ -465,6 +523,7 @@ class ServerThread(QThread):
         self.static_file_server = StaticFileServer(directory=static_dir, host=host, port=static_port)
     def run(self):
         try:
+            print(f"Запуск сервера на {self.host}:{self.port}")  # Отладочный вывод
             self.static_file_server.start()
             self.log_message.emit("Static file server запущен")
             logger.info("Static file server запущен")
@@ -478,6 +537,7 @@ class ServerThread(QThread):
             self.server_thread.join()
         except Exception as e:
             em = f"Ошибка при запуске серверов: {e}"
+            print(em)  # Отладочный вывод
             self.log_message.emit(em)
             logger.error(em)
             self.server_stopped.emit()

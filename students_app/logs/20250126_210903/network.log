@@ -1,0 +1,93 @@
+[2025-01-26 21:09:22] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:22] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:22] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:22] students_app.network - INFO - Отправляем данные: {'action': 'login', 'data': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51', 'year': 2024}}
+[2025-01-26 21:09:22] students_app.network - INFO - Получен префикс длины: 48 байт
+[2025-01-26 21:09:22] students_app.network - INFO - Получено 48 из 48 байт
+[2025-01-26 21:09:22] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student_id': 1}}
+[2025-01-26 21:09:23] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:23] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:23] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:23] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-26 21:09:23] students_app.network - INFO - Получен префикс длины: 86 байт
+[2025-01-26 21:09:23] students_app.network - INFO - Получено 86 из 86 байт
+[2025-01-26 21:09:23] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 5, 'theme': '123', 'time': 213}]}}
+[2025-01-26 21:09:23] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:23] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:23] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:23] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 1, 'lab_id': 5}}
+[2025-01-26 21:09:23] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-26 21:09:23] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-26 21:09:23] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}
+[2025-01-26 21:09:24] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:24] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:24] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:24] students_app.network - INFO - Отправляем данные: {'action': 'get_questions', 'data': {'lab_id': '5'}}
+[2025-01-26 21:09:24] students_app.network - INFO - Получен префикс длины: 3115 байт
+[2025-01-26 21:09:24] students_app.network - INFO - Получено 2048 из 3115 байт
+[2025-01-26 21:09:24] students_app.network - INFO - Получено 3115 из 3115 байт
+[2025-01-26 21:09:24] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+[2025-01-26 21:09:34] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:34] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:34] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:34] students_app.network - INFO - Отправляем данные: {'action': 'submit_test', 'data': {'student_id': 1, 'lab_id': '5', 'answers': {'32': '2', '33': '4', '34': '4', '35': '4', '36': '4'}}}
+[2025-01-26 21:09:34] students_app.network - INFO - Получен префикс длины: 281 байт
+[2025-01-26 21:09:34] students_app.network - INFO - Получено 281 из 281 байт
+[2025-01-26 21:09:34] students_app.network - INFO - Получен ответ: {'status': 'retake', 'message': 'Вы набрали 0/5, лабораторная не засчитана.', 'data': {'score': 0, 'total_questions': 5}}
+[2025-01-26 21:09:34] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:34] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:34] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:34] students_app.network - INFO - Отправляем данные: {'action': 'get_student_info', 'data': {'student_id': 1}}
+[2025-01-26 21:09:34] students_app.network - INFO - Получен префикс длины: 204 байт
+[2025-01-26 21:09:34] students_app.network - INFO - Получено 204 из 204 байт
+[2025-01-26 21:09:34] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51'}}}
+[2025-01-26 21:09:36] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:36] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:36] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:36] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-26 21:09:36] students_app.network - INFO - Получен префикс длины: 86 байт
+[2025-01-26 21:09:36] students_app.network - INFO - Получено 86 из 86 байт
+[2025-01-26 21:09:36] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 5, 'theme': '123', 'time': 213}]}}
+[2025-01-26 21:09:36] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:36] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:36] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:36] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 1, 'lab_id': 5}}
+[2025-01-26 21:09:36] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-26 21:09:36] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-26 21:09:36] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}
+[2025-01-26 21:09:37] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:37] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:37] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:37] students_app.network - INFO - Отправляем данные: {'action': 'get_questions', 'data': {'lab_id': '5'}}
+[2025-01-26 21:09:37] students_app.network - INFO - Получен префикс длины: 3115 байт
+[2025-01-26 21:09:37] students_app.network - INFO - Получено 2048 из 3115 байт
+[2025-01-26 21:09:37] students_app.network - INFO - Получено 3115 из 3115 байт
+[2025-01-26 21:09:37] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'questions': [{'id': 32, 'category': 'Вопрос 1', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 33, 'category': 'Вопрос 2', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 34, 'category': 'Вопрос 3', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 35, 'category': 'Вопрос 4', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}, {'id': 36, 'category': 'Вопрос 5', 'question_text': '', 'question_images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png'], 'answers': [{'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}, {'text': '', 'images': ['http://192.168.0.164:8080/images/f0e5fa2eca9154c1f1a00e18bd6df50c.png']}], 'correct_index': 1}], 'time_limit': 213}}
+[2025-01-26 21:09:46] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:46] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:46] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:46] students_app.network - INFO - Отправляем данные: {'action': 'submit_test', 'data': {'student_id': 1, 'lab_id': '5', 'answers': {'32': '1', '33': '4', '34': '4', '35': '4', '36': '4'}}}
+[2025-01-26 21:09:46] students_app.network - INFO - Получен префикс длины: 281 байт
+[2025-01-26 21:09:46] students_app.network - INFO - Получено 281 из 281 байт
+[2025-01-26 21:09:46] students_app.network - INFO - Получен ответ: {'status': 'retake', 'message': 'Вы набрали 1/5, лабораторная не засчитана.', 'data': {'score': 1, 'total_questions': 5}}
+[2025-01-26 21:09:46] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:46] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:46] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:46] students_app.network - INFO - Отправляем данные: {'action': 'get_student_info', 'data': {'student_id': 1}}
+[2025-01-26 21:09:46] students_app.network - INFO - Получен префикс длины: 204 байт
+[2025-01-26 21:09:46] students_app.network - INFO - Получено 204 из 204 байт
+[2025-01-26 21:09:46] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'student': {'first_name': 'Антон', 'last_name': 'Пятница', 'middle_name': '', 'group_name': 'ПС4-51'}}}
+[2025-01-26 21:09:47] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:47] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:47] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:47] students_app.network - INFO - Отправляем данные: {'action': 'get_lab_works', 'data': {}}
+[2025-01-26 21:09:47] students_app.network - INFO - Получен префикс длины: 86 байт
+[2025-01-26 21:09:47] students_app.network - INFO - Получено 86 из 86 байт
+[2025-01-26 21:09:47] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'lab_works': [{'id': 5, 'theme': '123', 'time': 213}]}}
+[2025-01-26 21:09:47] students_app.network - INFO - Попытка подключения к 192.168.0.164:9999
+[2025-01-26 21:09:47] students_app.network - INFO - Создан сокет, пытаемся подключиться...
+[2025-01-26 21:09:47] students_app.network - INFO - Подключение успешно установлено
+[2025-01-26 21:09:47] students_app.network - INFO - Отправляем данные: {'action': 'check_lab_completed', 'data': {'student_id': 1, 'lab_id': 5}}
+[2025-01-26 21:09:47] students_app.network - INFO - Получен префикс длины: 51 байт
+[2025-01-26 21:09:47] students_app.network - INFO - Получено 51 из 51 байт
+[2025-01-26 21:09:47] students_app.network - INFO - Получен ответ: {'status': 'success', 'data': {'completed': False}}

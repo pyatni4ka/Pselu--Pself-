@@ -2,8 +2,12 @@ from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QPushButton, QLabel, QMessageBox
 )
 from PyQt5.QtCore import Qt, QThreadPool
+import sys
+import os
+from network_workers import Worker
+from config_manager import ConfigManager
+from logger_config import get_logger
 import logging
-from .network_workers import Worker
 
 class ResultWindow(QWidget):
     def __init__(self, switch_window, get_student_id):

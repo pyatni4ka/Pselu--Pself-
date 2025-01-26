@@ -7,7 +7,7 @@
 
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QPushButton, QLabel, QMessageBox, 
-    QHBoxLayout, QRadioButton, QButtonGroup, QGridLayout, QDialog
+    QHBoxLayout, QRadioButton, QButtonGroup, QGridLayout, QDialog, QMainWindow, QApplication
 )
 from PyQt5.QtCore import Qt, QTimer, QThreadPool
 from PyQt5.QtGui import QPixmap, QFont
@@ -15,11 +15,16 @@ import os
 import random
 import requests
 import logging
-from .network_workers import Worker
 import re
 import uuid
 import sys
-from logger_config import setup_logger
+import traceback
+from urllib.parse import urlparse
+
+from logger_config import get_logger
+from config_manager import ConfigManager
+from network_workers import Worker
+from image_loader import ImageCache
 
 # Добавляем путь к корневой директории проекта в PYTHONPATH
 if __name__ == "__main__":
@@ -27,17 +32,16 @@ if __name__ == "__main__":
     if project_root not in sys.path:
         sys.path.append(project_root)
 
-from config_manager import get_server_settings
 from image_loader import get_cached_image
 
 # Настраиваем логирование
-logger = setup_logger()
+logger = get_logger('windows.testing')
 
 def parse_images(text: str, server_url: str = None) -> tuple[str, list[str]]:
     if server_url is None:
         # Загружаем настройки сервера из конфигурационного файла
-        settings = get_server_settings()
-        server_url = f"http://{settings['host']}:{settings['static_port']}/images"
+        config = ConfigManager()
+        server_url = f"http://{config.get_server_host()}:{config.get_server_port()}/images"
         logger.info(f"URL сервера изображений: {server_url}")
     
     pattern = r'!\[image\]\((.*?)\)'
@@ -58,18 +62,40 @@ def parse_images(text: str, server_url: str = None) -> tuple[str, list[str]]:
 def load_image_to_pixmap(url):
     """Загружает изображение и создает QPixmap."""
     logger.info(f"Попытка загрузки изображения: {url}")
-    cached_path = get_cached_image(url)
-    logger.info(f"Путь к кэшированному изображению: {cached_path}")
-    if cached_path:
-        pixmap = QPixmap(cached_path)
+    cache = ImageCache()
+    
+    # Сначала пробуем получить QPixmap из кэша
+    pixmap = cache.get(url)
+    if pixmap and not pixmap.isNull():
+        logger.info("Изображение успешно загружено из кэша")
+        return pixmap
+        
+    # Если в кэше нет, загружаем и сохраняем
+    try:
+        logger.info("Загрузка изображения с сервера")
+        parsed_url = urlparse(url)
+        if parsed_url.hostname in ['localhost', '127.0.0.1'] or parsed_url.hostname.startswith('192.168.'):
+            response = requests.get(url, verify=False)
+        else:
+            response = requests.get(url)
+        response.raise_for_status()
+        
+        # Создаем QPixmap из полученных данных
+        pixmap = QPixmap()
+        pixmap.loadFromData(response.content)
+        
         if not pixmap.isNull():
-            logger.info("Изображение успешно загружено")
+            # Сохраняем в кэш
+            cache.save(url, response.content)
+            logger.info("Изображение успешно загружено и сохранено в кэш")
             return pixmap
         else:
             logger.error("Ошибка: создан пустой QPixmap")
-    else:
-        logger.error("Ошибка: не удалось получить изображение из кэша")
-    return None
+            return None
+            
+    except Exception as e:
+        logger.error(f"Ошибка при загрузке изображения: {str(e)}")
+        return None
 
 class ImageViewer(QDialog):
     def __init__(self, image_path):
@@ -102,7 +128,7 @@ class ImageViewer(QDialog):
         layout.addWidget(self.image_label)
         self.setLayout(layout)
 
-class TestingWindow(QWidget):
+class TestingWindow(QMainWindow):
     """
     Окно тестирования.
     
@@ -127,21 +153,35 @@ class TestingWindow(QWidget):
         self.nav_buttons = []
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_timer)
+        
+        # Создаем центральный виджет
+        self.central_widget = QWidget()
+        self.setCentralWidget(self.central_widget)
+        
+        # Создаем главный layout
+        self.layout = QVBoxLayout(self.central_widget)
+        
         self.init_ui()
         self.questions = []
         self.lab_id = None
         self.time_limit = 0
         self.remaining_time = 0
-        self.images = {}  # Кэш для изображений
+        self.images = {}
         
         # Настраиваем логирование
         self.logger = logging.getLogger(__name__)
 
+        # Получаем настройки сервера через ConfigManager
+        config = ConfigManager()
+        self.server_host = config.get_server_host()
+        self.server_port = config.get_server_port()
+        self.static_port = config.get_static_port()
+
     def init_ui(self):
+        """Инициализация пользовательского интерфейса."""
         self.setWindowTitle("Тестирование")
         
-        # Основной layout
-        self.layout = QVBoxLayout(self)
+        # Основной layout уже создан в __init__
         self.layout.setSpacing(20)
         
         # Layout для верхней панели (таймер и кнопка завершения)
@@ -267,7 +307,7 @@ class TestingWindow(QWidget):
             chosen = self.answer_group.checkedId()
             if chosen >= 0:
                 qid = str(self.selected_questions[self.current_question]['id'])
-                self.user_answers[qid] = str(chosen)
+                self.user_answers[qid] = str(chosen + 1)
             
             self.current_question = index
             self.display_question(self.selected_questions[index])
@@ -330,24 +370,33 @@ class TestingWindow(QWidget):
         if question_images:
             logger.debug("Найдены изображения для отображения")
             question_images_layout = QHBoxLayout()
+            question_images_layout.setObjectName("question_images_layout")
             
             for url in question_images:
                 logger.debug(f"Обработка изображения: {url}")
+                image_container = QWidget()
+                image_layout = QVBoxLayout(image_container)
+                
                 image_label = QLabel()
+                image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
                 image_label.setCursor(Qt.CursorShape.PointingHandCursor)
+                
                 pixmap = load_image_to_pixmap(url)
-                if pixmap:
+                if pixmap and not pixmap.isNull():
                     scaled_pixmap = pixmap.scaled(
                         400, 300,
                         Qt.AspectRatioMode.KeepAspectRatio,
                         Qt.TransformationMode.SmoothTransformation
                     )
                     image_label.setPixmap(scaled_pixmap)
-                    cached_path = get_cached_image(url)
-                    image_label.mousePressEvent = lambda _, path=cached_path: self.open_image_viewer(path)
+                    # Сохраняем оригинальный pixmap для просмотра
+                    image_label.original_pixmap = pixmap
+                    image_label.mousePressEvent = lambda _, label=image_label: self.show_full_image(label)
                 else:
                     image_label.setText("Ошибка загрузки изображения")
-                question_images_layout.addWidget(image_label)
+                
+                image_layout.addWidget(image_label)
+                question_images_layout.addWidget(image_container)
             
             self.layout.insertLayout(2, question_images_layout)
             self.question_images_layout = question_images_layout
@@ -391,19 +440,23 @@ class TestingWindow(QWidget):
             # Добавляем изображения ответа
             for url in answer['images']:
                 image_label = QLabel()
+                image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
                 image_label.setCursor(Qt.CursorShape.PointingHandCursor)
+                
                 pixmap = load_image_to_pixmap(url)
-                if pixmap:
+                if pixmap and not pixmap.isNull():
                     scaled_pixmap = pixmap.scaled(
                         300, 200,
                         Qt.AspectRatioMode.KeepAspectRatio,
                         Qt.TransformationMode.SmoothTransformation
                     )
                     image_label.setPixmap(scaled_pixmap)
-                    cached_path = get_cached_image(url)
-                    image_label.mousePressEvent = lambda _, path=cached_path: self.open_image_viewer(path)
+                    # Сохраняем оригинальный pixmap для просмотра
+                    image_label.original_pixmap = pixmap
+                    image_label.mousePressEvent = lambda _, label=image_label: self.show_full_image(label)
                 else:
                     image_label.setText("Ошибка загрузки изображения")
+                
                 answer_container.addWidget(image_label)
             
             # Добавляем варианты в соответствующие ряды
@@ -431,7 +484,7 @@ class TestingWindow(QWidget):
         # Восстанавливаем ответ пользователя, если он был
         qid = str(question_data['id'])
         if qid in self.user_answers:
-            answer_index = int(self.user_answers[qid])  # Преобразуем в int
+            answer_index = int(self.user_answers[qid])
             if 0 <= answer_index < len(question_data['answers']):
                 self.answer_group.button(answer_index).setChecked(True)
 
@@ -479,14 +532,29 @@ class TestingWindow(QWidget):
                 self.layout.removeItem(item)
                 break
 
-    def open_image_viewer(self, image_path):
-        """Открывает окно просмотра изображения."""
-        if os.path.exists(image_path):
-            viewer = ImageViewer(image_path)
-            viewer.exec()
-        else:
-            logger.error(f"Файл изображения не найден: {image_path}")
-            QMessageBox.warning(self, "Ошибка", "Файл изображения не найден")
+    def show_full_image(self, label):
+        """Показывает изображение в полном размере."""
+        if hasattr(label, 'original_pixmap'):
+            dialog = QDialog(self)
+            dialog.setWindowTitle("Просмотр изображения")
+            layout = QVBoxLayout()
+            
+            image_label = QLabel()
+            image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            
+            # Масштабируем изображение под размер экрана
+            screen = QApplication.primaryScreen().geometry()
+            scaled_pixmap = label.original_pixmap.scaled(
+                screen.width() * 0.8,
+                screen.height() * 0.8,
+                Qt.AspectRatioMode.KeepAspectRatio,
+                Qt.TransformationMode.SmoothTransformation
+            )
+            image_label.setPixmap(scaled_pixmap)
+            
+            layout.addWidget(image_label)
+            dialog.setLayout(layout)
+            dialog.exec_()
 
     def next_question(self):
         """Переходит к следующему вопросу или завершает тест."""
@@ -494,7 +562,7 @@ class TestingWindow(QWidget):
         chosen = self.answer_group.checkedId()
         if chosen >= 0:
             qid = str(self.selected_questions[self.current_question]['id'])
-            self.user_answers[qid] = str(chosen)
+            self.user_answers[qid] = str(chosen + 1)
         
         # Переходим к следующему вопросу
         self.current_question += 1
@@ -529,7 +597,7 @@ class TestingWindow(QWidget):
         chosen = self.answer_group.checkedId()
         if 0 <= self.current_question < len(self.selected_questions) and chosen >= 0:
             qid = str(self.selected_questions[self.current_question]['id'])
-            self.user_answers[qid] = str(chosen)
+            self.user_answers[qid] = str(chosen + 1)
 
         # Проверяем наличие ID студента
         sid = self.get_student_id()
@@ -610,103 +678,113 @@ class TestingWindow(QWidget):
             self.submit_test()
 
     def load_questions(self, lab_id):
-        if not self.get_student_id():
-            QMessageBox.critical(self, "Ошибка", "Не удалось получить student_id.")
+        try:
+            if not self.get_student_id():
+                QMessageBox.critical(self, "Ошибка", "Не удалось получить student_id.")
+                self.switch_window("lab_selection")
+                return
+            self.lab_id = lab_id
+            request = {'action': 'get_questions', 'data': {'lab_id': lab_id}}
+            worker = Worker(request)
+            worker.signals.finished.connect(self.handle_load_questions_response)
+            worker.signals.error.connect(self.handle_load_questions_error)
+            self.thread_pool.start(worker)
+        except Exception as e:
+            logger.error(f"Ошибка при загрузке вопросов: {str(e)}\n{traceback.format_exc()}")
+            QMessageBox.critical(self, "Ошибка", f"Ошибка при загрузке вопросов: {str(e)}")
             self.switch_window("lab_selection")
-            return
-        self.lab_id = lab_id
-        request = {'action': 'get_questions', 'data': {'lab_id': lab_id}}
-        worker = Worker(request)
-        worker.signals.finished.connect(self.handle_load_questions_response)
-        worker.signals.error.connect(self.handle_load_questions_error)
-        self.thread_pool.start(worker)
 
     def handle_load_questions_response(self, response):
-        if response.get('status') == 'success':
-            all_questions = response['data']['questions']
-            logger.debug(f"Получены вопросы: {all_questions}")
-            
-            if not all_questions:
-                QMessageBox.warning(self, "Предупреждение", "В базе данных нет вопросов для этой лабораторной работы.")
-                self.switch_window("lab_selection")
-                return
-
-            # Проверяем корректность формата данных
-            for q in all_questions:
-                if not isinstance(q, dict) or 'id' not in q or 'category' not in q:
-                    logger.error(f"Некорректный формат вопроса: {q}")
-                    QMessageBox.critical(self, "Ошибка", "Некорректный формат данных вопроса")
+        try:
+            if response.get('status') == 'success':
+                all_questions = response['data']['questions']
+                logger.debug(f"Получены вопросы: {all_questions}")
+                
+                if not all_questions:
+                    QMessageBox.warning(self, "Предупреждение", "В базе данных нет вопросов для этой лабораторной работы.")
                     self.switch_window("lab_selection")
                     return
 
-            questions_1 = [q for q in all_questions if q.get('category') == 'Вопрос 1']
-            questions_2 = [q for q in all_questions if q.get('category') == 'Вопрос 2']
-            questions_3 = [q for q in all_questions if q.get('category') == 'Вопрос 3']
-            questions_4 = [q for q in all_questions if q.get('category') == 'Вопрос 4']
-            questions_5 = [q for q in all_questions if q.get('category') == 'Вопрос 5']
+                # Проверяем корректность формата данных
+                for q in all_questions:
+                    if not isinstance(q, dict) or 'id' not in q or 'category' not in q:
+                        logger.error(f"Некорректный формат вопроса: {q}")
+                        QMessageBox.critical(self, "Ошибка", "Некорректный формат данных вопроса")
+                        self.switch_window("lab_selection")
+                        return
 
-            logger.debug(f"Вопрос 1: {len(questions_1)}")
-            logger.debug(f"Вопрос 2: {len(questions_2)}")
-            logger.debug(f"Вопрос 3: {len(questions_3)}")
-            logger.debug(f"Вопрос 4: {len(questions_4)}")
-            logger.debug(f"Вопрос 5: {len(questions_5)}")
+                questions_1 = [q for q in all_questions if q.get('category') == 'Вопрос 1']
+                questions_2 = [q for q in all_questions if q.get('category') == 'Вопрос 2']
+                questions_3 = [q for q in all_questions if q.get('category') == 'Вопрос 3']
+                questions_4 = [q for q in all_questions if q.get('category') == 'Вопрос 4']
+                questions_5 = [q for q in all_questions if q.get('category') == 'Вопрос 5']
 
-            missing_categories = []
-            if len(questions_1) < 1:
-                missing_categories.append(f"Вопрос 1 (нужно 1, есть {len(questions_1)})")
-            if len(questions_2) < 1:
-                missing_categories.append(f"Вопрос 2 (нужно 1, есть {len(questions_2)})")
-            if len(questions_3) < 1:
-                missing_categories.append(f"Вопрос 3 (нужно 1, есть {len(questions_3)})")
-            if len(questions_4) < 1:
-                missing_categories.append(f"Вопрос 4 (нужно 1, есть {len(questions_4)})")
-            if len(questions_5) < 1:
-                missing_categories.append(f"Вопрос 5 (нужно 1, есть {len(questions_5)})")
+                logger.debug(f"Вопрос 1: {len(questions_1)}")
+                logger.debug(f"Вопрос 2: {len(questions_2)}")
+                logger.debug(f"Вопрос 3: {len(questions_3)}")
+                logger.debug(f"Вопрос 4: {len(questions_4)}")
+                logger.debug(f"Вопрос 5: {len(questions_5)}")
 
-            if missing_categories:
-                message = "Недостаточно вопросов в следующих категориях:\n- " + "\n- ".join(missing_categories)
-                QMessageBox.warning(self, "Предупреждение", message)
-                self.switch_window("lab_selection")
-                return
+                missing_categories = []
+                if len(questions_1) < 1:
+                    missing_categories.append(f"Вопрос 1 (нужно 1, есть {len(questions_1)})")
+                if len(questions_2) < 1:
+                    missing_categories.append(f"Вопрос 2 (нужно 1, есть {len(questions_2)})")
+                if len(questions_3) < 1:
+                    missing_categories.append(f"Вопрос 3 (нужно 1, есть {len(questions_3)})")
+                if len(questions_4) < 1:
+                    missing_categories.append(f"Вопрос 4 (нужно 1, есть {len(questions_4)})")
+                if len(questions_5) < 1:
+                    missing_categories.append(f"Вопрос 5 (нужно 1, есть {len(questions_5)})")
 
-            # Reset state before loading new questions
-            self.selected_questions = []
-            self.current_question = 0
-            self.user_answers = {}
-
-            try:
-                # Select questions in strict order: Вопрос 1 -> 2 -> 3 -> 4 -> 5
-                self.selected_questions.extend(random.sample(questions_1, 1))  # Вопрос 1
-                self.selected_questions.extend(random.sample(questions_2, 1))  # Вопрос 2
-                self.selected_questions.extend(random.sample(questions_3, 1))  # Вопрос 3
-                self.selected_questions.extend(random.sample(questions_4, 1))  # Вопрос 4
-                self.selected_questions.extend(random.sample(questions_5, 1))  # Вопрос 5
-
-                logger.debug(f"Выбранные вопросы: {self.selected_questions}")
-
-                # Set up timer
-                if 'time_limit' not in response['data']:
-                    QMessageBox.critical(self, "Ошибка", "Не задано время для выполнения теста")
+                if missing_categories:
+                    message = "Недостаточно вопросов в следующих категориях:\n- " + "\n- ".join(missing_categories)
+                    QMessageBox.warning(self, "Предупреждение", message)
                     self.switch_window("lab_selection")
                     return
-                    
-                self.remaining_time = response['data']['time_limit'] * 60
-                self.timer.start(1000)  # Update every second
-                self.update_timer_label()
 
-                # Display first question
+                # Reset state before loading new questions
+                self.selected_questions = []
                 self.current_question = 0
-                self.user_answers.clear()
-                self.display_question(self.selected_questions[self.current_question])
-                self.update_navigation_buttons()
-            except Exception as e:
-                logger.error(f"Ошибка при обработке вопросов: {str(e)}")
-                QMessageBox.critical(self, "Ошибка", f"Ошибка при загрузке вопросов: {str(e)}")
+                self.user_answers = {}
+
+                try:
+                    # Select questions in strict order: Вопрос 1 -> 2 -> 3 -> 4 -> 5
+                    self.selected_questions.extend(random.sample(questions_1, 1))  # Вопрос 1
+                    self.selected_questions.extend(random.sample(questions_2, 1))  # Вопрос 2
+                    self.selected_questions.extend(random.sample(questions_3, 1))  # Вопрос 3
+                    self.selected_questions.extend(random.sample(questions_4, 1))  # Вопрос 4
+                    self.selected_questions.extend(random.sample(questions_5, 1))  # Вопрос 5
+
+                    logger.debug(f"Выбранные вопросы: {self.selected_questions}")
+
+                    # Set up timer
+                    if 'time_limit' not in response['data']:
+                        QMessageBox.critical(self, "Ошибка", "Не задано время для выполнения теста")
+                        self.switch_window("lab_selection")
+                        return
+                        
+                    self.remaining_time = response['data']['time_limit'] * 60
+                    self.timer.start(1000)  # Update every second
+                    self.update_timer_label()
+
+                    # Display first question
+                    self.current_question = 0
+                    self.user_answers.clear()
+                    self.display_question(self.selected_questions[self.current_question])
+                    self.update_navigation_buttons()
+                except Exception as e:
+                    logger.error(f"Ошибка при обработке вопросов: {str(e)}\n{traceback.format_exc()}")
+                    QMessageBox.critical(self, "Ошибка", f"Ошибка при загрузке вопросов: {str(e)}")
+                    self.switch_window("lab_selection")
+            else:
+                error_msg = response.get('message', 'Не удалось загрузить вопросы')
+                logger.error(f"Ошибка при загрузке вопросов: {error_msg}")
+                QMessageBox.warning(self, "Ошибка", error_msg)
                 self.switch_window("lab_selection")
-        else:
-            error_msg = response.get('message', 'Не удалось загрузить вопросы')
-            logger.error(f"Ошибка при загрузке вопросов: {error_msg}")
-            QMessageBox.warning(self, "Ошибка", error_msg)
+        except Exception as e:
+            logger.error(f"Неожиданная ошибка при обработке ответа: {str(e)}\n{traceback.format_exc()}")
+            QMessageBox.critical(self, "Ошибка", f"Неожиданная ошибка: {str(e)}")
             self.switch_window("lab_selection")
 
     def update_navigation_buttons(self):
@@ -752,8 +830,9 @@ class TestingWindow(QWidget):
         self.next_button.setEnabled(self.current_question < len(self.selected_questions) - 1)
 
     def handle_load_questions_error(self, error_message):
-        QMessageBox.critical(self, "Ошибка", error_message)
         logger.error(f"Ошибка при загрузке вопросов: {error_message}")
+        QMessageBox.critical(self, "Ошибка", error_message)
+        self.switch_window("lab_selection")
 
     def prev_question(self):
         """Переходит к предыдущему вопросу."""
